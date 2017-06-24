@@ -1,4 +1,4 @@
-import { IUser } from "../shared/interfaces";
+import { IUser, IMenu } from "../shared/interfaces";
 
 export enum method {
     local,
@@ -76,4 +76,13 @@ export class User implements IUser {
     isSuper: boolean;
 }
 
+export class Menu implements IMenu{
+    title: string;
+    description: string;
+    component: string;
+    reportComponent?: string;
+    dataComponent?: string;
+    icon: string;
+    hasFilterPage?: boolean;
+}
 

@@ -23,6 +23,7 @@ import { ToastService } from "../services/sharedServices/toastService";
 import { UserService } from "../services/userService";
 import { StaffService } from "../services/staffService";
 import { CodeService } from "../services/codeService";
+import { ChartService } from "../services/chartservice";
 
 @NgModule({
   declarations: [
@@ -58,7 +59,8 @@ import { CodeService } from "../services/codeService";
     ToastService,
     UserService,
     StaffService,
-    CodeService
+    CodeService,
+    ChartService
   ]
 })
 export class AppModule { }

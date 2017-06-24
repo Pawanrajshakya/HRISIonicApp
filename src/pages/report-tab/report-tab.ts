@@ -1,12 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { IMenu } from "../../shared/interfaces";
 
-/**
- * Generated class for the ReportTabPage page.
- *
- * See http://ionicframework.com/docs/components/#navigation for more info
- * on Ionic pages and navigation.
- */
 @IonicPage()
 @Component({
   selector: 'page-report-tab',
@@ -14,7 +9,11 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 })
 export class ReportTabPage {
 
+  private menu: IMenu;
+  
   constructor(public navCtrl: NavController, public navParams: NavParams) {
+    this.menu = this.navParams.data;
+    console.log(this.menu);
   }
 
   ionViewDidLoad() {

@@ -1,0 +1,15 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title></ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content padding>
+  <canvas *ngIf="data" 
+    baseChart 
+    [datasets]="data.data" 
+    [labels]="data.label" 
+    [chartType]="chartType" 
+    [legend]="true" 
+    [colors]="chartColors"
+    height="360px"></canvas>
+</ion-content>

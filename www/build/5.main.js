@@ -1,14 +1,14 @@
 webpackJsonp([5],{
 
-/***/ 289:
+/***/ 297:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(51);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__rc__ = __webpack_require__(301);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "RcPageModule", function() { return RcPageModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__report_menu__ = __webpack_require__(428);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ReportMenuPageModule", function() { return ReportMenuPageModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -18,38 +18,37 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var RcPageModule = (function () {
-    function RcPageModule() {
+var ReportMenuPageModule = (function () {
+    function ReportMenuPageModule() {
     }
-    return RcPageModule;
+    return ReportMenuPageModule;
 }());
-RcPageModule = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["a" /* NgModule */])({
+ReportMenuPageModule = __decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["NgModule"])({
         declarations: [
-            __WEBPACK_IMPORTED_MODULE_2__rc__["a" /* RcPage */],
+            __WEBPACK_IMPORTED_MODULE_2__report_menu__["a" /* ReportMenuPage */],
         ],
         imports: [
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__rc__["a" /* RcPage */]),
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__report_menu__["a" /* ReportMenuPage */]),
         ],
         exports: [
-            __WEBPACK_IMPORTED_MODULE_2__rc__["a" /* RcPage */]
+            __WEBPACK_IMPORTED_MODULE_2__report_menu__["a" /* ReportMenuPage */]
         ]
     })
-], RcPageModule);
+], ReportMenuPageModule);
 
-//# sourceMappingURL=rc.module.js.map
+//# sourceMappingURL=report-menu.module.js.map
 
 /***/ }),
 
-/***/ 301:
+/***/ 428:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(51);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__services_sharedServices_toastService__ = __webpack_require__(101);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__services_codeService__ = __webpack_require__(205);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return RcPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__services_menuService__ = __webpack_require__(102);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ReportMenuPage; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -62,63 +61,37 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
-
-var RcPage = (function () {
-    function RcPage(navCtrl, navParams, viewCtrl, codeService, toastService) {
+var ReportMenuPage = (function () {
+    function ReportMenuPage(navCtrl, navParams, menuService) {
         this.navCtrl = navCtrl;
         this.navParams = navParams;
-        this.viewCtrl = viewCtrl;
-        this.codeService = codeService;
-        this.toastService = toastService;
-        this.codes = [];
-        this.selected = [];
+        this.menuService = menuService;
     }
-    RcPage.prototype.ionViewDidLoad = function () {
+    ReportMenuPage.prototype.ionViewDidLoad = function () {
         this.get();
     };
-    RcPage.prototype.get = function () {
-        var _this = this;
-        this.codeService.getRC().then(function (data) {
-            _this.codes = data;
-            _this.codeService.getSelectedRC().then(function (data) {
-                _this.selected = data;
-            }).catch(function (error) {
-                _this.toastService.present(error.message);
-            });
-        }).catch(function (error) {
-            console.log(error, 1);
-            _this.toastService.present(error.message);
-        });
+    ReportMenuPage.prototype.get = function () {
+        this.reportMenu = this.menuService.getReportMenus();
     };
-    RcPage.prototype.onSelect = function (value) {
-        try {
-            var i = this.selected.indexOf(value);
-            (i !== -1) ? this.selected.splice(i, 1) : this.selected.push(value);
-            this.codeService.setSelectedRC(this.selected);
-            console.log('onSelect', this.selected);
+    ReportMenuPage.prototype.redirect = function (item) {
+        if (item.hasFilterPage) {
+            this.navCtrl.push("FilterPage", item);
         }
-        catch (error) {
-            this.toastService.present(error, "bottom");
+        else {
+            this.navCtrl.push(item.component, item);
         }
     };
-    RcPage.prototype.dismiss = function () {
-        this.viewCtrl.dismiss();
-    };
-    return RcPage;
+    return ReportMenuPage;
 }());
-RcPage = __decorate([
+ReportMenuPage = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* IonicPage */])(),
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_6" /* Component */])({
-        selector: 'page-rc',template:/*ion-inline-start:"/Users/pawanrajshakya/Documents/IonicApps/HRISIonicApp/src/pages/rc/rc.html"*/'<ion-header>\n  <ion-navbar color="modal">\n    <ion-title>RCs</ion-title>\n    <ion-buttons start>\n      <button ion-button (click)="dismiss()">\n        <span ion-text color="primary" showWhen="ios">Done</span>\n        <ion-icon name="close" showWhen="android, windows"></ion-icon>\n      </button>\n    </ion-buttons>\n  </ion-navbar>\n</ion-header>\n<ion-content>\n  <ion-list no-lines>\n    <ion-item *ngFor="let code of codes">\n      <ion-label>{{code.description}}</ion-label>\n      <ion-checkbox [checked]="code.isSelected === true" (click)="onSelect(code.code)"></ion-checkbox>\n    </ion-item>\n  </ion-list>\n</ion-content>'/*ion-inline-end:"/Users/pawanrajshakya/Documents/IonicApps/HRISIonicApp/src/pages/rc/rc.html"*/,
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+        selector: 'page-report-menu',template:/*ion-inline-start:"/Users/pawanrajshakya/Documents/IonicApps/HRISIonicApp/src/pages/report-menu/report-menu.html"*/'<ion-header>\n  <ion-navbar color="menu">\n    <ion-title>Reports</ion-title>\n  </ion-navbar>\n</ion-header>\n<ion-content padding>\n  <ion-list no-lines>\n    <button ion-item *ngFor="let item of reportMenu" (click)="redirect(item)">\n        <ion-icon name="{{item.icon}}" item-left></ion-icon>\n        <h2>{{item.description}}</h2>\n    </button>\n  </ion-list>\n</ion-content>'/*ion-inline-end:"/Users/pawanrajshakya/Documents/IonicApps/HRISIonicApp/src/pages/report-menu/report-menu.html"*/,
     }),
-    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */],
-        __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */],
-        __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* ViewController */],
-        __WEBPACK_IMPORTED_MODULE_3__services_codeService__["a" /* CodeService */],
-        __WEBPACK_IMPORTED_MODULE_2__services_sharedServices_toastService__["a" /* ToastService */]])
-], RcPage);
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__services_menuService__["a" /* MenuService */]])
+], ReportMenuPage);
 
-//# sourceMappingURL=rc.js.map
+//# sourceMappingURL=report-menu.js.map
 
 /***/ })
 

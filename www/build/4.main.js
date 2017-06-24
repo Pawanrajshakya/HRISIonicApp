@@ -1,14 +1,14 @@
 webpackJsonp([4],{
 
-/***/ 290:
+/***/ 298:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(51);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__report_menu__ = __webpack_require__(302);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ReportMenuPageModule", function() { return ReportMenuPageModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__report_tab__ = __webpack_require__(429);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ReportTabPageModule", function() { return ReportTabPageModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -18,37 +18,36 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var ReportMenuPageModule = (function () {
-    function ReportMenuPageModule() {
+var ReportTabPageModule = (function () {
+    function ReportTabPageModule() {
     }
-    return ReportMenuPageModule;
+    return ReportTabPageModule;
 }());
-ReportMenuPageModule = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["a" /* NgModule */])({
+ReportTabPageModule = __decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["NgModule"])({
         declarations: [
-            __WEBPACK_IMPORTED_MODULE_2__report_menu__["a" /* ReportMenuPage */],
+            __WEBPACK_IMPORTED_MODULE_2__report_tab__["a" /* ReportTabPage */],
         ],
         imports: [
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__report_menu__["a" /* ReportMenuPage */]),
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__report_tab__["a" /* ReportTabPage */]),
         ],
         exports: [
-            __WEBPACK_IMPORTED_MODULE_2__report_menu__["a" /* ReportMenuPage */]
+            __WEBPACK_IMPORTED_MODULE_2__report_tab__["a" /* ReportTabPage */]
         ]
     })
-], ReportMenuPageModule);
+], ReportTabPageModule);
 
-//# sourceMappingURL=report-menu.module.js.map
+//# sourceMappingURL=report-tab.module.js.map
 
 /***/ }),
 
-/***/ 302:
+/***/ 429:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(51);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__services_menuService__ = __webpack_require__(102);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ReportMenuPage; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ReportTabPage; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -60,38 +59,27 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 
 
-
-var ReportMenuPage = (function () {
-    function ReportMenuPage(navCtrl, navParams, menuService) {
+var ReportTabPage = (function () {
+    function ReportTabPage(navCtrl, navParams) {
         this.navCtrl = navCtrl;
         this.navParams = navParams;
-        this.menuService = menuService;
+        this.menu = this.navParams.data;
+        console.log(this.menu);
     }
-    ReportMenuPage.prototype.ionViewDidLoad = function () {
-        this.get();
+    ReportTabPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad ReportTabPage');
     };
-    ReportMenuPage.prototype.get = function () {
-        this.reportMenu = this.menuService.getReportMenus();
-    };
-    ReportMenuPage.prototype.redirect = function (item) {
-        if (item.hasFilterPage) {
-            this.navCtrl.push("FilterPage", item);
-        }
-        else {
-            this.navCtrl.push(item.component, item);
-        }
-    };
-    return ReportMenuPage;
+    return ReportTabPage;
 }());
-ReportMenuPage = __decorate([
+ReportTabPage = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* IonicPage */])(),
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_6" /* Component */])({
-        selector: 'page-report-menu',template:/*ion-inline-start:"/Users/pawanrajshakya/Documents/IonicApps/HRISIonicApp/src/pages/report-menu/report-menu.html"*/'<ion-header>\n  <ion-navbar color="menu">\n    <ion-title>Reports</ion-title>\n  </ion-navbar>\n</ion-header>\n<ion-content padding>\n  <ion-list no-lines>\n    <button ion-item *ngFor="let item of reportMenu" (click)="redirect(item)">\n        <ion-icon name="{{item.icon}}" item-left></ion-icon>\n        <h2>{{item.description}}</h2>\n    </button>\n  </ion-list>\n</ion-content>'/*ion-inline-end:"/Users/pawanrajshakya/Documents/IonicApps/HRISIonicApp/src/pages/report-menu/report-menu.html"*/,
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+        selector: 'page-report-tab',template:/*ion-inline-start:"/Users/pawanrajshakya/Documents/IonicApps/HRISIonicApp/src/pages/report-tab/report-tab.html"*/'<ion-header>\n  <ion-navbar color="menu">\n    <ion-title>{{menu.title}}</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-tabs>\n  <ion-tab tabTitle="Chart" [root]="menu.reportComponent" tabIcon="podium"></ion-tab>\n  <ion-tab tabTitle="Data" [root]="menu.dataComponent" tabIcon="cube"></ion-tab>\n</ion-tabs>'/*ion-inline-end:"/Users/pawanrajshakya/Documents/IonicApps/HRISIonicApp/src/pages/report-tab/report-tab.html"*/,
     }),
-    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__services_menuService__["a" /* MenuService */]])
-], ReportMenuPage);
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */]])
+], ReportTabPage);
 
-//# sourceMappingURL=report-menu.js.map
+//# sourceMappingURL=report-tab.js.map
 
 /***/ })
 

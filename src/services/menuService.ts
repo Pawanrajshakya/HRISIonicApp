@@ -101,8 +101,8 @@ export class MenuService {
                 title: "E-cards",
                 description: "Agency Total # of E-cards Sent",
                 component: 'ReportTabPage',
-                reportComponent: 'ECardReportPage',
-                dataComponent: 'ECardDataPage',
+                reportComponent: 'EcardsPage',
+                dataComponent: 'EcardsDataPage',
                 icon: "stats",
                 hasFilterPage: false
             },
