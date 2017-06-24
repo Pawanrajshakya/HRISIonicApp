@@ -1,0 +1,13 @@
+<ion-header>
+  <ion-navbar color="menu">
+    <ion-title>Reports</ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content padding>
+  <ion-list no-lines>
+    <button ion-item *ngFor="let item of reportMenu" (click)="redirect(item)">
+        <ion-icon name="{{item.icon}}" item-left></ion-icon>
+        <h2>{{item.description}}</h2>
+    </button>
+  </ion-list>
+</ion-content>

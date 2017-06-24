@@ -1,0 +1,3927 @@
+[
+  {
+    "DPCode": "0101|BQA5",
+    "DPName": "BQA5 - EQUAL EMPLOYMENT OPPORTUNITY",
+    "RCCode": "0101"
+  },
+  {
+    "DPCode": "0101|CPF3",
+    "DPName": "CPF3 - CHIEF OPERATING OFFICER",
+    "RCCode": "0101"
+  },
+  {
+    "DPCode": "0101|CPF4",
+    "DPName": "CPF4 - CHIEF PROGRAM PLANNING AND FINANCIAL MAN",
+    "RCCode": "0101"
+  },
+  {
+    "DPCode": "0101|DS13",
+    "DPName": "DS13 - DSS EQUAL EMPLOYMENT OPPORTUNITY",
+    "RCCode": "0101"
+  },
+  {
+    "DPCode": "0101|EXE2",
+    "DPName": "EXE2 - ADMINISTRATORS OFFICE",
+    "RCCode": "0101"
+  },
+  {
+    "DPCode": "0170|BEA4",
+    "DPName": "BEA4 - PRINT & RECORDS SERVICES",
+    "RCCode": "0170"
+  },
+  {
+    "DPCode": "0170|BEG2",
+    "DPName": "BEG2 - PRINT PRODUCTION & RECORDS MANAGEMENT",
+    "RCCode": "0170"
+  },
+  {
+    "DPCode": "0170|CMM2",
+    "DPName": "CMM2 - PUBLIC INFORMATION AND MEDIA",
+    "RCCode": "0170"
+  },
+  {
+    "DPCode": "0170|DS14",
+    "DPName": "DS14 - DSS COMMUNICATIONS",
+    "RCCode": "0170"
+  },
+  {
+    "DPCode": "0170|EXL7",
+    "DPName": "EXL7 - OFFICE OF LEGISLATIVE AFFAIRS",
+    "RCCode": "0170"
+  },
+  {
+    "DPCode": "0170|LA70",
+    "DPName": "LA70 - RC70-40,40A",
+    "RCCode": "0170"
+  },
+  {
+    "DPCode": "0202|EXE3",
+    "DPName": "EXE3 - FINANCE EXECUTIVE OFFICE",
+    "RCCode": "0202"
+  },
+  {
+    "DPCode": "0202|LA02",
+    "DPName": "LA02 - RC02-40,40A",
+    "RCCode": "0202"
+  },
+  {
+    "DPCode": "0203|BCF3",
+    "DPName": "BCF3 - FINANCE OFFICE  REVENUE BUDGET",
+    "RCCode": "0203"
+  },
+  {
+    "DPCode": "0203|BCF4",
+    "DPName": "BCF4 - FINANCE OFFICE MAP/APS",
+    "RCCode": "0203"
+  },
+  {
+    "DPCode": "0203|BCF6",
+    "DPName": "BCF6 - FINANCE OFFICE FIA/EMPLOYMENT",
+    "RCCode": "0203"
+  },
+  {
+    "DPCode": "0203|BCF7",
+    "DPName": "BCF7 - FINANCE OFF EXPENSE & PERSONEL SERV BUDG",
+    "RCCode": "0203"
+  },
+  {
+    "DPCode": "0203|BCF8",
+    "DPName": "BCF8 - FINANCE OFFICE AOTPS",
+    "RCCode": "0203"
+  },
+  {
+    "DPCode": "0203|BCF9",
+    "DPName": "BCF9 - FINANCE OFFICE OBA DEPUTY COMMISSIONER",
+    "RCCode": "0203"
+  },
+  {
+    "DPCode": "0203|DS22",
+    "DPName": "DS22 - DSS BUDGET",
+    "RCCode": "0203"
+  },
+  {
+    "DPCode": "0203|LA03",
+    "DPName": "LA03 - RC03-40,40A",
+    "RCCode": "0203"
+  },
+  {
+    "DPCode": "0216|BCA8",
+    "DPName": "BCA8 - STRATEGIC ENTERPRISE ANALYSIS & DEVLPMNT",
+    "RCCode": "0216"
+  },
+  {
+    "DPCode": "0216|BCD7",
+    "DPName": "BCD7 - REVENUE MANAGEMENT & DEVELOPMENT",
+    "RCCode": "0216"
+  },
+  {
+    "DPCode": "0216|LA16",
+    "DPName": "LA16 - RC16-40,40A",
+    "RCCode": "0216"
+  },
+  {
+    "DPCode": "0216|ZAAF",
+    "DPName": "ZAAF - ELIGIBILITY VERIFICATION",
+    "RCCode": "0216"
+  },
+  {
+    "DPCode": "0216|ZAAG",
+    "DPName": "ZAAG - CASE INTEGRITY",
+    "RCCode": "0216"
+  },
+  {
+    "DPCode": "0216|ZAAJ",
+    "DPName": "ZAAJ - STRATEGIC ENTERPRISE ANALYSIS & DEVLPMNT",
+    "RCCode": "0216"
+  },
+  {
+    "DPCode": "0216|ZAAM",
+    "DPName": "ZAAM - REVENUE DEV & AUTOMATION",
+    "RCCode": "0216"
+  },
+  {
+    "DPCode": "0216|ZAAN",
+    "DPName": "ZAAN - REVENUE ENHANCEMENT/ANALYSIS",
+    "RCCode": "0216"
+  },
+  {
+    "DPCode": "0216|ZAS2",
+    "DPName": "ZAS2 - MEDICAID DATA ANALYSIS",
+    "RCCode": "0216"
+  },
+  {
+    "DPCode": "0216|ZAS3",
+    "DPName": "ZAS3 - FINANCE OFFICE MEDICAID CLAIMING PROJECT",
+    "RCCode": "0216"
+  },
+  {
+    "DPCode": "0218|AA5A",
+    "DPName": "AA5A - DISBURSEMENT & GRANT ACCOUNT",
+    "RCCode": "0218"
+  },
+  {
+    "DPCode": "0218|BCA4",
+    "DPName": "BCA4 - DIV OF ACCOUNTS PAYABLE & REPORTING",
+    "RCCode": "0218"
+  },
+  {
+    "DPCode": "0218|BCD2",
+    "DPName": "BCD2 - DIVISION OF REVENUE CONTROL AND ANALYSIS",
+    "RCCode": "0218"
+  },
+  {
+    "DPCode": "0218|BCD3",
+    "DPName": "BCD3 - BUREAU OF ACCOUNTING",
+    "RCCode": "0218"
+  },
+  {
+    "DPCode": "0218|BCD8",
+    "DPName": "BCD8 - DEP COMMISSIONER FISCAL OPERATIONS",
+    "RCCode": "0218"
+  },
+  {
+    "DPCode": "0218|BMS6",
+    "DPName": "BMS6 - EMPLOYMENT VERIFICATION UNIT",
+    "RCCode": "0218"
+  },
+  {
+    "DPCode": "0218|DCE2",
+    "DPName": "DCE2 - DIV OF ACCOUNTS RECEIVABLE & BILLING",
+    "RCCode": "0218"
+  },
+  {
+    "DPCode": "0218|DS23",
+    "DPName": "DS23 - DSS FISCAL OPERATIONS",
+    "RCCode": "0218"
+  },
+  {
+    "DPCode": "0218|EPU2",
+    "DPName": "EPU2 - FO EMPLOYMENT PAYMENT UNIT",
+    "RCCode": "0218"
+  },
+  {
+    "DPCode": "0218|EXX4",
+    "DPName": "EXX4 - CONTRACT AGENCY FINANCING",
+    "RCCode": "0218"
+  },
+  {
+    "DPCode": "0218|LA18",
+    "DPName": "LA18 - RC18-40,40A",
+    "RCCode": "0218"
+  },
+  {
+    "DPCode": "0218|XCD2",
+    "DPName": "XCD2 - DIV OF RECONCILIATION & INVESTIGATION",
+    "RCCode": "0218"
+  },
+  {
+    "DPCode": "0218|ZAAH",
+    "DPName": "ZAAH - DIV OF ACCOUNTS RECEIVABLE & BILLING",
+    "RCCode": "0218"
+  },
+  {
+    "DPCode": "0218|ZAAK",
+    "DPName": "ZAAK - FISCAL CLAIMS & REIMBURSMENT",
+    "RCCode": "0218"
+  },
+  {
+    "DPCode": "0218|ZAAT",
+    "DPName": "ZAAT - DIVISION OF CHECK RECONCILIATION",
+    "RCCode": "0218"
+  },
+  {
+    "DPCode": "0218|ZAD2",
+    "DPName": "ZAD2 - DARB MEDICAID SURPLUS UNIT",
+    "RCCode": "0218"
+  },
+  {
+    "DPCode": "0218|ZBAC",
+    "DPName": "ZBAC - DIV OF REVENUE CONTROL & ANALYSIS",
+    "RCCode": "0218"
+  },
+  {
+    "DPCode": "0218|ZBAD",
+    "DPName": "ZBAD - INTERNAL & CAPITAL PAYMENTS",
+    "RCCode": "0218"
+  },
+  {
+    "DPCode": "0312|BAC4",
+    "DPName": "BAC4 - OSR HR PROGRAM SUPPORT SERVICES",
+    "RCCode": "0312"
+  },
+  {
+    "DPCode": "0312|BAC5",
+    "DPName": "BAC5 - WORKER'S COMPENSATION UNIT",
+    "RCCode": "0312"
+  },
+  {
+    "DPCode": "0312|BAF4",
+    "DPName": "BAF4 - OSR HR RECORDS MANAGEMENT",
+    "RCCode": "0312"
+  },
+  {
+    "DPCode": "0312|BBA2",
+    "DPName": "BBA2 - OPS-PAYROLL MGMT & SUPPT SVC",
+    "RCCode": "0312"
+  },
+  {
+    "DPCode": "0312|BBA3",
+    "DPName": "BBA3 - OSR HR EXECUTIVE OFFICE",
+    "RCCode": "0312"
+  },
+  {
+    "DPCode": "0312|BBA6",
+    "DPName": "BBA6 - OSR CLASSIFICATION & ORGANIZATIONAL DVLM",
+    "RCCode": "0312"
+  },
+  {
+    "DPCode": "0312|BBA7",
+    "DPName": "BBA7 - OSR HR SYSTEMS",
+    "RCCode": "0312"
+  },
+  {
+    "DPCode": "0312|BBA8",
+    "DPName": "BBA8 - OSR HR COMPENSATION",
+    "RCCode": "0312"
+  },
+  {
+    "DPCode": "0312|BBA9",
+    "DPName": "BBA9 - OSR DIVERSITY/AWARENESS & EMPLOYEE PROGR",
+    "RCCode": "0312"
+  },
+  {
+    "DPCode": "0312|BBB3",
+    "DPName": "BBB3 - OSR HR CENTRAL TIMEKEEPING & ADMINISTRAT",
+    "RCCode": "0312"
+  },
+  {
+    "DPCode": "0312|BBB4",
+    "DPName": "BBB4 - RECRUITMENT AND ONBOARDING",
+    "RCCode": "0312"
+  },
+  {
+    "DPCode": "0312|BBB6",
+    "DPName": "BBB6 - OSR OFFICE OF BENEFITS ADMINISTRATION",
+    "RCCode": "0312"
+  },
+  {
+    "DPCode": "0312|BBB7",
+    "DPName": "BBB7 - OSR OFFICE OF DISCIPLINARY AFFAIRS",
+    "RCCode": "0312"
+  },
+  {
+    "DPCode": "0312|CFR2",
+    "DPName": "CFR2 - OSR OFFICE OF CONFLICT RESOLUTION",
+    "RCCode": "0312"
+  },
+  {
+    "DPCode": "0312|DS32",
+    "DPName": "DS32 - DSS PERSONNEL",
+    "RCCode": "0312"
+  },
+  {
+    "DPCode": "0312|DS34",
+    "DPName": "DS34 - DSS PAYROLL/TIMEKEEPING",
+    "RCCode": "0312"
+  },
+  {
+    "DPCode": "0312|HRC2",
+    "DPName": "HRC2 - OSR HR CUSTOMER CARE SOLUTIONS",
+    "RCCode": "0312"
+  },
+  {
+    "DPCode": "0312|LA12",
+    "DPName": "LA12 - RC12-40,40A",
+    "RCCode": "0312"
+  },
+  {
+    "DPCode": "0312|ZBA1",
+    "DPName": "ZBA1 - MEDICAID FUNDED TIMEKEEPING 100%",
+    "RCCode": "0312"
+  },
+  {
+    "DPCode": "0312|ZBA2",
+    "DPName": "ZBA2 - OSR HR MEDICAID FUNDED HR PROGRAM",
+    "RCCode": "0312"
+  },
+  {
+    "DPCode": "0312|ZBA4",
+    "DPName": "ZBA4 - OSR HR SUPPORT SERVICES 100% PROGRAM (NO",
+    "RCCode": "0312"
+  },
+  {
+    "DPCode": "0313|BBA5",
+    "DPName": "BBA5 - OFFICE OF LABOR RELATIONS",
+    "RCCode": "0313"
+  },
+  {
+    "DPCode": "0313|DS33",
+    "DPName": "DS33 - DSS LABOR RELATIONS",
+    "RCCode": "0313"
+  },
+  {
+    "DPCode": "0420|BEA3",
+    "DPName": "BEA3 - GSS FACILITIES OPERATIONS EXEC",
+    "RCCode": "0420"
+  },
+  {
+    "DPCode": "0420|BEA5",
+    "DPName": "BEA5 - GSS BUREAU OF SPACE & DESIGN",
+    "RCCode": "0420"
+  },
+  {
+    "DPCode": "0420|BEB8",
+    "DPName": "BEB8 - GSS LAND USE/LEASE MGMT/MGMT PLANNING",
+    "RCCode": "0420"
+  },
+  {
+    "DPCode": "0420|BEC5",
+    "DPName": "BEC5 - GSS CUSTODIAL & HEALTH/SAFETY SERVICES A",
+    "RCCode": "0420"
+  },
+  {
+    "DPCode": "0420|BED8",
+    "DPName": "BED8 - TRADE RENOVATION/REPAIR/MAINTENANCE",
+    "RCCode": "0420"
+  },
+  {
+    "DPCode": "0420|BED9",
+    "DPName": "BED9 - TRADE ADMINISTRATION",
+    "RCCode": "0420"
+  },
+  {
+    "DPCode": "0420|BEE2",
+    "DPName": "BEE2 - HVAC UNIT",
+    "RCCode": "0420"
+  },
+  {
+    "DPCode": "0420|BEE9",
+    "DPName": "BEE9 - INVENTORY MANAGEMENT & WAREHOUSE OPERATI",
+    "RCCode": "0420"
+  },
+  {
+    "DPCode": "0420|BEG5",
+    "DPName": "BEG5 - CUSTODIAL FIELD OPERATIONS QUEENS",
+    "RCCode": "0420"
+  },
+  {
+    "DPCode": "0420|BEG6",
+    "DPName": "BEG6 - CUSTODIAL FIELD OPERATIONS BRONX",
+    "RCCode": "0420"
+  },
+  {
+    "DPCode": "0420|BEG7",
+    "DPName": "BEG7 - CUSTODIAL FIELD OPERATIONS MANHATTAN",
+    "RCCode": "0420"
+  },
+  {
+    "DPCode": "0420|BEG8",
+    "DPName": "BEG8 - CUSTODIAL FIELD OPERATIONS BROOKLYN",
+    "RCCode": "0420"
+  },
+  {
+    "DPCode": "0420|BEG9",
+    "DPName": "BEG9 - CUSTODIAL FIELD OPERATIONS S.I.",
+    "RCCode": "0420"
+  },
+  {
+    "DPCode": "0420|BEN9",
+    "DPName": "BEN9 - GSS CONTRACTS FISCAL AND PERSONNEL SERVI",
+    "RCCode": "0420"
+  },
+  {
+    "DPCode": "0420|BLA7",
+    "DPName": "BLA7 - GSS BUILDING MANAGEMENT",
+    "RCCode": "0420"
+  },
+  {
+    "DPCode": "0420|BUA3",
+    "DPName": "BUA3 - GSS EXECUTIVE OFFICE",
+    "RCCode": "0420"
+  },
+  {
+    "DPCode": "0420|LA20",
+    "DPName": "LA20 - RC20-40,40A",
+    "RCCode": "0420"
+  },
+  {
+    "DPCode": "0422|BED2",
+    "DPName": "BED2 - SECURITY SERVICES",
+    "RCCode": "0422"
+  },
+  {
+    "DPCode": "0422|BED3",
+    "DPName": "BED3 - GSS BUREAU OF FLEET ADMINISTRATION BFA",
+    "RCCode": "0422"
+  },
+  {
+    "DPCode": "0422|LA22",
+    "DPName": "LA22 - RC22-0052",
+    "RCCode": "0422"
+  },
+  {
+    "DPCode": "0422|LB22",
+    "DPName": "LB22 - LV DP RC0422 100%",
+    "RCCode": "0422"
+  },
+  {
+    "DPCode": "0422|ZTD2",
+    "DPName": "ZTD2 - SECURITY SERVICES FOR NYS OFF TEMP & DIS",
+    "RCCode": "0422"
+  },
+  {
+    "DPCode": "0423|BBC4",
+    "DPName": "BBC4 - STAFF ON LOAN TO UNIONS",
+    "RCCode": "0423"
+  },
+  {
+    "DPCode": "0423|BBC5",
+    "DPName": "BBC5 - STAFF ON LEAVE TO MAYOR'S OFFICE",
+    "RCCode": "0423"
+  },
+  {
+    "DPCode": "0423|BLV2",
+    "DPName": "BLV2 - OSR STAFF-PSB 200 LEAVE",
+    "RCCode": "0423"
+  },
+  {
+    "DPCode": "0423|LA23",
+    "DPName": "LA23 - RC23-40,40A",
+    "RCCode": "0423"
+  },
+  {
+    "DPCode": "0423|SLV2",
+    "DPName": "SLV2 - OSR-STAFF-DP72 LEAVE",
+    "RCCode": "0423"
+  },
+  {
+    "DPCode": "0529|EXM7",
+    "DPName": "EXM7 - FIA EXECUTIVE OFFICE 100%",
+    "RCCode": "0529"
+  },
+  {
+    "DPCode": "0529|EXM8",
+    "DPName": "EXM8 - FIA EXECUTIVE OFFICE CTL FUNDED",
+    "RCCode": "0529"
+  },
+  {
+    "DPCode": "0530|BMS5",
+    "DPName": "BMS5 - CONTRACT MOINITORING",
+    "RCCode": "0530"
+  },
+  {
+    "DPCode": "0530|BNP2",
+    "DPName": "BNP2 - FIA SUPPORT SERVICES",
+    "RCCode": "0530"
+  },
+  {
+    "DPCode": "0530|BNP9",
+    "DPName": "BNP9 - OFFICE OF CENTRAL PROCESSING",
+    "RCCode": "0530"
+  },
+  {
+    "DPCode": "0530|BNR4",
+    "DPName": "BNR4 - IS-INCOME CLEARANCE PROGRAM",
+    "RCCode": "0530"
+  },
+  {
+    "DPCode": "0530|BNR8",
+    "DPName": "BNR8 - PROJECT SUPPORT",
+    "RCCode": "0530"
+  },
+  {
+    "DPCode": "0530|BNS7",
+    "DPName": "BNS7 - FIA CONTRACT MANAGEMENT",
+    "RCCode": "0530"
+  },
+  {
+    "DPCode": "0530|DEB3",
+    "DPName": "DEB3 - ELIGIBILITY MAILER PEG",
+    "RCCode": "0530"
+  },
+  {
+    "DPCode": "0530|DEB4",
+    "DPName": "DEB4 - FIA MAILER AND MATCH ACTION PROGRAM",
+    "RCCode": "0530"
+  },
+  {
+    "DPCode": "0530|DEX2",
+    "DPName": "DEX2 - FIA CENTRALIZED INDEXING UNIT",
+    "RCCode": "0530"
+  },
+  {
+    "DPCode": "0530|DRG4",
+    "DPName": "DRG4 - CENTRALIZED COMMON BENEFITS ID CARD",
+    "RCCode": "0530"
+  },
+  {
+    "DPCode": "0530|EXG4",
+    "DPName": "EXG4 - CONTRACT SERVICES 100%",
+    "RCCode": "0530"
+  },
+  {
+    "DPCode": "0530|LA30",
+    "DPName": "LA30 - RC30-01,01A",
+    "RCCode": "0530"
+  },
+  {
+    "DPCode": "0530|LB30",
+    "DPName": "LB30 - RC30-01,01A",
+    "RCCode": "0530"
+  },
+  {
+    "DPCode": "0530|PAM2",
+    "DPName": "PAM2 - FIA PAPERLESS ALTERNATIVE MODULE",
+    "RCCode": "0530"
+  },
+  {
+    "DPCode": "0530|XPH5",
+    "DPName": "XPH5 - EBT SERVICES",
+    "RCCode": "0530"
+  },
+  {
+    "DPCode": "0530|XPH6",
+    "DPName": "XPH6 - CBIC OTC SITE",
+    "RCCode": "0530"
+  },
+  {
+    "DPCode": "0530|XPH7",
+    "DPName": "XPH7 - FIA CBIC OTC SITE MANHATTAN 100%",
+    "RCCode": "0530"
+  },
+  {
+    "DPCode": "0530|XQP7",
+    "DPName": "XQP7 - EACS YOUNG MEN'S INITIATIVE",
+    "RCCode": "0530"
+  },
+  {
+    "DPCode": "0530|ZPN5",
+    "DPName": "ZPN5 - FIA CONTRACT MONITORING 100%",
+    "RCCode": "0530"
+  },
+  {
+    "DPCode": "0533|BCU1",
+    "DPName": "BCU1 - BURIAL CLAIMS UNIT",
+    "RCCode": "0533"
+  },
+  {
+    "DPCode": "0533|BMF4",
+    "DPName": "BMF4 - #63 CONEY ISLAND CENTER",
+    "RCCode": "0533"
+  },
+  {
+    "DPCode": "0533|BMS4",
+    "DPName": "BMS4 - #80 SPECIAL PROJECTS CENTER",
+    "RCCode": "0533"
+  },
+  {
+    "DPCode": "0533|BMS9",
+    "DPName": "BMS9 - # 17 FAMILY SERVICES CENTER",
+    "RCCode": "0533"
+  },
+  {
+    "DPCode": "0533|BNF5",
+    "DPName": "BNF5 - #62 VETERANS CENTER",
+    "RCCode": "0533"
+  },
+  {
+    "DPCode": "0533|BNG3",
+    "DPName": "BNG3 - FIA CENTRALIZED RENT PROCESSING UNIT",
+    "RCCode": "0533"
+  },
+  {
+    "DPCode": "0533|BNS4",
+    "DPName": "BNS4 - FLOATERS",
+    "RCCode": "0533"
+  },
+  {
+    "DPCode": "0533|BNS8",
+    "DPName": "BNS8 - ASST DEP COMM. FOR CENTER OPERATIONS",
+    "RCCode": "0533"
+  },
+  {
+    "DPCode": "0533|BNU7",
+    "DPName": "BNU7 - #47 REFUGEE CENTER",
+    "RCCode": "0533"
+  },
+  {
+    "DPCode": "0533|BNU9",
+    "DPName": "BNU9 - SUBSTANCE ABUSE SERVICE CENTER",
+    "RCCode": "0533"
+  },
+  {
+    "DPCode": "0533|CCRT",
+    "DPName": "CCRT - FIA CHILDCARE REVIEW TEAM",
+    "RCCode": "0533"
+  },
+  {
+    "DPCode": "0533|CPF2",
+    "DPName": "CPF2 - CHIEF PROGRAM OFFICER FIA OCSE MICSA",
+    "RCCode": "0533"
+  },
+  {
+    "DPCode": "0533|DGK7",
+    "DPName": "DGK7 - #39 UNION SQUARE CENTER",
+    "RCCode": "0533"
+  },
+  {
+    "DPCode": "0533|DGL2",
+    "DPName": "DGL2 - #84 SENIOR WORKS CENTER",
+    "RCCode": "0533"
+  },
+  {
+    "DPCode": "0533|DP2D",
+    "DPName": "DP2D - FIA BROOKLYN QUEENS SI REGIONAL OFFICE",
+    "RCCode": "0533"
+  },
+  {
+    "DPCode": "0533|DP2E",
+    "DPName": "DP2E - FIA BRONX/FAMILY SERVICES CALL CTR REGIO",
+    "RCCode": "0533"
+  },
+  {
+    "DPCode": "0533|DP2H",
+    "DPName": "DP2H - FIA SPECIAL NEEDS MANHATTAN  REGIONAL OF",
+    "RCCode": "0533"
+  },
+  {
+    "DPCode": "0533|DPA6",
+    "DPName": "DPA6 - #23 EAST END CENTER",
+    "RCCode": "0533"
+  },
+  {
+    "DPCode": "0533|DPB6",
+    "DPName": "DPB6 - #40 HUNTS POINT JOB CENTER",
+    "RCCode": "0533"
+  },
+  {
+    "DPCode": "0533|DPC2",
+    "DPName": "DPC2 - # 53  QUEENS CENTER",
+    "RCCode": "0533"
+  },
+  {
+    "DPCode": "0533|DPD4",
+    "DPName": "DPD4 - #99 RICHMOND CENTER",
+    "RCCode": "0533"
+  },
+  {
+    "DPCode": "0533|DPE8",
+    "DPName": "DPE8 - #66 BUSHWICK CENTER",
+    "RCCode": "0533"
+  },
+  {
+    "DPCode": "0533|DPF2",
+    "DPName": "DPF2 - #35 DYCKMAN  CENTER",
+    "RCCode": "0533"
+  },
+  {
+    "DPCode": "0533|DPF6",
+    "DPName": "DPF6 - #70 BAY RIDGE CENTER",
+    "RCCode": "0533"
+  },
+  {
+    "DPCode": "0533|DPH2",
+    "DPName": "DPH2 - #37 EAST RIVER MODEL JOB CENTER",
+    "RCCode": "0533"
+  },
+  {
+    "DPCode": "0533|DPK6",
+    "DPName": "DPK6 - # 67 CLINTON HILL CENTER",
+    "RCCode": "0533"
+  },
+  {
+    "DPCode": "0533|DPL4",
+    "DPName": "DPL4 - #13 WAVERLY CENTER",
+    "RCCode": "0533"
+  },
+  {
+    "DPCode": "0533|DPL8",
+    "DPName": "DPL8 - #46 CROTONA CENTER",
+    "RCCode": "0533"
+  },
+  {
+    "DPCode": "0533|DPM4",
+    "DPName": "DPM4 - #54 JAMAICA CENTER",
+    "RCCode": "0533"
+  },
+  {
+    "DPCode": "0533|DPP2",
+    "DPName": "DPP2 - #44 FORDHAM CENTER",
+    "RCCode": "0533"
+  },
+  {
+    "DPCode": "0533|DPP6",
+    "DPName": "DPP6 - #38 RIDER CENTER",
+    "RCCode": "0533"
+  },
+  {
+    "DPCode": "0533|DPQ4",
+    "DPName": "DPQ4 - #64 DEKALB  CENTER",
+    "RCCode": "0533"
+  },
+  {
+    "DPCode": "0533|DPQ6",
+    "DPName": "DPQ6 - #79 ROCKAWAY CENTER",
+    "RCCode": "0533"
+  },
+  {
+    "DPCode": "0533|ERM2",
+    "DPName": "ERM2 - EXECUTIVE REGIONAL MANAGER-SPECIAL NEEDS",
+    "RCCode": "0533"
+  },
+  {
+    "DPCode": "0533|ERM3",
+    "DPName": "ERM3 - EXECUTIVE REGIONAL MANAGER -CA OPERATION",
+    "RCCode": "0533"
+  },
+  {
+    "DPCode": "0533|FCT2",
+    "DPName": "FCT2 - FIA LIVING IN THE COMMUNITIES (LINC) TEA",
+    "RCCode": "0533"
+  },
+  {
+    "DPCode": "0533|FSC2",
+    "DPName": "FSC2 - #17 FAMILY SERVICE CTR SATELLITE-MANH",
+    "RCCode": "0533"
+  },
+  {
+    "DPCode": "0533|FSC3",
+    "DPName": "FSC3 - #17 FAMILY SERVICE CTR SATELLITE-BRONX",
+    "RCCode": "0533"
+  },
+  {
+    "DPCode": "0533|FSC4",
+    "DPName": "FSC4 - #17 FAMILY SERVICE CTR SATELLITE-BKLYN",
+    "RCCode": "0533"
+  },
+  {
+    "DPCode": "0533|FSC5",
+    "DPName": "FSC5 - #17 FAMILY SERVICE CENTER SATELLITE -QNS",
+    "RCCode": "0533"
+  },
+  {
+    "DPCode": "0533|FSS2",
+    "DPName": "FSS2 - FIA FIELD OPERATIONS AND SPECIAL POPULAT",
+    "RCCode": "0533"
+  },
+  {
+    "DPCode": "0533|HVN2",
+    "DPName": "HVN2 - FIA HVN/RARO CENTER 90",
+    "RCCode": "0533"
+  },
+  {
+    "DPCode": "0533|LA33",
+    "DPName": "LA33 - RC33-01,01B",
+    "RCCode": "0533"
+  },
+  {
+    "DPCode": "0533|XEC2",
+    "DPName": "XEC2 - #52 RTSC RESIDENTAL TREATMENT CENTER",
+    "RCCode": "0533"
+  },
+  {
+    "DPCode": "0533|XPF2",
+    "DPName": "XPF2 - DEP COMMISSIONER - OPERATIONS",
+    "RCCode": "0533"
+  },
+  {
+    "DPCode": "0533|XQF2",
+    "DPName": "XQF2 - FIA RESEARCH AND PROGRAM MONITORING",
+    "RCCode": "0533"
+  },
+  {
+    "DPCode": "0533|ZTA2",
+    "DPName": "ZTA2 - FIA #18 ST NICHOLAS OPERATIONS",
+    "RCCode": "0533"
+  },
+  {
+    "DPCode": "0539|BAB3",
+    "DPName": "BAB3 - BUSINESS LINK 100%",
+    "RCCode": "0539"
+  },
+  {
+    "DPCode": "0539|LA39",
+    "DPName": "LA39 - RC39",
+    "RCCode": "0539"
+  },
+  {
+    "DPCode": "0539|LB39",
+    "DPName": "LB39 - RC39",
+    "RCCode": "0539"
+  },
+  {
+    "DPCode": "0539|XQE8",
+    "DPName": "XQE8 - WEM FIELD SERVICES 100%",
+    "RCCode": "0539"
+  },
+  {
+    "DPCode": "0539|XQF6",
+    "DPName": "XQF6 - FIA BACK 2 WORK B2W 100%",
+    "RCCode": "0539"
+  },
+  {
+    "DPCode": "0539|XQK2",
+    "DPName": "XQK2 - TRAINING EVALUATION & MONITORING",
+    "RCCode": "0539"
+  },
+  {
+    "DPCode": "0539|XQK9",
+    "DPName": "XQK9 - EMPLOYMENT SERVICES ADMINISTRATION 100%",
+    "RCCode": "0539"
+  },
+  {
+    "DPCode": "0539|XQP5",
+    "DPName": "XQP5 - EMPLOYMENT CONTRACTOR SERVICES",
+    "RCCode": "0539"
+  },
+  {
+    "DPCode": "0539|XSW4",
+    "DPName": "XSW4 - EMPLOYMENT SERVICES ADMIN",
+    "RCCode": "0539"
+  },
+  {
+    "DPCode": "0539|ZSA2",
+    "DPName": "ZSA2 - OUTST WKRS BRONX",
+    "RCCode": "0539"
+  },
+  {
+    "DPCode": "0539|ZSA3",
+    "DPName": "ZSA3 - OUTST WKRS BROOKLYN",
+    "RCCode": "0539"
+  },
+  {
+    "DPCode": "0539|ZSA4",
+    "DPName": "ZSA4 - OUTST WKRS MANHATTAN",
+    "RCCode": "0539"
+  },
+  {
+    "DPCode": "0539|ZSA5",
+    "DPName": "ZSA5 - OUTST WKRS QUEENS",
+    "RCCode": "0539"
+  },
+  {
+    "DPCode": "0566|DEB7",
+    "DPName": "DEB7 - FIA SPECIALIZED PROJECT OUTREACH TECHNOL",
+    "RCCode": "0566"
+  },
+  {
+    "DPCode": "0566|DEB8",
+    "DPName": "DEB8 - FIA SNAP JOB TRAINING PARTICIPANT (JTP)",
+    "RCCode": "0566"
+  },
+  {
+    "DPCode": "0566|DEB9",
+    "DPName": "DEB9 - FIA HALSEY CENTER/ SNAP 42",
+    "RCCode": "0566"
+  },
+  {
+    "DPCode": "0566|F3C3",
+    "DPName": "F3C3 - FIA CONCOURSE SNAP 45",
+    "RCCode": "0566"
+  },
+  {
+    "DPCode": "0566|LA66",
+    "DPName": "LA66 - RC66-",
+    "RCCode": "0566"
+  },
+  {
+    "DPCode": "0566|Z3B3",
+    "DPName": "Z3B3 - FIA SNAP 11 TIPS MANH/SI",
+    "RCCode": "0566"
+  },
+  {
+    "DPCode": "0566|Z3B4",
+    "DPName": "Z3B4 - FIA WAVERLY SNAP 19",
+    "RCCode": "0566"
+  },
+  {
+    "DPCode": "0566|Z3B6",
+    "DPName": "Z3B6 - FIA EAST END SNAP 02",
+    "RCCode": "0566"
+  },
+  {
+    "DPCode": "0566|Z3B7",
+    "DPName": "Z3B7 - FIA WASHINGTON HEIGHTS SNAP 13",
+    "RCCode": "0566"
+  },
+  {
+    "DPCode": "0566|Z3B8",
+    "DPName": "Z3B8 - FIA SUPP SECURITY INCOME SNAP 15",
+    "RCCode": "0566"
+  },
+  {
+    "DPCode": "0566|Z3B9",
+    "DPName": "Z3B9 - FIA WILLIAMSBURG SNAP 21",
+    "RCCode": "0566"
+  },
+  {
+    "DPCode": "0566|Z3C2",
+    "DPName": "Z3C2 - FIA CONEY ISLAND SNAP 22",
+    "RCCode": "0566"
+  },
+  {
+    "DPCode": "0566|Z3C5",
+    "DPName": "Z3C5 - FIA SNAP 24 TIPS BK",
+    "RCCode": "0566"
+  },
+  {
+    "DPCode": "0566|Z3C7",
+    "DPName": "Z3C7 - FIA HUNTS POINT SNAP 40",
+    "RCCode": "0566"
+  },
+  {
+    "DPCode": "0566|Z3D3",
+    "DPName": "Z3D3 - FIA CROTONA SNAP 46",
+    "RCCode": "0566"
+  },
+  {
+    "DPCode": "0566|Z3D4",
+    "DPName": "Z3D4 - FIA JAMAICA SNAP 54",
+    "RCCode": "0566"
+  },
+  {
+    "DPCode": "0566|Z3D6",
+    "DPName": "Z3D6 - FIA SNAP 43 TELEPHONE INTERVIEW PROC SER",
+    "RCCode": "0566"
+  },
+  {
+    "DPCode": "0566|Z3D7",
+    "DPName": "Z3D7 - FIA ROCKAWAY SNAP 79",
+    "RCCode": "0566"
+  },
+  {
+    "DPCode": "0566|Z3D8",
+    "DPName": "Z3D8 - FIA RICHMOND SNAP 99",
+    "RCCode": "0566"
+  },
+  {
+    "DPCode": "0566|Z3E2",
+    "DPName": "Z3E2 - FIA ST. NICHOLAS SNAP 14",
+    "RCCode": "0566"
+  },
+  {
+    "DPCode": "0566|Z3E4",
+    "DPName": "Z3E4 - FIA QUEENS SNAP 53",
+    "RCCode": "0566"
+  },
+  {
+    "DPCode": "0566|Z3E9",
+    "DPName": "Z3E9 - FIA  RESIDENTAL FACILITIES SNAP 61",
+    "RCCode": "0566"
+  },
+  {
+    "DPCode": "0566|Z3T5",
+    "DPName": "Z3T5 - FIA SPECIAL NEEDS REGIONAL MANAGER",
+    "RCCode": "0566"
+  },
+  {
+    "DPCode": "0566|ZFF2",
+    "DPName": "ZFF2 - FIA MANHATTAN/BRONX REGIONAL MANAGERS OF",
+    "RCCode": "0566"
+  },
+  {
+    "DPCode": "0566|ZFM2",
+    "DPName": "ZFM2 - FIA SNAP ADMINISTRATION",
+    "RCCode": "0566"
+  },
+  {
+    "DPCode": "0566|ZFS6",
+    "DPName": "ZFS6 - FIA EAST NEW YORK SNAP 28",
+    "RCCode": "0566"
+  },
+  {
+    "DPCode": "0566|ZFT4",
+    "DPName": "ZFT4 - FIA BROOKLYN/QUEENS/S.I. REGIONAL MANAGE",
+    "RCCode": "0566"
+  },
+  {
+    "DPCode": "0566|ZFT5",
+    "DPName": "ZFT5 - FIA NORTH BROOKLYN SNAP 26",
+    "RCCode": "0566"
+  },
+  {
+    "DPCode": "0566|ZVF2",
+    "DPName": "ZVF2 - FIA FORT GREENE SNAP 20",
+    "RCCode": "0566"
+  },
+  {
+    "DPCode": "0634|LB34",
+    "DPName": "LB34 - RC34 - 05",
+    "RCCode": "0634"
+  },
+  {
+    "DPCode": "0634|MA22",
+    "DPName": "MA22 - EXECUTIVE DEPUTY COMMISSIONER OFFICE",
+    "RCCode": "0634"
+  },
+  {
+    "DPCode": "0634|MA25",
+    "DPName": "MA25 - MA-ADMINISTRATIVE SERVICES",
+    "RCCode": "0634"
+  },
+  {
+    "DPCode": "0634|MA34",
+    "DPName": "MA34 - MICSA COMPLIANCE ADMIN UNIT",
+    "RCCode": "0634"
+  },
+  {
+    "DPCode": "0634|MA52",
+    "DPName": "MA52 - QUALITY SUPPORT",
+    "RCCode": "0634"
+  },
+  {
+    "DPCode": "0634|MA55",
+    "DPName": "MA55 - MICSA BUDGET & FISCAL ANALYSIS",
+    "RCCode": "0634"
+  },
+  {
+    "DPCode": "0634|MAW4",
+    "DPName": "MAW4 - MICSA REPORTING & ANALYSIS",
+    "RCCode": "0634"
+  },
+  {
+    "DPCode": "0634|MAW5",
+    "DPName": "MAW5 - MICSA CLT REIMBURSEMENT & PREM PYMT UNIT",
+    "RCCode": "0634"
+  },
+  {
+    "DPCode": "0634|MPR2",
+    "DPName": "MPR2 - THIRD PARTY RECOVERY",
+    "RCCode": "0634"
+  },
+  {
+    "DPCode": "0634|MRE2",
+    "DPName": "MRE2 - MICSA STATISTICS, RESEARCH & REPORTING",
+    "RCCode": "0634"
+  },
+  {
+    "DPCode": "0635|DCO2",
+    "DPName": "DCO2 - DEPUTY COMMISSIONER OFFICE",
+    "RCCode": "0635"
+  },
+  {
+    "DPCode": "0635|LA35",
+    "DPName": "LA35 - RC35-04,04A",
+    "RCCode": "0635"
+  },
+  {
+    "DPCode": "0635|LB35",
+    "DPName": "LB35 - RC35-50,50A",
+    "RCCode": "0635"
+  },
+  {
+    "DPCode": "0635|MA14",
+    "DPName": "MA14 - LINCOLN OUTPATIENT    ELIG",
+    "RCCode": "0635"
+  },
+  {
+    "DPCode": "0635|MA15",
+    "DPName": "MA15 - NORTH CNTR OUTPATIENT ELIG",
+    "RCCode": "0635"
+  },
+  {
+    "DPCode": "0635|MA16",
+    "DPName": "MA16 - KINGS COUNTY OUTPATIENT ELIG",
+    "RCCode": "0635"
+  },
+  {
+    "DPCode": "0635|MA18",
+    "DPName": "MA18 - CHINATOWN MEDICAID OFFICE",
+    "RCCode": "0635"
+  },
+  {
+    "DPCode": "0635|MA19",
+    "DPName": "MA19 - MANAHATTANVILLE MEDICAID OFFICE",
+    "RCCode": "0635"
+  },
+  {
+    "DPCode": "0635|MA20",
+    "DPName": "MA20 - METROPOLITAN OUTPATIENT ELIG",
+    "RCCode": "0635"
+  },
+  {
+    "DPCode": "0635|MA21",
+    "DPName": "MA21 - QUEENS MEDICAID OFFICE 100%",
+    "RCCode": "0635"
+  },
+  {
+    "DPCode": "0635|MA29",
+    "DPName": "MA29 - ELIGIBILITY ADMINSTRATION OFFICE",
+    "RCCode": "0635"
+  },
+  {
+    "DPCode": "0635|MA32",
+    "DPName": "MA32 - CLIENT SERVICE ADMINISTRATION OFFICE",
+    "RCCode": "0635"
+  },
+  {
+    "DPCode": "0635|MA44",
+    "DPName": "MA44 - NEW APPLICATIONS",
+    "RCCode": "0635"
+  },
+  {
+    "DPCode": "0635|MA45",
+    "DPName": "MA45 - MAIL RENEWAL UNIT",
+    "RCCode": "0635"
+  },
+  {
+    "DPCode": "0635|MA68",
+    "DPName": "MA68 - CHILD HEATH PLUS ELIGIBLITY",
+    "RCCode": "0635"
+  },
+  {
+    "DPCode": "0635|MA80",
+    "DPName": "MA80 - MICSA OED/SPECIAL CAC PROJECT UNIT 100%",
+    "RCCode": "0635"
+  },
+  {
+    "DPCode": "0635|MA82",
+    "DPName": "MA82 - MA-PROCESSING UNIT",
+    "RCCode": "0635"
+  },
+  {
+    "DPCode": "0635|MA83",
+    "DPName": "MA83 - CORRESPONDENCE",
+    "RCCode": "0635"
+  },
+  {
+    "DPCode": "0635|MA91",
+    "DPName": "MA91 - TRANSITIONAL MEDICAID UNIT",
+    "RCCode": "0635"
+  },
+  {
+    "DPCode": "0635|MA94",
+    "DPName": "MA94 - INSTITUTIONAL CARE NURSING HME",
+    "RCCode": "0635"
+  },
+  {
+    "DPCode": "0635|MA96",
+    "DPName": "MA96 - MC/CLIENT SERVICE",
+    "RCCode": "0635"
+  },
+  {
+    "DPCode": "0635|MB19",
+    "DPName": "MB19 - CONTRACT AND MONITORING UNIT",
+    "RCCode": "0635"
+  },
+  {
+    "DPCode": "0635|MB23",
+    "DPName": "MB23 - CONEY ISLAND SATELLITE CENTER",
+    "RCCode": "0635"
+  },
+  {
+    "DPCode": "0635|MB28",
+    "DPName": "MB28 - MORRISANIA",
+    "RCCode": "0635"
+  },
+  {
+    "DPCode": "0635|MB32",
+    "DPName": "MB32 - STATEN ISLAND SATELLITE CENTER",
+    "RCCode": "0635"
+  },
+  {
+    "DPCode": "0635|MB33",
+    "DPName": "MB33 - MAP FAMILY HEALTH PLUS",
+    "RCCode": "0635"
+  },
+  {
+    "DPCode": "0635|MB47",
+    "DPName": "MB47 - MAP HEALTH STAT - HELPLINE",
+    "RCCode": "0635"
+  },
+  {
+    "DPCode": "0635|MB62",
+    "DPName": "MB62 - MAP / BRAD H",
+    "RCCode": "0635"
+  },
+  {
+    "DPCode": "0635|MB86",
+    "DPName": "MB86 - MAP ROSENBERG UNIT",
+    "RCCode": "0635"
+  },
+  {
+    "DPCode": "0635|MB87",
+    "DPName": "MB87 - EAST NEW YORK MEDICAID OFFICE",
+    "RCCode": "0635"
+  },
+  {
+    "DPCode": "0635|MB96",
+    "DPName": "MB96 - MICSA CENTRALIZED INPATIENT ELIG UNIT",
+    "RCCode": "0635"
+  },
+  {
+    "DPCode": "0635|MB97",
+    "DPName": "MB97 - CENTRALIZED MEDICAID SEPARATE 100%",
+    "RCCode": "0635"
+  },
+  {
+    "DPCode": "0635|MRE3",
+    "DPName": "MRE3 - MISCA RECEPTION UNIT 100%",
+    "RCCode": "0635"
+  },
+  {
+    "DPCode": "0635|ZCM2",
+    "DPName": "ZCM2 - MANAGED CARE CLIENT SVCES-CONTRACT MONIT",
+    "RCCode": "0635"
+  },
+  {
+    "DPCode": "0635|ZMB9",
+    "DPName": "ZMB9 - MC/CLIENT SERVICE 100%",
+    "RCCode": "0635"
+  },
+  {
+    "DPCode": "0635|ZRG2",
+    "DPName": "ZRG2 - MAP RESTRICTED RECIPIENT UNIT 100%",
+    "RCCode": "0635"
+  },
+  {
+    "DPCode": "0637|HCA2",
+    "DPName": "HCA2 - HOME CARE EXECUTIVE OFFICE",
+    "RCCode": "0637"
+  },
+  {
+    "DPCode": "0637|HCA3",
+    "DPName": "HCA3 - HOME CARE CONTRACT MGMT SVCS",
+    "RCCode": "0637"
+  },
+  {
+    "DPCode": "0637|HCA7",
+    "DPName": "HCA7 - MANHATTAN CASA",
+    "RCCode": "0637"
+  },
+  {
+    "DPCode": "0637|HCA8",
+    "DPName": "HCA8 - MISCA BROOKLYN CASA 100%",
+    "RCCode": "0637"
+  },
+  {
+    "DPCode": "0637|HCB2",
+    "DPName": "HCB2 - MEDICAID ELIGIBILITY UNIT",
+    "RCCode": "0637"
+  },
+  {
+    "DPCode": "0637|HCB5",
+    "DPName": "HCB5 - HC-CASA FIELD OPERATIONS",
+    "RCCode": "0637"
+  },
+  {
+    "DPCode": "0637|HCB6",
+    "DPName": "HCB6 - HOME CARE - BX CASA",
+    "RCCode": "0637"
+  },
+  {
+    "DPCode": "0637|HCB7",
+    "DPName": "HCB7 - QUEENS CASA",
+    "RCCode": "0637"
+  },
+  {
+    "DPCode": "0637|HCB9",
+    "DPName": "HCB9 - HOME CARE - CASA IV",
+    "RCCode": "0637"
+  },
+  {
+    "DPCode": "0637|HCD2",
+    "DPName": "HCD2 - MICSA QUALITY ASSURANCE",
+    "RCCode": "0637"
+  },
+  {
+    "DPCode": "0637|LB37",
+    "DPName": "LB37 - RC37-04,04B",
+    "RCCode": "0637"
+  },
+  {
+    "DPCode": "0637|MA85",
+    "DPName": "MA85 - MA-FIELD SVCS & SUPPORT UNIT",
+    "RCCode": "0637"
+  },
+  {
+    "DPCode": "0637|MAS2",
+    "DPName": "MAS2 - MICSA HRA ONE STOP",
+    "RCCode": "0637"
+  },
+  {
+    "DPCode": "0637|MSW3",
+    "DPName": "MSW3 - MAP-MED REVIEW UNIT (NON-PEG)",
+    "RCCode": "0637"
+  },
+  {
+    "DPCode": "0705|BNL6",
+    "DPName": "BNL6 - HEAP COORDINATION 100%",
+    "RCCode": "0705"
+  },
+  {
+    "DPCode": "0705|DVE2",
+    "DPName": "DVE2 - DV AFTERCARE",
+    "RCCode": "0705"
+  },
+  {
+    "DPCode": "0705|ESA3",
+    "DPName": "ESA3 - HEATLINE 100%",
+    "RCCode": "0705"
+  },
+  {
+    "DPCode": "0705|EVA7",
+    "DPName": "EVA7 - UTILITY ASSISTANCE PROGRAM",
+    "RCCode": "0705"
+  },
+  {
+    "DPCode": "0705|EVA8",
+    "DPName": "EVA8 - BRONX-DOMESTIC VIOLENCE",
+    "RCCode": "0705"
+  },
+  {
+    "DPCode": "0705|EXM3",
+    "DPName": "EXM3 - EMERGENCY FOOD PGM (TAX LEVY)",
+    "RCCode": "0705"
+  },
+  {
+    "DPCode": "0705|FJC2",
+    "DPName": "FJC2 - FAMILY JUSTICE CENTER",
+    "RCCode": "0705"
+  },
+  {
+    "DPCode": "0705|LB05",
+    "DPName": "LB05 - RC05-01,01H",
+    "RCCode": "0705"
+  },
+  {
+    "DPCode": "0705|MFP2",
+    "DPName": "MFP2 - MAYOR'S OFFICE OF FOOD POLICY (MOFP)",
+    "RCCode": "0705"
+  },
+  {
+    "DPCode": "0705|MM05",
+    "DPName": "MM05 - MAYORS OFFICE FAMILY JUSTICE DP",
+    "RCCode": "0705"
+  },
+  {
+    "DPCode": "0705|MM06",
+    "DPName": "MM06 - MAYORS OFFICE TO COMBAT DOMESTIC VIOLENC",
+    "RCCode": "0705"
+  },
+  {
+    "DPCode": "0705|PNV2",
+    "DPName": "PNV2 - EIS PROJECT NOVA CTL",
+    "RCCode": "0705"
+  },
+  {
+    "DPCode": "0705|SNR2",
+    "DPName": "SNR2 - DEP SAFETY NET REFERRAL PROGRAM",
+    "RCCode": "0705"
+  },
+  {
+    "DPCode": "0705|XPK5",
+    "DPName": "XPK5 - EIS CENTRAL ADMINISTRATION",
+    "RCCode": "0705"
+  },
+  {
+    "DPCode": "0705|XPK6",
+    "DPName": "XPK6 - EIS CONTRACT MANAGEMENT",
+    "RCCode": "0705"
+  },
+  {
+    "DPCode": "0705|XPK7",
+    "DPName": "XPK7 - EIS PLANNING AND ADMINISTRATION",
+    "RCCode": "0705"
+  },
+  {
+    "DPCode": "0705|XPK8",
+    "DPName": "XPK8 - EIS SYSTEMS DEVELOPMENT",
+    "RCCode": "0705"
+  },
+  {
+    "DPCode": "0705|Z3S4",
+    "DPName": "Z3S4 - EIS SNAP OUTREACH SERVICES",
+    "RCCode": "0705"
+  },
+  {
+    "DPCode": "0705|ZLM3",
+    "DPName": "ZLM3 - DV PROJECT NOVA",
+    "RCCode": "0705"
+  },
+  {
+    "DPCode": "0705|ZLN7",
+    "DPName": "ZLN7 - DOMESTIC VIOLENCE LIAISONS",
+    "RCCode": "0705"
+  },
+  {
+    "DPCode": "0705|ZLP3",
+    "DPName": "ZLP3 - ALTERNATIVE TO SHELTER PROGRAM",
+    "RCCode": "0705"
+  },
+  {
+    "DPCode": "0756|APB2",
+    "DPName": "APB2 - APS BROOKLYN SOUTH CTL",
+    "RCCode": "0756"
+  },
+  {
+    "DPCode": "0756|APB3",
+    "DPName": "APB3 - APS BROOKLYN NORTH CTL",
+    "RCCode": "0756"
+  },
+  {
+    "DPCode": "0756|APB4",
+    "DPName": "APB4 - APS BROOKLYN SOUTH 100%",
+    "RCCode": "0756"
+  },
+  {
+    "DPCode": "0756|APC2",
+    "DPName": "APC2 - APS CENTRAL OFFICE CTL",
+    "RCCode": "0756"
+  },
+  {
+    "DPCode": "0756|APM2",
+    "DPName": "APM2 - APS MANHATTAN SOUTH CTL",
+    "RCCode": "0756"
+  },
+  {
+    "DPCode": "0756|APM3",
+    "DPName": "APM3 - APS MANHATTAN NORTH CTL",
+    "RCCode": "0756"
+  },
+  {
+    "DPCode": "0756|APM4",
+    "DPName": "APM4 - APS MANHATTAN SOUTH 100%",
+    "RCCode": "0756"
+  },
+  {
+    "DPCode": "0756|APN2",
+    "DPName": "APN2 - APS CENTRAL INTAKE CTL",
+    "RCCode": "0756"
+  },
+  {
+    "DPCode": "0756|APQ2",
+    "DPName": "APQ2 - APS QUEENS CTL",
+    "RCCode": "0756"
+  },
+  {
+    "DPCode": "0756|APS2",
+    "DPName": "APS2 - APS STATEN ISLAND CTL",
+    "RCCode": "0756"
+  },
+  {
+    "DPCode": "0756|APX2",
+    "DPName": "APX2 - APS BRONX CTL",
+    "RCCode": "0756"
+  },
+  {
+    "DPCode": "0756|DRC2",
+    "DPName": "DRC2 - VOLUNTARY & PROPRIETARY HOMES",
+    "RCCode": "0756"
+  },
+  {
+    "DPCode": "0756|LB56",
+    "DPName": "LB56 - RC56-40,40A",
+    "RCCode": "0756"
+  },
+  {
+    "DPCode": "0756|MRD2",
+    "DPName": "MRD2 - DOPIS SUPPORT SERVICES",
+    "RCCode": "0756"
+  },
+  {
+    "DPCode": "0756|SAA2",
+    "DPName": "SAA2 - APS - CENTRAL INTAKE",
+    "RCCode": "0756"
+  },
+  {
+    "DPCode": "0756|SAA4",
+    "DPName": "SAA4 - APS - BRONX",
+    "RCCode": "0756"
+  },
+  {
+    "DPCode": "0756|SAA5",
+    "DPName": "SAA5 - APS - MANHATTAN",
+    "RCCode": "0756"
+  },
+  {
+    "DPCode": "0756|SAA6",
+    "DPName": "SAA6 - APS - QUEENS",
+    "RCCode": "0756"
+  },
+  {
+    "DPCode": "0756|SAA7",
+    "DPName": "SAA7 - APS - BROOKLYN",
+    "RCCode": "0756"
+  },
+  {
+    "DPCode": "0756|SAA8",
+    "DPName": "SAA8 - APS - STATEN ISLAND",
+    "RCCode": "0756"
+  },
+  {
+    "DPCode": "0756|SAB2",
+    "DPName": "SAB2 - APS - CENTRAL OFFICE",
+    "RCCode": "0756"
+  },
+  {
+    "DPCode": "0756|SAB3",
+    "DPName": "SAB3 - APS - FINANCIAL MGT",
+    "RCCode": "0756"
+  },
+  {
+    "DPCode": "0756|SAB5",
+    "DPName": "SAB5 - APS QUALITY MANAGEMENT",
+    "RCCode": "0756"
+  },
+  {
+    "DPCode": "0756|SAB6",
+    "DPName": "SAB6 - APS CONTRACT MANAGEMENT",
+    "RCCode": "0756"
+  },
+  {
+    "DPCode": "0756|SAB7",
+    "DPName": "SAB7 - APS PLANNING AND ADMINISTRATION SERVICES",
+    "RCCode": "0756"
+  },
+  {
+    "DPCode": "0757|EXC2",
+    "DPName": "EXC2 - CRISIS AND DISASTER UNIT",
+    "RCCode": "0757"
+  },
+  {
+    "DPCode": "1109|MM10",
+    "DPName": "MM10 - MAYORAL DP MAYORS OFFICE OF OPERATIONS",
+    "RCCode": "1109"
+  },
+  {
+    "DPCode": "1111|MM11",
+    "DPName": "MM11 - MAYORAL DP CIDI PS",
+    "RCCode": "1111"
+  },
+  {
+    "DPCode": "1117|LA17",
+    "DPName": "LA17 - RC17 HHSC LEAVE DP RC1117",
+    "RCCode": "1117"
+  },
+  {
+    "DPCode": "1117|MM17",
+    "DPName": "MM17 - MAYORAL DP HEALTH & HUMAN SERVICES CONNE",
+    "RCCode": "1117"
+  },
+  {
+    "DPCode": "1121|LA21",
+    "DPName": "LA21 - RC21-,30, 30YZ IFS LV DP 1121",
+    "RCCode": "1121"
+  },
+  {
+    "DPCode": "1121|MM21",
+    "DPName": "MM21 - MAYORAL DP INTEGRATED FINANCIAL SERVICES",
+    "RCCode": "1121"
+  },
+  {
+    "DPCode": "1121|SSF2",
+    "DPName": "SSF2 - HHS-IFS",
+    "RCCode": "1121"
+  },
+  {
+    "DPCode": "1124|MM24",
+    "DPName": "MM24 - MAYORAL DP CENTER FOR ECONOMIC OPPORTUNI",
+    "RCCode": "1124"
+  },
+  {
+    "DPCode": "1182|LA82",
+    "DPName": "LA82 - LV DP RC 1182 CTL",
+    "RCCode": "1182"
+  },
+  {
+    "DPCode": "1182|MM82",
+    "DPName": "MM82 - MAYORAL DP MUNICIPAL ID IDNYC",
+    "RCCode": "1182"
+  },
+  {
+    "DPCode": "1182|MM83",
+    "DPName": "MM83 - MAYORAL DP  IDNYC ADDITIONAL STAFF",
+    "RCCode": "1182"
+  },
+  {
+    "DPCode": "1182|MUD2",
+    "DPName": "MUD2 - MUNICIPAL ID",
+    "RCCode": "1182"
+  },
+  {
+    "DPCode": "1184|MAD3",
+    "DPName": "MAD3 - ANTI-DISPLACEMENT OUTREACH",
+    "RCCode": "1184"
+  },
+  {
+    "DPCode": "1184|MM84",
+    "DPName": "MM84 - MAYORAL DP PUBLIC ENGAGEMENT ANTI EVICT",
+    "RCCode": "1184"
+  },
+  {
+    "DPCode": "1184|MM85",
+    "DPName": "MM85 - MAYORAL DP PUBLIC ENGAGEMENT UNIT LINC",
+    "RCCode": "1184"
+  },
+  {
+    "DPCode": "1184|MM87",
+    "DPName": "MM87 - MAYORAL DP PUBLIC ENGAGEMENT UNIT",
+    "RCCode": "1184"
+  },
+  {
+    "DPCode": "1184|MM88",
+    "DPName": "MM88 - MAYORAL DP HEALTH ACCESS SUPPORT UNIT",
+    "RCCode": "1184"
+  },
+  {
+    "DPCode": "1187|TNY2",
+    "DPName": "TNY2 - THRIVENYC OUTREACH",
+    "RCCode": "1187"
+  },
+  {
+    "DPCode": "1208|BQA2",
+    "DPName": "BQA2 - OFFICE OF GENERAL COUNSEL",
+    "RCCode": "1208"
+  },
+  {
+    "DPCode": "1208|BQA4",
+    "DPName": "BQA4 - EMPLOYMENT LAW",
+    "RCCode": "1208"
+  },
+  {
+    "DPCode": "1208|BQC9",
+    "DPName": "BQC9 - CHILD SUPPORT LITIGATION & PROGRAM COUNS",
+    "RCCode": "1208"
+  },
+  {
+    "DPCode": "1208|DQA2",
+    "DPName": "DQA2 - LRLU MIXED RECOVERIES UNIT",
+    "RCCode": "1208"
+  },
+  {
+    "DPCode": "1208|DQA4",
+    "DPName": "DQA4 - COMMERCIAL LAW DIVISION",
+    "RCCode": "1208"
+  },
+  {
+    "DPCode": "1208|DQB5",
+    "DPName": "DQB5 - HCS LITGTN & PRGM CNSL UNIT",
+    "RCCode": "1208"
+  },
+  {
+    "DPCode": "1208|DQB7",
+    "DPName": "DQB7 - LITIGATION AND PROGRAM COUSELING UNIT",
+    "RCCode": "1208"
+  },
+  {
+    "DPCode": "1208|DQC2",
+    "DPName": "DQC2 - OFFICE OF DATA PRIVACY",
+    "RCCode": "1208"
+  },
+  {
+    "DPCode": "1208|DQC3",
+    "DPName": "DQC3 - ADMINISTRATIVE SERVICES",
+    "RCCode": "1208"
+  },
+  {
+    "DPCode": "1208|DQM3",
+    "DPName": "DQM3 - LRLU MEDICAID RECOVERIES ONLY",
+    "RCCode": "1208"
+  },
+  {
+    "DPCode": "1208|DS42",
+    "DPName": "DS42 - DSS LEGAL/PATH",
+    "RCCode": "1208"
+  },
+  {
+    "DPCode": "1208|DS43",
+    "DPName": "DS43 - DSS LEGAL",
+    "RCCode": "1208"
+  },
+  {
+    "DPCode": "1208|LA08",
+    "DPName": "LA08 - RC08-40,40A",
+    "RCCode": "1208"
+  },
+  {
+    "DPCode": "1208|MMD2",
+    "DPName": "MMD2 - HCS LPCU MEDICAID ONLY STAFF",
+    "RCCode": "1208"
+  },
+  {
+    "DPCode": "1210|BAN5",
+    "DPName": "BAN5 - #53 FAIR HEARING & CONFERNCE QUEENS CTL",
+    "RCCode": "1210"
+  },
+  {
+    "DPCode": "1210|BAN9",
+    "DPName": "BAN9 - #13 FAIR HEARING & CONFERENCE WAVERLY CT",
+    "RCCode": "1210"
+  },
+  {
+    "DPCode": "1210|BDN3",
+    "DPName": "BDN3 - #44 FAIR HEARING & CONFERENCE FORDHAM CT",
+    "RCCode": "1210"
+  },
+  {
+    "DPCode": "1210|BEN6",
+    "DPName": "BEN6 - #64 FAIR HEARING & CONFERENCE DEKALB",
+    "RCCode": "1210"
+  },
+  {
+    "DPCode": "1210|BFN2",
+    "DPName": "BFN2 - #37 EAST RIVER FAIR HEARING & CONFERENCE",
+    "RCCode": "1210"
+  },
+  {
+    "DPCode": "1210|BMF5",
+    "DPName": "BMF5 - #63  FAIR HEARING & CONFERENCE  C.I.",
+    "RCCode": "1210"
+  },
+  {
+    "DPCode": "1210|BMF6",
+    "DPName": "BMF6 - #39  FAIR HEARING & CONFERENCE UNION SQ",
+    "RCCode": "1210"
+  },
+  {
+    "DPCode": "1210|BMF7",
+    "DPName": "BMF7 - FAIR HEARING TRACKING,MONITORING & REVIE",
+    "RCCode": "1210"
+  },
+  {
+    "DPCode": "1210|BNA5",
+    "DPName": "BNA5 - #53 FAIR HEARING & CONFERENCE QUEENS",
+    "RCCode": "1210"
+  },
+  {
+    "DPCode": "1210|BNA7",
+    "DPName": "BNA7 - #54  FAIR HEARING & CONFERENCE JAMAICA",
+    "RCCode": "1210"
+  },
+  {
+    "DPCode": "1210|BNA8",
+    "DPName": "BNA8 - #79  FAIR HEARING & CONFERENCE ROCKAWAY",
+    "RCCode": "1210"
+  },
+  {
+    "DPCode": "1210|BNA9",
+    "DPName": "BNA9 - #13  FAIR HEARING & CONFERENCE WAVERLY",
+    "RCCode": "1210"
+  },
+  {
+    "DPCode": "1210|BNB3",
+    "DPName": "BNB3 - #99 FAIR HEARING & CONFERENCE RICHMOND",
+    "RCCode": "1210"
+  },
+  {
+    "DPCode": "1210|BNB4",
+    "DPName": "BNB4 - #23  FAIR HEARING & CONFERENCE EAST END",
+    "RCCode": "1210"
+  },
+  {
+    "DPCode": "1210|BNB8",
+    "DPName": "BNB8 - #35 FAIR HEARING & CONFERENCE DYCKMAN",
+    "RCCode": "1210"
+  },
+  {
+    "DPCode": "1210|BNB9",
+    "DPName": "BNB9 - #38 FAIR HEARING & CONFERENCE RIDER",
+    "RCCode": "1210"
+  },
+  {
+    "DPCode": "1210|BND3",
+    "DPName": "BND3 - #44 FAIR HEARING & CONFERENCE FORDHAM",
+    "RCCode": "1210"
+  },
+  {
+    "DPCode": "1210|BND5",
+    "DPName": "BND5 - #40  FAIR HEARING & CONFERENCE MELROSE",
+    "RCCode": "1210"
+  },
+  {
+    "DPCode": "1210|BND9",
+    "DPName": "BND9 - #46  FAIR HEARING & CONFERENCE CROTONA",
+    "RCCode": "1210"
+  },
+  {
+    "DPCode": "1210|BNE3",
+    "DPName": "BNE3 - # 67 FAIR HEARING & CONFERENCE CLINTON H",
+    "RCCode": "1210"
+  },
+  {
+    "DPCode": "1210|BNE6",
+    "DPName": "BNE6 - #64 FAIR HEARING & CONFERENCE DEKALB",
+    "RCCode": "1210"
+  },
+  {
+    "DPCode": "1210|BNE7",
+    "DPName": "BNE7 - #66 FAIR HEARING & CONFERENCE BUSHWICK",
+    "RCCode": "1210"
+  },
+  {
+    "DPCode": "1210|BNE8",
+    "DPName": "BNE8 - #70 FAIR HEARING & CONFERENCE BAY RIDGE",
+    "RCCode": "1210"
+  },
+  {
+    "DPCode": "1210|BNF2",
+    "DPName": "BNF2 - #37 FAIR HEARING & CONFERENCE EAST RIVER",
+    "RCCode": "1210"
+  },
+  {
+    "DPCode": "1210|BNG7",
+    "DPName": "BNG7 - #18 ST NICHOLAS FAIR HEARING & CONFERENC",
+    "RCCode": "1210"
+  },
+  {
+    "DPCode": "1210|BNL9",
+    "DPName": "BNL9 - FAIR HEARING ADMINISTRATION",
+    "RCCode": "1210"
+  },
+  {
+    "DPCode": "1210|BNR7",
+    "DPName": "BNR7 - FAIR HEARING REPRESENTATION",
+    "RCCode": "1210"
+  },
+  {
+    "DPCode": "1210|BNU8",
+    "DPName": "BNU8 - #47 FAIR HEARING & CONFERENCE REFUGEE",
+    "RCCode": "1210"
+  },
+  {
+    "DPCode": "1210|BNV2",
+    "DPName": "BNV2 - CENTRALIZED PACKET REVIEW UNIT",
+    "RCCode": "1210"
+  },
+  {
+    "DPCode": "1210|BQT6",
+    "DPName": "BQT6 - FAIR HEARING IREA REPRESENTATION",
+    "RCCode": "1210"
+  },
+  {
+    "DPCode": "1210|BRN7",
+    "DPName": "BRN7 - FAIR HEARING  REPRESENTATION SNAP/CASH C",
+    "RCCode": "1210"
+  },
+  {
+    "DPCode": "1210|CPR2",
+    "DPName": "CPR2 - FH CENTRALIZED PACKET REVIEW UNIT 100%",
+    "RCCode": "1210"
+  },
+  {
+    "DPCode": "1210|DEB5",
+    "DPName": "DEB5 - FAIR HEARING SNAP COMPLIANCE",
+    "RCCode": "1210"
+  },
+  {
+    "DPCode": "1210|DS47",
+    "DPName": "DS47 - DSS FAIR HEARING",
+    "RCCode": "1210"
+  },
+  {
+    "DPCode": "1210|FHC2",
+    "DPName": "FHC2 - FAIR HEARING COUNSELING & REPRESENTATION",
+    "RCCode": "1210"
+  },
+  {
+    "DPCode": "1210|FHC4",
+    "DPName": "FHC4 - FAIR HEARING COUNSELING & REPRESENTATION",
+    "RCCode": "1210"
+  },
+  {
+    "DPCode": "1210|HAF2",
+    "DPName": "HAF2 - FAIR HEARING HASA REPRESENTATION",
+    "RCCode": "1210"
+  },
+  {
+    "DPCode": "1210|LA10",
+    "DPName": "LA10 - RC10-01,01A",
+    "RCCode": "1210"
+  },
+  {
+    "DPCode": "1210|MA39",
+    "DPName": "MA39 - MA-FAIR HEARING 100%",
+    "RCCode": "1210"
+  },
+  {
+    "DPCode": "1210|PRN2",
+    "DPName": "PRN2 - FAIR HEARING PRE-NOI UNIT",
+    "RCCode": "1210"
+  },
+  {
+    "DPCode": "1210|Z3E8",
+    "DPName": "Z3E8 - FH TRACKING MONITORING & REVIEW UNIT",
+    "RCCode": "1210"
+  },
+  {
+    "DPCode": "1210|ZSN2",
+    "DPName": "ZSN2 - SNAP COMPLIANCE UNIT",
+    "RCCode": "1210"
+  },
+  {
+    "DPCode": "1231|DS45",
+    "DPName": "DS45 - DSS POLICY PROCEDURES & TRAINING",
+    "RCCode": "1231"
+  },
+  {
+    "DPCode": "1231|LA31",
+    "DPName": "LA31 - RC31-01,01A",
+    "RCCode": "1231"
+  },
+  {
+    "DPCode": "1231|MCP2",
+    "DPName": "MCP2 - OPPT MICSA PROCEDURES MA FUNDED",
+    "RCCode": "1231"
+  },
+  {
+    "DPCode": "1231|MCT2",
+    "DPName": "MCT2 - OPPT MICSA TRAINING MA FUNDED",
+    "RCCode": "1231"
+  },
+  {
+    "DPCode": "1231|NMP2",
+    "DPName": "NMP2 - 100% NON MEDICAID OPPT TRAINING",
+    "RCCode": "1231"
+  },
+  {
+    "DPCode": "1231|PPR2",
+    "DPName": "PPR2 - OPPT PROCEDURES FIA HPA FHA",
+    "RCCode": "1231"
+  },
+  {
+    "DPCode": "1231|PPS2",
+    "DPName": "PPS2 - OPPT STAFF DEVELOPMENT",
+    "RCCode": "1231"
+  },
+  {
+    "DPCode": "1231|PPU2",
+    "DPName": "PPU2 - OPPT LOGISITICAL SUPPORT OPERATIONS",
+    "RCCode": "1231"
+  },
+  {
+    "DPCode": "1231|PPV2",
+    "DPName": "PPV2 - OPPT POLICY",
+    "RCCode": "1231"
+  },
+  {
+    "DPCode": "1231|PSS2",
+    "DPName": "PSS2 - OPPT PROCEDURES SPECIAL SERVICES",
+    "RCCode": "1231"
+  },
+  {
+    "DPCode": "1231|TSD2",
+    "DPName": "TSD2 - OPPT TRAINING",
+    "RCCode": "1231"
+  },
+  {
+    "DPCode": "1231|ZNQ6",
+    "DPName": "ZNQ6 - TRAINING 100%",
+    "RCCode": "1231"
+  },
+  {
+    "DPCode": "1268|BEA2",
+    "DPName": "BEA2 - CONTRACT PLANNING & INITIATION UNIT",
+    "RCCode": "1268"
+  },
+  {
+    "DPCode": "1268|BEK3",
+    "DPName": "BEK3 - PROCUREMENT IMPLEMENTATION UNIT",
+    "RCCode": "1268"
+  },
+  {
+    "DPCode": "1268|BEK4",
+    "DPName": "BEK4 - CONTRACT MANAGEMENT UNIT",
+    "RCCode": "1268"
+  },
+  {
+    "DPCode": "1268|DS46",
+    "DPName": "DS46 - DSS ACCO",
+    "RCCode": "1268"
+  },
+  {
+    "DPCode": "1268|EXE4",
+    "DPName": "EXE4 - ACCO'S OFFICE",
+    "RCCode": "1268"
+  },
+  {
+    "DPCode": "1268|LA68",
+    "DPName": "LA68 - RC68-40,40A",
+    "RCCode": "1268"
+  },
+  {
+    "DPCode": "1306|BAA8",
+    "DPName": "BAA8 - PROGRAM MONITORING & ANALYSIS",
+    "RCCode": "1306"
+  },
+  {
+    "DPCode": "1306|BNS9",
+    "DPName": "BNS9 - OPER & PARTICIPATION REPORTING",
+    "RCCode": "1306"
+  },
+  {
+    "DPCode": "1306|DRS2",
+    "DPName": "DRS2 - OPPM SYSTEMS OPERATIONS",
+    "RCCode": "1306"
+  },
+  {
+    "DPCode": "1306|DRS4",
+    "DPName": "DRS4 - OPPM SYSTEMS OPERATIONS 100%",
+    "RCCode": "1306"
+  },
+  {
+    "DPCode": "1306|DS52",
+    "DPName": "DS52 - DSS PLANNING & PERFORMANCE MANAGEMENT",
+    "RCCode": "1306"
+  },
+  {
+    "DPCode": "1306|EXN2",
+    "DPName": "EXN2 - EXECUTIVE OFFICE OF PLANNING AND PERFORM",
+    "RCCode": "1306"
+  },
+  {
+    "DPCode": "1306|GFD2",
+    "DPName": "GFD2 - PPM HOMELESS MANAGEMENT INFORMATION SYST",
+    "RCCode": "1306"
+  },
+  {
+    "DPCode": "1306|GFD4",
+    "DPName": "GFD4 - PPM CTY COALITION ON CONTINUUM OF CARE",
+    "RCCode": "1306"
+  },
+  {
+    "DPCode": "1306|RDD2",
+    "DPName": "RDD2 - OPPM SPECIAL SERVICES PROGRAM PERFORMANC",
+    "RCCode": "1306"
+  },
+  {
+    "DPCode": "1306|SMP2",
+    "DPName": "SMP2 - OPPM OFFICE OF STRATEGIC MANAGEMENT PLAN",
+    "RCCode": "1306"
+  },
+  {
+    "DPCode": "1306|ZHR2",
+    "DPName": "ZHR2 - MEDICAID AND HC REPORTING MEDICAID FUNDE",
+    "RCCode": "1306"
+  },
+  {
+    "DPCode": "1369|BER2",
+    "DPName": "BER2 - EVALUATION & RESEARCH",
+    "RCCode": "1369"
+  },
+  {
+    "DPCode": "1369|BER3",
+    "DPName": "BER3 - EVAL RESEARCH MC MILLIAN LIBRARY",
+    "RCCode": "1369"
+  },
+  {
+    "DPCode": "1419|BNP3",
+    "DPName": "BNP3 - COMPUTER SYSTEM SERVICES",
+    "RCCode": "1419"
+  },
+  {
+    "DPCode": "1419|BNP4",
+    "DPName": "BNP4 - SYSTEMS DEVELOPMENT",
+    "RCCode": "1419"
+  },
+  {
+    "DPCode": "1419|BNP5",
+    "DPName": "BNP5 - OFF OF IS SYSTEMS PROGRAMING",
+    "RCCode": "1419"
+  },
+  {
+    "DPCode": "1419|BNP6",
+    "DPName": "BNP6 - IS-SYSTEMS OPERATIONS",
+    "RCCode": "1419"
+  },
+  {
+    "DPCode": "1419|BNP7",
+    "DPName": "BNP7 - SYSTEMS TESTING / AUDIT",
+    "RCCode": "1419"
+  },
+  {
+    "DPCode": "1419|BNS6",
+    "DPName": "BNS6 - PA - WMS PLANNING",
+    "RCCode": "1419"
+  },
+  {
+    "DPCode": "1419|BXX4",
+    "DPName": "BXX4 - MIS MGMT SYSTEMS",
+    "RCCode": "1419"
+  },
+  {
+    "DPCode": "1419|BXX7",
+    "DPName": "BXX7 - TELECOMMUNICATIONS SERVICES",
+    "RCCode": "1419"
+  },
+  {
+    "DPCode": "1419|DS62",
+    "DPName": "DS62 - DSS MIS/OIT",
+    "RCCode": "1419"
+  },
+  {
+    "DPCode": "1419|EDT2",
+    "DPName": "EDT2 - 100%  MEDICAID FUNDED",
+    "RCCode": "1419"
+  },
+  {
+    "DPCode": "1419|EDW2",
+    "DPName": "EDW2 - EDW/HIPAA",
+    "RCCode": "1419"
+  },
+  {
+    "DPCode": "1419|EDW3",
+    "DPName": "EDW3 - EDW/HIPAA",
+    "RCCode": "1419"
+  },
+  {
+    "DPCode": "1419|EVR2",
+    "DPName": "EVR2 - DIVISION OF ELIGIBILITY VERIFICATION REV",
+    "RCCode": "1419"
+  },
+  {
+    "DPCode": "1419|EXG9",
+    "DPName": "EXG9 - ADMINISTRATIVE & OPERATIONAL TECHNOLOGY",
+    "RCCode": "1419"
+  },
+  {
+    "DPCode": "1419|HPA2",
+    "DPName": "HPA2 - MIS HOMELESS PREVENTION ADMINISTRATION",
+    "RCCode": "1419"
+  },
+  {
+    "DPCode": "1419|LA19",
+    "DPName": "LA19 - RC19-40,40B",
+    "RCCode": "1419"
+  },
+  {
+    "DPCode": "1419|LB19",
+    "DPName": "LB19 - RC19-40,40B",
+    "RCCode": "1419"
+  },
+  {
+    "DPCode": "1419|MAR2",
+    "DPName": "MAR2 - MIS REASONABLE ACCOMODATION LOVELY H",
+    "RCCode": "1419"
+  },
+  {
+    "DPCode": "1419|MMU2",
+    "DPName": "MMU2 - MIS MUNICIPAL ID",
+    "RCCode": "1419"
+  },
+  {
+    "DPCode": "1419|MSAP",
+    "DPName": "MSAP - MIS  SNAP INTEGRITY INITIATIVE",
+    "RCCode": "1419"
+  },
+  {
+    "DPCode": "1419|TRD1",
+    "DPName": "TRD1 - TRAINING AND STAFF DEVELOPMENT",
+    "RCCode": "1419"
+  },
+  {
+    "DPCode": "1419|XCC2",
+    "DPName": "XCC2 - MIS EXECUTIVE",
+    "RCCode": "1419"
+  },
+  {
+    "DPCode": "1419|XCC5",
+    "DPName": "XCC5 - SYSTEMS DEVELOPMENT",
+    "RCCode": "1419"
+  },
+  {
+    "DPCode": "1419|XCD4",
+    "DPName": "XCD4 - DIVISION OF NETWORK SERVICES",
+    "RCCode": "1419"
+  },
+  {
+    "DPCode": "1419|XCD6",
+    "DPName": "XCD6 - BUREAU OF SYS. DEV.  II",
+    "RCCode": "1419"
+  },
+  {
+    "DPCode": "1419|XCE2",
+    "DPName": "XCE2 - DIVISION OF CONTRACTS",
+    "RCCode": "1419"
+  },
+  {
+    "DPCode": "1419|XCE3",
+    "DPName": "XCE3 - MIS PERSONNEL",
+    "RCCode": "1419"
+  },
+  {
+    "DPCode": "1419|XCE6",
+    "DPName": "XCE6 - MIS CONSOLE OPERATIONS",
+    "RCCode": "1419"
+  },
+  {
+    "DPCode": "1419|XCE7",
+    "DPName": "XCE7 - MIS-TAPE LIBRARY I/O CONTROL",
+    "RCCode": "1419"
+  },
+  {
+    "DPCode": "1419|XCE8",
+    "DPName": "XCE8 - MIS DATA ENTRY",
+    "RCCode": "1419"
+  },
+  {
+    "DPCode": "1419|XCF4",
+    "DPName": "XCF4 - TOTAL QUALITY MANAGEMENT",
+    "RCCode": "1419"
+  },
+  {
+    "DPCode": "1419|XCF6",
+    "DPName": "XCF6 - DIVISION OF LOCAL AREA NETWORK",
+    "RCCode": "1419"
+  },
+  {
+    "DPCode": "1419|XCF7",
+    "DPName": "XCF7 - DIVISION OF WIDE AREA NETWORK",
+    "RCCode": "1419"
+  },
+  {
+    "DPCode": "1419|XCF8",
+    "DPName": "XCF8 - MIS DATABASE ADMIN",
+    "RCCode": "1419"
+  },
+  {
+    "DPCode": "1419|XCF9",
+    "DPName": "XCF9 - MIS-FISCAL/PERSONNEL SYS.",
+    "RCCode": "1419"
+  },
+  {
+    "DPCode": "1419|XCG5",
+    "DPName": "XCG5 - MIS-UIM SYSTEM",
+    "RCCode": "1419"
+  },
+  {
+    "DPCode": "1419|XCG8",
+    "DPName": "XCG8 - MIS DISTRIBUTION CONTROL",
+    "RCCode": "1419"
+  },
+  {
+    "DPCode": "1419|XCH2",
+    "DPName": "XCH2 - DIVISION OF FAMILY INDEPENDENCE ADMINIST",
+    "RCCode": "1419"
+  },
+  {
+    "DPCode": "1419|XCHP",
+    "DPName": "XCHP - MIS HEAP",
+    "RCCode": "1419"
+  },
+  {
+    "DPCode": "1419|XCJ3",
+    "DPName": "XCJ3 - MIS DIVISION OF SYSTEMS",
+    "RCCode": "1419"
+  },
+  {
+    "DPCode": "1419|XCJ5",
+    "DPName": "XCJ5 - DIVISION OF COMPUTER STORE/INSTALLATION",
+    "RCCode": "1419"
+  },
+  {
+    "DPCode": "1419|XCK6",
+    "DPName": "XCK6 - DIVISION OF BUDGET",
+    "RCCode": "1419"
+  },
+  {
+    "DPCode": "1419|XCK7",
+    "DPName": "XCK7 - DIVISION OF FINANCE/INVOICING",
+    "RCCode": "1419"
+  },
+  {
+    "DPCode": "1419|XCL4",
+    "DPName": "XCL4 - MIS FACILITY SERVICES",
+    "RCCode": "1419"
+  },
+  {
+    "DPCode": "1419|XCM3",
+    "DPName": "XCM3 - CONTRACTS MANAGEMENT SYSTEMS",
+    "RCCode": "1419"
+  },
+  {
+    "DPCode": "1419|XCR2",
+    "DPName": "XCR2 - DIVISION OF CHILD CARE SYSTEMS",
+    "RCCode": "1419"
+  },
+  {
+    "DPCode": "1419|XCT8",
+    "DPName": "XCT8 - MIS PROD PLANNING & CONTROL",
+    "RCCode": "1419"
+  },
+  {
+    "DPCode": "1419|XMH2",
+    "DPName": "XMH2 - DIVISION OF HEALTH & MENTAL HEALTH SYSTE",
+    "RCCode": "1419"
+  },
+  {
+    "DPCode": "1419|XPS2",
+    "DPName": "XPS2 - DIVISION OF PAPERLESS OFFICE SYSTEMS",
+    "RCCode": "1419"
+  },
+  {
+    "DPCode": "1419|XQF3",
+    "DPName": "XQF3 - SYSTEMS\\COMPUTER SERVICE",
+    "RCCode": "1419"
+  },
+  {
+    "DPCode": "1419|XRC2",
+    "DPName": "XRC2 - DIVISION OF REVENUE COLLECTION",
+    "RCCode": "1419"
+  },
+  {
+    "DPCode": "1419|Z3J2",
+    "DPName": "Z3J2 - MIS FOOD STMP DEV. A 100%",
+    "RCCode": "1419"
+  },
+  {
+    "DPCode": "1419|ZDP2",
+    "DPName": "ZDP2 - MIS-UNDISCLOSED INC. MONIT",
+    "RCCode": "1419"
+  },
+  {
+    "DPCode": "1419|ZDP4",
+    "DPName": "ZDP4 - MIS WMS II FOOD STAMPS",
+    "RCCode": "1419"
+  },
+  {
+    "DPCode": "1419|ZXG2",
+    "DPName": "ZXG2 - MIS 100% MEDICAID FUNDED",
+    "RCCode": "1419"
+  },
+  {
+    "DPCode": "1650|PPP2",
+    "DPName": "PPP2 - PUBLIC/PRIVATE PARTNERSHIPS",
+    "RCCode": "1650"
+  },
+  {
+    "DPCode": "1651|DAB2",
+    "DPName": "DAB2 - CHIA DAB CONSUMER ASSISTANCE",
+    "RCCode": "1651"
+  },
+  {
+    "DPCode": "1651|EXE7",
+    "DPName": "EXE7 - OFFICE OF CITYWIDE HLTH INS ACCESS",
+    "RCCode": "1651"
+  },
+  {
+    "DPCode": "1661|BAA4",
+    "DPName": "BAA4 - EXEC-OFF. CONSTITUENT SERVICES",
+    "RCCode": "1661"
+  },
+  {
+    "DPCode": "1661|BNQ8",
+    "DPName": "BNQ8 - INFOLINE",
+    "RCCode": "1661"
+  },
+  {
+    "DPCode": "1661|GFD5",
+    "DPName": "GFD5 - CS OMBUDSMAN",
+    "RCCode": "1661"
+  },
+  {
+    "DPCode": "1661|LA61",
+    "DPName": "LA61 - RC61-40,40A",
+    "RCCode": "1661"
+  },
+  {
+    "DPCode": "1661|LB61",
+    "DPName": "LB61 - RC61-",
+    "RCCode": "1661"
+  },
+  {
+    "DPCode": "1661|MA95",
+    "DPName": "MA95 - OFFICE OF CLIENT SERVICES AND ENGAGEMENT",
+    "RCCode": "1661"
+  },
+  {
+    "DPCode": "1661|ZRA2",
+    "DPName": "ZRA2 - INFOLINE - MEDICAID RECLAIMING PEG",
+    "RCCode": "1661"
+  },
+  {
+    "DPCode": "1760|BAB8",
+    "DPName": "BAB8 - EXEC. OFFICE OCAIS",
+    "RCCode": "1760"
+  },
+  {
+    "DPCode": "1760|BAB9",
+    "DPName": "BAB9 - ORIA NYCITIZENSHIP- GRANT FUNDED",
+    "RCCode": "1760"
+  },
+  {
+    "DPCode": "1760|EAA5",
+    "DPName": "EAA5 - EA-COMMUNITY AFFAIRS",
+    "RCCode": "1760"
+  },
+  {
+    "DPCode": "1760|MM60",
+    "DPName": "MM60 - MAYORAL DP OFF OF COMMUNITY AFFAIRS & IM",
+    "RCCode": "1760"
+  },
+  {
+    "DPCode": "1760|PCE7",
+    "DPName": "PCE7 - OFFICE OF COMMUNITY ENGAGEMENT & ACCESS",
+    "RCCode": "1760"
+  },
+  {
+    "DPCode": "1788|ADV2",
+    "DPName": "ADV2 - OFFICE OF ADVOCACY",
+    "RCCode": "1788"
+  },
+  {
+    "DPCode": "1788|BAB6",
+    "DPName": "BAB6 - OFFICE OF REFUGEE & IMMIGRANT AFFAIRS",
+    "RCCode": "1788"
+  },
+  {
+    "DPCode": "1789|MM89",
+    "DPName": "MM89 - MAYORAL DP MAYORS ACTION PLAN FOR NEIGHB",
+    "RCCode": "1789"
+  },
+  {
+    "DPCode": "1804|BNM8",
+    "DPName": "BNM8 - ELIGIBILITY MONITORING CENTRAL",
+    "RCCode": "1804"
+  },
+  {
+    "DPCode": "1804|BNQ5",
+    "DPName": "BNQ5 - QUALITY ASSURANCE",
+    "RCCode": "1804"
+  },
+  {
+    "DPCode": "1804|BNQ7",
+    "DPName": "BNQ7 - AUDIT & QUALITY CONTROL",
+    "RCCode": "1804"
+  },
+  {
+    "DPCode": "1804|BNV3",
+    "DPName": "BNV3 - OFFICE OF PROGRAM MONITORING & ASSMNT FO",
+    "RCCode": "1804"
+  },
+  {
+    "DPCode": "1804|PAC4",
+    "DPName": "PAC4 - OFF QA FISCAL INTEG MEDICIAD QUALITY CON",
+    "RCCode": "1804"
+  },
+  {
+    "DPCode": "1804|Z3P2",
+    "DPName": "Z3P2 - AUDIT & QUALITY CONTROL",
+    "RCCode": "1804"
+  },
+  {
+    "DPCode": "1804|ZLM8",
+    "DPName": "ZLM8 - OFFICE OF PROGRAM MONITORING & ASSMT FOR",
+    "RCCode": "1804"
+  },
+  {
+    "DPCode": "1804|ZQA2",
+    "DPName": "ZQA2 - ELIGIBILITY MONIT CENTRAL OFFICE",
+    "RCCode": "1804"
+  },
+  {
+    "DPCode": "1815|BAP2",
+    "DPName": "BAP2 - OFFICE OF AUDIT SVCES ADMINISTRATION",
+    "RCCode": "1815"
+  },
+  {
+    "DPCode": "1815|DS72",
+    "DPName": "DS72 - DSS AUDIT SERVICES",
+    "RCCode": "1815"
+  },
+  {
+    "DPCode": "1815|ZAAW",
+    "DPName": "ZAAW - INTERNAL AND VENDOR AUDIT SERVICES",
+    "RCCode": "1815"
+  },
+  {
+    "DPCode": "1815|ZAAX",
+    "DPName": "ZAAX - AUDIT COORDINATION",
+    "RCCode": "1815"
+  },
+  {
+    "DPCode": "1815|ZAUV",
+    "DPName": "ZAUV - MEDICAID AUDIT REVIEW UNIT",
+    "RCCode": "1815"
+  },
+  {
+    "DPCode": "1838|BAC3",
+    "DPName": "BAC3 - SPECIAL INVESTIGATIONS",
+    "RCCode": "1838"
+  },
+  {
+    "DPCode": "1838|BQN9",
+    "DPName": "BQN9 - PAO-OFFICE OF ADMINISTRATION",
+    "RCCode": "1838"
+  },
+  {
+    "DPCode": "1838|BQR3",
+    "DPName": "BQR3 - PAO & COMPLIANCE OFFICE",
+    "RCCode": "1838"
+  },
+  {
+    "DPCode": "1838|BQR5",
+    "DPName": "BQR5 - ORA  DIVISION OF INFORMATION  SYSTEMS &",
+    "RCCode": "1838"
+  },
+  {
+    "DPCode": "1838|DS83",
+    "DPName": "DS83 - DSS PROGRAM ACCOUNTABILITY",
+    "RCCode": "1838"
+  },
+  {
+    "DPCode": "1838|PAC2",
+    "DPName": "PAC2 - PACO COMPLIANCE UNIT",
+    "RCCode": "1838"
+  },
+  {
+    "DPCode": "1838|XCD8",
+    "DPName": "XCD8 - OPA OFFICE OF DATA SECURITY MGMT",
+    "RCCode": "1838"
+  },
+  {
+    "DPCode": "1958|CSS2",
+    "DPName": "CSS2 - CHIEF SPECIAL SERVICES OFFICER",
+    "RCCode": "1958"
+  },
+  {
+    "DPCode": "1958|DAS2",
+    "DPName": "DAS2 - HASA-GREENWOOD",
+    "RCCode": "1958"
+  },
+  {
+    "DPCode": "1958|DAS4",
+    "DPName": "DAS4 - HASA GRAND CONCOURSE FIELD",
+    "RCCode": "1958"
+  },
+  {
+    "DPCode": "1958|DFC2",
+    "DPName": "DFC2 - HASA GREENWOOD FAMILY CASE MGMT",
+    "RCCode": "1958"
+  },
+  {
+    "DPCode": "1958|DFC4",
+    "DPName": "DFC4 - HASA STATEN ISLAND FAMILY CASE MGMT",
+    "RCCode": "1958"
+  },
+  {
+    "DPCode": "1958|DFC5",
+    "DPName": "DFC5 - HASA KINGSBRIDGE FAMILY CASE MGMT",
+    "RCCode": "1958"
+  },
+  {
+    "DPCode": "1958|DSC2",
+    "DPName": "DSC2 - SERVICELINE",
+    "RCCode": "1958"
+  },
+  {
+    "DPCode": "1958|DSC4",
+    "DPName": "DSC4 - HASA CROTONA SINGLE",
+    "RCCode": "1958"
+  },
+  {
+    "DPCode": "1958|DSC6",
+    "DPName": "DSC6 - HASA CONEY ISLAND SINGLE CASE MGMT",
+    "RCCode": "1958"
+  },
+  {
+    "DPCode": "1958|EHA2",
+    "DPName": "EHA2 - HASA FINANCE, CONTRACT & PERSONNEL",
+    "RCCode": "1958"
+  },
+  {
+    "DPCode": "1958|EHA3",
+    "DPName": "EHA3 - HASA ELIGIBILITY OPERATIONS",
+    "RCCode": "1958"
+  },
+  {
+    "DPCode": "1958|EHA4",
+    "DPName": "EHA4 - HASA / HOMEMAKING UNIT",
+    "RCCode": "1958"
+  },
+  {
+    "DPCode": "1958|EHA5",
+    "DPName": "EHA5 - HASA HOUSING SVCES/EPU/SRO INSPECT/TRANS",
+    "RCCode": "1958"
+  },
+  {
+    "DPCode": "1958|EHA6",
+    "DPName": "EHA6 - HASA MIS UNIT",
+    "RCCode": "1958"
+  },
+  {
+    "DPCode": "1958|EHA7",
+    "DPName": "EHA7 - HASA PLANNING & QUALITY ASSURANCE UNIT",
+    "RCCode": "1958"
+  },
+  {
+    "DPCode": "1958|EHA9",
+    "DPName": "EHA9 - HASA FIELD OPERATIONS - ADMINISTRATION",
+    "RCCode": "1958"
+  },
+  {
+    "DPCode": "1958|ESB6",
+    "DPName": "ESB6 - HASA-KINGSBRIDGE",
+    "RCCode": "1958"
+  },
+  {
+    "DPCode": "1958|ESB7",
+    "DPName": "ESB7 - HASA-AMSTERDAM",
+    "RCCode": "1958"
+  },
+  {
+    "DPCode": "1958|ESB8",
+    "DPName": "ESB8 - HASA-HAMILTON",
+    "RCCode": "1958"
+  },
+  {
+    "DPCode": "1958|ETA9",
+    "DPName": "ETA9 - HASA-AIDS-WAVERLY UNIT",
+    "RCCode": "1958"
+  },
+  {
+    "DPCode": "1958|ETH8",
+    "DPName": "ETH8 - HASA JEROME",
+    "RCCode": "1958"
+  },
+  {
+    "DPCode": "1958|EVA2",
+    "DPName": "EVA2 - HASA-QUEENS FAMILY",
+    "RCCode": "1958"
+  },
+  {
+    "DPCode": "1958|EVA3",
+    "DPName": "EVA3 - HASA-CENTRAL ADMIN",
+    "RCCode": "1958"
+  },
+  {
+    "DPCode": "1958|EVB2",
+    "DPName": "EVB2 - HASA-STATEN ISLAND UNIT",
+    "RCCode": "1958"
+  },
+  {
+    "DPCode": "1958|EVB3",
+    "DPName": "EVB3 - HASA-BROWNSVILLE SINGLE",
+    "RCCode": "1958"
+  },
+  {
+    "DPCode": "1958|FCM3",
+    "DPName": "FCM3 - HASA AMSTERDAM FAMILY CASE MGMT",
+    "RCCode": "1958"
+  },
+  {
+    "DPCode": "1958|FCM4",
+    "DPName": "FCM4 - HASA BROWNSVILLE FAMILY CASE MGMT",
+    "RCCode": "1958"
+  },
+  {
+    "DPCode": "1958|FCM5",
+    "DPName": "FCM5 - HASA JEROME FAMILY CASE MGMT",
+    "RCCode": "1958"
+  },
+  {
+    "DPCode": "1958|FCM7",
+    "DPName": "FCM7 - HASA CONEY ISLAND FAMILY CASE MGT",
+    "RCCode": "1958"
+  },
+  {
+    "DPCode": "1958|FCM8",
+    "DPName": "FCM8 - HASA QUEENSBORO FAMILY CASE MGMT",
+    "RCCode": "1958"
+  },
+  {
+    "DPCode": "1958|FCM9",
+    "DPName": "FCM9 - HASA GRAND CONCOURSE FAMILY CASE MGMT",
+    "RCCode": "1958"
+  },
+  {
+    "DPCode": "1958|LA58",
+    "DPName": "LA58 - RC58-01,01A",
+    "RCCode": "1958"
+  },
+  {
+    "DPCode": "1958|ZHP2",
+    "DPName": "ZHP2 - HOPWA CONTRACT UNIT PERSONNEL 100%",
+    "RCCode": "1958"
+  },
+  {
+    "DPCode": "1958|ZHPA",
+    "DPName": "ZHPA - HOPWA ADMINISTRATION 100%",
+    "RCCode": "1958"
+  },
+  {
+    "DPCode": "1958|ZLD2",
+    "DPName": "ZLD2 - QUEENSBORO SINGLE CASE #51 100%",
+    "RCCode": "1958"
+  },
+  {
+    "DPCode": "1958|ZLD4",
+    "DPName": "ZLD4 - HAMILTON SINGLE CASE 100%",
+    "RCCode": "1958"
+  },
+  {
+    "DPCode": "1958|ZLD5",
+    "DPName": "ZLD5 - STATEN ISLAND SINGLE CASE #26 100%",
+    "RCCode": "1958"
+  },
+  {
+    "DPCode": "1958|ZLG3",
+    "DPName": "ZLG3 - HASA CONEY ISLAND FAMILY CASE MGMT 100%",
+    "RCCode": "1958"
+  },
+  {
+    "DPCode": "1958|ZLG5",
+    "DPName": "ZLG5 - HASA  HAMILTON FAMILY CASE MGMT 100%",
+    "RCCode": "1958"
+  },
+  {
+    "DPCode": "1962|CAE2",
+    "DPName": "CAE2 - CUSTOMIZED ASSISTANCE SERVICES EXEC",
+    "RCCode": "1962"
+  },
+  {
+    "DPCode": "1962|DSP3",
+    "DPName": "DSP3 - CAS DISABILITY SERVICES PROGRAM",
+    "RCCode": "1962"
+  },
+  {
+    "DPCode": "1962|DSP4",
+    "DPName": "DSP4 - CAS DISABILITY SERVICES PROGRAM AUTHORIZ",
+    "RCCode": "1962"
+  },
+  {
+    "DPCode": "1962|HPS2",
+    "DPName": "HPS2 - CAS HOUSING PLACEMENT SERVICES",
+    "RCCode": "1962"
+  },
+  {
+    "DPCode": "1962|IYA2",
+    "DPName": "IYA2 - OHMS HLTH & MENTAL HLTH SVCES",
+    "RCCode": "1962"
+  },
+  {
+    "DPCode": "1962|IYA3",
+    "DPName": "IYA3 - CAS ADMINISTRATION",
+    "RCCode": "1962"
+  },
+  {
+    "DPCode": "1962|IYP2",
+    "DPName": "IYP2 - OHMHS ASSESS HOMELESS WMN",
+    "RCCode": "1962"
+  },
+  {
+    "DPCode": "1962|IYP5",
+    "DPName": "IYP5 - PSYCH-MENTAL HEALTH PROGRM SRO",
+    "RCCode": "1962"
+  },
+  {
+    "DPCode": "1962|LA62",
+    "DPName": "LA62 - RC62-40,40A",
+    "RCCode": "1962"
+  },
+  {
+    "DPCode": "1962|OCSS",
+    "DPName": "OCSS - OFFICE OF CLINICAL & SVCS SYS INTEGRATIO",
+    "RCCode": "1962"
+  },
+  {
+    "DPCode": "1962|ORA2",
+    "DPName": "ORA2 - OFFICE OF REASONABLE ACCOMMODATIONS",
+    "RCCode": "1962"
+  },
+  {
+    "DPCode": "1962|ORS2",
+    "DPName": "ORS2 - CAS OFFICE OF REHABILITATION SERVICES",
+    "RCCode": "1962"
+  },
+  {
+    "DPCode": "1962|WEC2",
+    "DPName": "WEC2 - CAS WELLNESS/COMP/ASSESSMNT/REHAB",
+    "RCCode": "1962"
+  },
+  {
+    "DPCode": "1962|ZFH2",
+    "DPName": "ZFH2 - CAS SUBSTANCE USE POLICY,PLANNING & MONI",
+    "RCCode": "1962"
+  },
+  {
+    "DPCode": "1962|ZQB9",
+    "DPName": "ZQB9 - MEDICAL CONSULTATION UNIT 100%",
+    "RCCode": "1962"
+  },
+  {
+    "DPCode": "1992|HSP2",
+    "DPName": "HSP2 - HOUSING AND SERVICES DP",
+    "RCCode": "1992"
+  },
+  {
+    "DPCode": "2207|BNC3",
+    "DPName": "BNC3 - ORA FINANCIAL REVIEW & PROCESSING",
+    "RCCode": "2207"
+  },
+  {
+    "DPCode": "2207|BQC6",
+    "DPName": "BQC6 - ORA MANAGEMENT ANALYSIS, POLICY & DATA (",
+    "RCCode": "2207"
+  },
+  {
+    "DPCode": "2207|BQN4",
+    "DPName": "BQN4 - ORA CASH ASSISTANCE REPAYMENT UNIT",
+    "RCCode": "2207"
+  },
+  {
+    "DPCode": "2207|BQN5",
+    "DPName": "BQN5 - LIENS & RECOVERY",
+    "RCCode": "2207"
+  },
+  {
+    "DPCode": "2207|BQP2",
+    "DPName": "BQP2 - IREA ASSISTANCE REIMBURSEMENT UNIT",
+    "RCCode": "2207"
+  },
+  {
+    "DPCode": "2207|BQR2",
+    "DPName": "BQR2 - EXECUTIVE DEPUTY COMMISSIONER (IREA)",
+    "RCCode": "2207"
+  },
+  {
+    "DPCode": "2207|BQR6",
+    "DPName": "BQR6 - ORA REVENUE OPERATIONS",
+    "RCCode": "2207"
+  },
+  {
+    "DPCode": "2207|BQR7",
+    "DPName": "BQR7 - MEDICAID REPAYMENT UNIT",
+    "RCCode": "2207"
+  },
+  {
+    "DPCode": "2207|BQR8",
+    "DPName": "BQR8 - SUPPLEMENTAL NEEDS TRUST PROGRAM",
+    "RCCode": "2207"
+  },
+  {
+    "DPCode": "2207|LA07",
+    "DPName": "LA07 - RC07-10",
+    "RCCode": "2207"
+  },
+  {
+    "DPCode": "2207|LB07",
+    "DPName": "LB07 - RC07-10",
+    "RCCode": "2207"
+  },
+  {
+    "DPCode": "2207|Z3T9",
+    "DPName": "Z3T9 - IREA SNAP CR CLAIMS 100%",
+    "RCCode": "2207"
+  },
+  {
+    "DPCode": "2207|Z3U5",
+    "DPName": "Z3U5 - IREA SNAP CR CLAIMS",
+    "RCCode": "2207"
+  },
+  {
+    "DPCode": "2207|ZQM2",
+    "DPName": "ZQM2 - ORA OFFICE OF MED PRVDR FRAUD & ABUSE IN",
+    "RCCode": "2207"
+  },
+  {
+    "DPCode": "2207|ZQM4",
+    "DPName": "ZQM4 - IREA/MEDICAID PRESCRIPTION DRUG FRAUD 10",
+    "RCCode": "2207"
+  },
+  {
+    "DPCode": "2207|ZQM6",
+    "DPName": "ZQM6 - ORA OFFICE OF MED PRVDR FRAUD & ABUSE IN",
+    "RCCode": "2207"
+  },
+  {
+    "DPCode": "2263|BBQ4",
+    "DPName": "BBQ4 - BFI BFI MEDICAID INVESTIGATIONS",
+    "RCCode": "2263"
+  },
+  {
+    "DPCode": "2263|BQA8",
+    "DPName": "BQA8 - IREA BFI EXECUTIVE OFFICE",
+    "RCCode": "2263"
+  },
+  {
+    "DPCode": "2263|BQA9",
+    "DPName": "BQA9 - IREA BFI REFERRALS & INVESTIGATIONS",
+    "RCCode": "2263"
+  },
+  {
+    "DPCode": "2263|BQB2",
+    "DPName": "BQB2 - IREA BFI OFFICE OF INVESTIGATIONS",
+    "RCCode": "2263"
+  },
+  {
+    "DPCode": "2263|BQB3",
+    "DPName": "BQB3 - IREA BFI SNAP SQUAD",
+    "RCCode": "2263"
+  },
+  {
+    "DPCode": "2263|BQB4",
+    "DPName": "BQB4 - IREA BFI PROSECUTIONS & ADMIN DIVISION",
+    "RCCode": "2263"
+  },
+  {
+    "DPCode": "2263|BQB5",
+    "DPName": "BQB5 - IREA BFI PROSECUT & ADMIN HEAR EXTERNAL",
+    "RCCode": "2263"
+  },
+  {
+    "DPCode": "2263|BQB7",
+    "DPName": "BQB7 - IREA BFI SNAP IPV UNIT",
+    "RCCode": "2263"
+  },
+  {
+    "DPCode": "2263|BQN3",
+    "DPName": "BQN3 - BUREAU OF ELIGIBILITY VERIFICATION",
+    "RCCode": "2263"
+  },
+  {
+    "DPCode": "2263|BQN8",
+    "DPName": "BQN8 - BEV FIELD INVESTIGATIONS",
+    "RCCode": "2263"
+  },
+  {
+    "DPCode": "2263|BQP4",
+    "DPName": "BQP4 - IREA SNAP ECONOMIC CRIMES UNIT",
+    "RCCode": "2263"
+  },
+  {
+    "DPCode": "2263|CPU2",
+    "DPName": "CPU2 - IREA CHECK PROCESSING UNIT",
+    "RCCode": "2263"
+  },
+  {
+    "DPCode": "2263|LA63",
+    "DPName": "LA63 - RC63-10",
+    "RCCode": "2263"
+  },
+  {
+    "DPCode": "2365|BCS2",
+    "DPName": "BCS2 - OCSE/BOROUGH OFFICE & COURT SERVICES ADM",
+    "RCCode": "2365"
+  },
+  {
+    "DPCode": "2365|BOB2",
+    "DPName": "BOB2 - OCSE/BRONX BOROUGH OFFICE",
+    "RCCode": "2365"
+  },
+  {
+    "DPCode": "2365|BOB3",
+    "DPName": "BOB3 - OCSE/BROOKLYN BOROUGH OFFICE",
+    "RCCode": "2365"
+  },
+  {
+    "DPCode": "2365|BOM2",
+    "DPName": "BOM2 - OCSE/MANHATTAN BOROUGH OFFICE",
+    "RCCode": "2365"
+  },
+  {
+    "DPCode": "2365|BOQ2",
+    "DPName": "BOQ2 - OCSE/QUEENS BOROUGH OFFICE",
+    "RCCode": "2365"
+  },
+  {
+    "DPCode": "2365|CCS3",
+    "DPName": "CCS3 - OCSE/CENTRAL COURT SERVICES",
+    "RCCode": "2365"
+  },
+  {
+    "DPCode": "2365|CSA2",
+    "DPName": "CSA2 - OCSE EXECUTIVE DEPUTY COMMISIONERS OFFIC",
+    "RCCode": "2365"
+  },
+  {
+    "DPCode": "2365|CSA4",
+    "DPName": "CSA4 - OCSE CORRESPONDENCE SERVICES 100%",
+    "RCCode": "2365"
+  },
+  {
+    "DPCode": "2365|EEA2",
+    "DPName": "EEA2 - OCSE ADMINISTRATIVE ENFORCEMENT A",
+    "RCCode": "2365"
+  },
+  {
+    "DPCode": "2365|EEA3",
+    "DPName": "EEA3 - OCSE ENFORCEMENT OPERATIONS/SPEC INVESTI",
+    "RCCode": "2365"
+  },
+  {
+    "DPCode": "2365|EEA4",
+    "DPName": "EEA4 - OCSE ENFORCEMENT OPERATIONS ADMINISTRATI",
+    "RCCode": "2365"
+  },
+  {
+    "DPCode": "2365|EEB2",
+    "DPName": "EEB2 - OCSE ADMINISTRATIVE ENFORCEMENT B",
+    "RCCode": "2365"
+  },
+  {
+    "DPCode": "2365|ENF2",
+    "DPName": "ENF2 - OCSE/ENFORCEMENT OPERATIONS/INTERSTATE",
+    "RCCode": "2365"
+  },
+  {
+    "DPCode": "2365|ENF3",
+    "DPName": "ENF3 - OCSE-MODIFIED DEFAULT ORDER UNIT",
+    "RCCode": "2365"
+  },
+  {
+    "DPCode": "2365|FCS3",
+    "DPName": "FCS3 - OCSE/BRONX FAMILY COURT SERVICE",
+    "RCCode": "2365"
+  },
+  {
+    "DPCode": "2365|FCS4",
+    "DPName": "FCS4 - OCSE/BROOKLYN FAMILY COURT SERVICES",
+    "RCCode": "2365"
+  },
+  {
+    "DPCode": "2365|FCS5",
+    "DPName": "FCS5 - OCSE/MANHATTAN/STATEN ISLAND FAMILY COUR",
+    "RCCode": "2365"
+  },
+  {
+    "DPCode": "2365|FCS6",
+    "DPName": "FCS6 - OCSE/QUEENS FAMILY COURT SERVICES",
+    "RCCode": "2365"
+  },
+  {
+    "DPCode": "2365|FOA2",
+    "DPName": "FOA2 - OCSE/FISCAL OPERATIONS/ACCTS MAINTENANCE",
+    "RCCode": "2365"
+  },
+  {
+    "DPCode": "2365|FOA3",
+    "DPName": "FOA3 - OCSE/FISCAL OPERATIONS/ACCOUNTS AUDITING",
+    "RCCode": "2365"
+  },
+  {
+    "DPCode": "2365|FOA4",
+    "DPName": "FOA4 - OCSE/FISCAL OPERATIONS/ACCOUNTING",
+    "RCCode": "2365"
+  },
+  {
+    "DPCode": "2365|FOA5",
+    "DPName": "FOA5 - OCSE/FISCAL OPERATIONS/PAYMENT ADJUSTMEN",
+    "RCCode": "2365"
+  },
+  {
+    "DPCode": "2365|FOA6",
+    "DPName": "FOA6 - OCSE/FISCAL OPERATIONS/ADMINISTRATION",
+    "RCCode": "2365"
+  },
+  {
+    "DPCode": "2365|FOA7",
+    "DPName": "FOA7 - OCSE/FISCAL OPERATIONS/UNDISBURSED COLLE",
+    "RCCode": "2365"
+  },
+  {
+    "DPCode": "2365|LA65",
+    "DPName": "LA65 - RC65-08",
+    "RCCode": "2365"
+  },
+  {
+    "DPCode": "2365|LB65",
+    "DPName": "LB65 - RC65-",
+    "RCCode": "2365"
+  },
+  {
+    "DPCode": "2365|MSA2",
+    "DPName": "MSA2 - OCSE/MGMT ANAL QUAL & DATA/SYSTEMS ADMIN",
+    "RCCode": "2365"
+  },
+  {
+    "DPCode": "2365|MSA4",
+    "DPName": "MSA4 - OCSE MANAGEMENT SUPPORT & ADMIN SERVICES",
+    "RCCode": "2365"
+  },
+  {
+    "DPCode": "2365|MSA5",
+    "DPName": "MSA5 - OCSE MANAGEMENT & PLANNING",
+    "RCCode": "2365"
+  },
+  {
+    "DPCode": "2365|MSA6",
+    "DPName": "MSA6 - OCSE OFFICE AND FACILITIES SERVICES",
+    "RCCode": "2365"
+  },
+  {
+    "DPCode": "2365|OCS2",
+    "DPName": "OCS2 - OCSE/QUEENS BORO OFFICE DHS INITIATIVE",
+    "RCCode": "2365"
+  },
+  {
+    "DPCode": "2365|PCE2",
+    "DPName": "PCE2 - OCSE/PRNT & COMM. ENGMNT/CORRESPONDENCE",
+    "RCCode": "2365"
+  },
+  {
+    "DPCode": "2365|PCE3",
+    "DPName": "PCE3 - OCSE/PARENT & COMMUNITY ENGAGEMENT/ADMIN",
+    "RCCode": "2365"
+  },
+  {
+    "DPCode": "2365|PCE4",
+    "DPName": "PCE4 - OCSE/PRNT & COMM. ENGMNT/CUST SRVC OPER",
+    "RCCode": "2365"
+  },
+  {
+    "DPCode": "2365|PCE5",
+    "DPName": "PCE5 - OCSE/PRNT & COMM. ENGMNT/PARENT RESOURCE",
+    "RCCode": "2365"
+  },
+  {
+    "DPCode": "2365|PCE8",
+    "DPName": "PCE8 - OCSE/ENFORCEMENT OPERATIONS/EMPLOYMENT S",
+    "RCCode": "2365"
+  },
+  {
+    "DPCode": "2365|PCE9",
+    "DPName": "PCE9 - OCSE/PRNT & COMM. ENGMNT/PRIORITY CORRES",
+    "RCCode": "2365"
+  },
+  {
+    "DPCode": "2365|PED3",
+    "DPName": "PED3 - OCSE/MGMT ANAL QUAL & DATA/DATA ANAL & R",
+    "RCCode": "2365"
+  },
+  {
+    "DPCode": "2365|PED5",
+    "DPName": "PED5 - OCSE/MGMT ANAL QUAL & DATA/DATA INTEGRIT",
+    "RCCode": "2365"
+  },
+  {
+    "DPCode": "2365|PMA2",
+    "DPName": "PMA2 - OCSE/MGMT ANAL QUAL & DATA/ADMIN",
+    "RCCode": "2365"
+  },
+  {
+    "DPCode": "2365|PMA4",
+    "DPName": "PMA4 - OCSE/MGMT ANAL QUAL & DATA/PROJECT MGMT",
+    "RCCode": "2365"
+  },
+  {
+    "DPCode": "2365|PPA2",
+    "DPName": "PPA2 - OCSE/MGMT ANAL QUAL & DATA /QUALITY CTRL",
+    "RCCode": "2365"
+  },
+  {
+    "DPCode": "2365|TPP9",
+    "DPName": "TPP9 - OCSE TEEN PREGNANCY PREVENTION PROGRAM",
+    "RCCode": "2365"
+  },
+  {
+    "DPCode": "2441|BMF2",
+    "DPName": "BMF2 - #63 CONEY ISLAND HOMELESS DIVERSION",
+    "RCCode": "2441"
+  },
+  {
+    "DPCode": "2441|BMN3",
+    "DPName": "BMN3 - DIVERSION TEAM CENTRAL OFFICE",
+    "RCCode": "2441"
+  },
+  {
+    "DPCode": "2441|BMR2",
+    "DPName": "BMR2 - #17 FAMILY SVCES CENTER - DIVERSION TEAM",
+    "RCCode": "2441"
+  },
+  {
+    "DPCode": "2441|BNC2",
+    "DPName": "BNC2 - PATH DIVERSION TEAM",
+    "RCCode": "2441"
+  },
+  {
+    "DPCode": "2441|BNC4",
+    "DPName": "BNC4 - RENTAL ASSISTANCE UNIT/LEGAL SERVICES",
+    "RCCode": "2441"
+  },
+  {
+    "DPCode": "2441|BNT3",
+    "DPName": "BNT3 - HOUSING COURT LIAISON - QUEENS",
+    "RCCode": "2441"
+  },
+  {
+    "DPCode": "2441|BNT4",
+    "DPName": "BNT4 - HOUSING COURT LIAISON - MANHATTAN/S.I.",
+    "RCCode": "2441"
+  },
+  {
+    "DPCode": "2441|BNT5",
+    "DPName": "BNT5 - HOUSING COURT LIAISON - BRONX",
+    "RCCode": "2441"
+  },
+  {
+    "DPCode": "2441|BNT6",
+    "DPName": "BNT6 - HOUSING COURT LIAISON - BROOKLYN",
+    "RCCode": "2441"
+  },
+  {
+    "DPCode": "2441|BNT7",
+    "DPName": "BNT7 - HOUSING COURT LIAISON - CENTRAL OFFICE",
+    "RCCode": "2441"
+  },
+  {
+    "DPCode": "2441|BNU5",
+    "DPName": "BNU5 - #47 REFUGEE HOMELESS DIVERSION",
+    "RCCode": "2441"
+  },
+  {
+    "DPCode": "2441|DGL3",
+    "DPName": "DGL3 - #84 SENIOR WORKS CENTER DIVERSION TEAM",
+    "RCCode": "2441"
+  },
+  {
+    "DPCode": "2441|DGL5",
+    "DPName": "DGL5 - #39 UNION SQUARE DIVERSION TEAM",
+    "RCCode": "2441"
+  },
+  {
+    "DPCode": "2441|DNF2",
+    "DPName": "DNF2 - #62 VETERAN'S DIVERSION TEAM",
+    "RCCode": "2441"
+  },
+  {
+    "DPCode": "2441|DPA7",
+    "DPName": "DPA7 - #23 EASTEND DIVERSION TEAM",
+    "RCCode": "2441"
+  },
+  {
+    "DPCode": "2441|DPB7",
+    "DPName": "DPB7 - #40 MELROSE DIVERSION TEAM",
+    "RCCode": "2441"
+  },
+  {
+    "DPCode": "2441|DPC3",
+    "DPName": "DPC3 - # 53 QUEENS DIVERSION TEAM",
+    "RCCode": "2441"
+  },
+  {
+    "DPCode": "2441|DPD8",
+    "DPName": "DPD8 - #99 RICHMOND DIVERSION TEAM",
+    "RCCode": "2441"
+  },
+  {
+    "DPCode": "2441|DPE5",
+    "DPName": "DPE5 - #66 BUSHWICK DIVERSION TEAM",
+    "RCCode": "2441"
+  },
+  {
+    "DPCode": "2441|DPF3",
+    "DPName": "DPF3 - #35 DYCKMAN DIVERSION TEAM",
+    "RCCode": "2441"
+  },
+  {
+    "DPCode": "2441|DPF7",
+    "DPName": "DPF7 - #70 BAY RIDGE DIVERSION TEAM",
+    "RCCode": "2441"
+  },
+  {
+    "DPCode": "2441|DPJ3",
+    "DPName": "DPJ3 - FIA #18 ST NICHOLAS DIVERSION TEAM",
+    "RCCode": "2441"
+  },
+  {
+    "DPCode": "2441|DPJ4",
+    "DPName": "DPJ4 - BELLEVUE ASSESSMENT CENTER",
+    "RCCode": "2441"
+  },
+  {
+    "DPCode": "2441|DPK7",
+    "DPName": "DPK7 - # 67 CLINTON HILL DIVERSION TEAM",
+    "RCCode": "2441"
+  },
+  {
+    "DPCode": "2441|DPL5",
+    "DPName": "DPL5 - #13 WAVERLY DIVERSION TEAM",
+    "RCCode": "2441"
+  },
+  {
+    "DPCode": "2441|DPL9",
+    "DPName": "DPL9 - #46 CROTONA DIVERSION TEAM",
+    "RCCode": "2441"
+  },
+  {
+    "DPCode": "2441|DPM5",
+    "DPName": "DPM5 - #54 JAMAICA DIVERSION TEAM",
+    "RCCode": "2441"
+  },
+  {
+    "DPCode": "2441|DPP3",
+    "DPName": "DPP3 - #44 FORDHAM DIVERSION TEAM",
+    "RCCode": "2441"
+  },
+  {
+    "DPCode": "2441|DPP7",
+    "DPName": "DPP7 - #38 RIDER DIVERSION TEAM",
+    "RCCode": "2441"
+  },
+  {
+    "DPCode": "2441|DPQ5",
+    "DPName": "DPQ5 - #64 DEKALB DIVERSION TEAM",
+    "RCCode": "2441"
+  },
+  {
+    "DPCode": "2441|DPQ7",
+    "DPName": "DPQ7 - #79 ROCKAWAY DIVERSION TEAM",
+    "RCCode": "2441"
+  },
+  {
+    "DPCode": "2441|DPT6",
+    "DPName": "DPT6 - EAST RIVER HOMELESS DIVERSION TEAM",
+    "RCCode": "2441"
+  },
+  {
+    "DPCode": "2441|DRG9",
+    "DPName": "DRG9 - FRANKLIN WOMEN'S ASSESSMENT",
+    "RCCode": "2441"
+  },
+  {
+    "DPCode": "2441|EMS2",
+    "DPName": "EMS2 - HPA ENHANCED MOBILE SHELTER DIVERSION TE",
+    "RCCode": "2441"
+  },
+  {
+    "DPCode": "2441|LA41",
+    "DPName": "LA41 - RC41-01,01A,01B,01C",
+    "RCCode": "2441"
+  },
+  {
+    "DPCode": "2441|RAU2",
+    "DPName": "RAU2 - RAU HOMEBASE GRAND CONCOURSE (BA-2)",
+    "RCCode": "2441"
+  },
+  {
+    "DPCode": "2441|RAU3",
+    "DPName": "RAU3 - RAU HOMEBASE BEAVER ST (BA-3)",
+    "RCCode": "2441"
+  },
+  {
+    "DPCode": "2441|RAU4",
+    "DPName": "RAU4 - RAU HOMEBASE JACKSON AVE (BA-1)",
+    "RCCode": "2441"
+  },
+  {
+    "DPCode": "2441|RAU5",
+    "DPName": "RAU5 - RAU NYCHA",
+    "RCCode": "2441"
+  },
+  {
+    "DPCode": "2441|ZQJ6",
+    "DPName": "ZQJ6 - HOMELESS SERVICES RGNL MANAGER",
+    "RCCode": "2441"
+  },
+  {
+    "DPCode": "2441|ZQJ9",
+    "DPName": "ZQJ9 - LANDLORD OMBUDSMAN TEAM",
+    "RCCode": "2441"
+  },
+  {
+    "DPCode": "2442|DS92",
+    "DPName": "DS92 - DSS LAI AFTERCARE SERVICES",
+    "RCCode": "2442"
+  },
+  {
+    "DPCode": "2442|HPL2",
+    "DPName": "HPL2 - HOMELESSNES PREVENT LEGAL ASSIST INITIAT",
+    "RCCode": "2442"
+  },
+  {
+    "DPCode": "2442|HPL3",
+    "DPName": "HPL3 - HOMELESSNESS PREVENT LEGAL ASSIST INITIA",
+    "RCCode": "2442"
+  },
+  {
+    "DPCode": "2442|HPL4",
+    "DPName": "HPL4 - HOMELESSNESS PREVENT LEGAL INITIATIVES M",
+    "RCCode": "2442"
+  },
+  {
+    "DPCode": "2442|RCU2",
+    "DPName": "RCU2 - RENTAL SUBSIDIES/REVIEW CONFERENCE UNIT",
+    "RCCode": "2442"
+  },
+  {
+    "DPCode": "2442|RSE3",
+    "DPName": "RSE3 - HOMELESSNESS PREVENT RENT SUB EXEC OFF",
+    "RCCode": "2442"
+  },
+  {
+    "DPCode": "2442|RSU2",
+    "DPName": "RSU2 - HOMELESSNESS PREVENT RENTAL SUB LINKING",
+    "RCCode": "2442"
+  },
+  {
+    "DPCode": "2442|RSU3",
+    "DPName": "RSU3 - HOMELESSNESS PREVENT RENTAL SUB RENEWAL",
+    "RCCode": "2442"
+  },
+  {
+    "DPCode": "2442|RSU4",
+    "DPName": "RSU4 - HOMELESSNESS PREVENT RENTAL SUB PAYMENT",
+    "RCCode": "2442"
+  },
+  {
+    "DPCode": "2442|RSU5",
+    "DPName": "RSU5 - HOMELESSNESS PREVENT RENTAL SUB LEASE SI",
+    "RCCode": "2442"
+  },
+  {
+    "DPCode": "2442|SHB2",
+    "DPName": "SHB2 - LAI LEGAL SERVICES BROOKLYN HOUSING COUR",
+    "RCCode": "2442"
+  },
+  {
+    "DPCode": "2442|SHB4",
+    "DPName": "SHB4 - LAI LEGAL SERVICES HARLEM HOUSING COURT",
+    "RCCode": "2442"
+  },
+  {
+    "DPCode": "2442|SHB5",
+    "DPName": "SHB5 - LAI LEGAL SERVICES MANHATTAN HOUSING COU",
+    "RCCode": "2442"
+  },
+  {
+    "DPCode": "2443|EAT2",
+    "DPName": "EAT2 - EARLY INTERVENTION OUTREACH TEAM (EIOT)",
+    "RCCode": "2443"
+  },
+  {
+    "DPCode": "2443|EFT2",
+    "DPName": "EFT2 - HPA ELECTONIC FUNDS TRANSFER CENTRALIZED",
+    "RCCode": "2443"
+  },
+  {
+    "DPCode": "2443|NHP2",
+    "DPName": "NHP2 - HPA NEIGHBORHOOD HOMELESS PERVENTION OUT",
+    "RCCode": "2443"
+  },
+  {
+    "DPCode": "2443|RRH2",
+    "DPName": "RRH2 - HPA RAPID REHOUSING UNIT",
+    "RCCode": "2443"
+  },
+  {
+    "DPCode": "2545|BRE4",
+    "DPName": "BRE4 - BUSINESS PROCESS INNOVATION DP",
+    "RCCode": "2545"
+  },
+  {
+    "DPCode": "7101|AAA1",
+    "DPName": "AAA1 - FIRST DEP COMMISSIONER",
+    "RCCode": "7101"
+  },
+  {
+    "DPCode": "7101|AAAA",
+    "DPName": "AAAA - COMMISSIONER'S OFFICE",
+    "RCCode": "7101"
+  },
+  {
+    "DPCode": "7101|AAB1",
+    "DPName": "AAB1 - DEP COMM FISCAL OPS",
+    "RCCode": "7101"
+  },
+  {
+    "DPCode": "7110|AACA",
+    "DPName": "AACA - GENERAL COUNSEL, ETHICS & EMPLOYMENT, FA",
+    "RCCode": "7110"
+  },
+  {
+    "DPCode": "7110|AAD5",
+    "DPName": "AAD5 - POLICY & RESEARCH",
+    "RCCode": "7110"
+  },
+  {
+    "DPCode": "7110|AAD7",
+    "DPName": "AAD7 - DEP COMM FOR ADMINISTRATION",
+    "RCCode": "7110"
+  },
+  {
+    "DPCode": "7110|AAD9",
+    "DPName": "AAD9 - OFFICE OF ADMINISTRATIVE SERVICES",
+    "RCCode": "7110"
+  },
+  {
+    "DPCode": "7110|AAFA",
+    "DPName": "AAFA - ADMINISTRATIVE SERVICES",
+    "RCCode": "7110"
+  },
+  {
+    "DPCode": "7110|BRE2",
+    "DPName": "BRE2 - OFFICE OF COMMUNITY AND EXTERNAL AFFAIRS",
+    "RCCode": "7110"
+  },
+  {
+    "DPCode": "7110|BRE3",
+    "DPName": "BRE3 - PERSONNEL",
+    "RCCode": "7110"
+  },
+  {
+    "DPCode": "7110|BRE7",
+    "DPName": "BRE7 - ADMINISTRATIVE CONTRACTS",
+    "RCCode": "7110"
+  },
+  {
+    "DPCode": "7110|BRE8",
+    "DPName": "BRE8 - PAYROLL/TIMEKEEPING",
+    "RCCode": "7110"
+  },
+  {
+    "DPCode": "7110|BRG4",
+    "DPName": "BRG4 - OFFICE OF AGENCY CHIEF CONTRACTING OFFIC",
+    "RCCode": "7110"
+  },
+  {
+    "DPCode": "7110|EXJ8",
+    "DPName": "EXJ8 - FLEET/HERO OPERATIONS",
+    "RCCode": "7110"
+  },
+  {
+    "DPCode": "7110|EXJ9",
+    "DPName": "EXJ9 - FLEET/TRANSPORTATION SERVICES",
+    "RCCode": "7110"
+  },
+  {
+    "DPCode": "7110|FNH8",
+    "DPName": "FNH8 - LAUNDRY AND LOGISTICS PROGRAM",
+    "RCCode": "7110"
+  },
+  {
+    "DPCode": "7115|AAA7",
+    "DPName": "AAA7 - OFFICE OF HEALTH CARE POLICY AND ADMINIS",
+    "RCCode": "7115"
+  },
+  {
+    "DPCode": "7130|AAA3",
+    "DPName": "AAA3 - ADMIN - MAINTENANCE AND REPAIR/TRADES",
+    "RCCode": "7130"
+  },
+  {
+    "DPCode": "7130|DNM5",
+    "DPName": "DNM5 - MATERIAL ACQ. AND DELIVERY",
+    "RCCode": "7130"
+  },
+  {
+    "DPCode": "7130|ZZZ1",
+    "DPName": "ZZZ1 - NEG HOTEL DESK",
+    "RCCode": "7130"
+  },
+  {
+    "DPCode": "7135|AADA",
+    "DPName": "AADA - OFFICE OF FINANCE",
+    "RCCode": "7135"
+  },
+  {
+    "DPCode": "7135|AAEA",
+    "DPName": "AAEA - FINANCIAL & MANAGEMENT AUDITS",
+    "RCCode": "7135"
+  },
+  {
+    "DPCode": "7135|BRE5",
+    "DPName": "BRE5 - OFFICE OF BUDGET",
+    "RCCode": "7135"
+  },
+  {
+    "DPCode": "7135|BREA",
+    "DPName": "BREA - ASST COMM BUDGET",
+    "RCCode": "7135"
+  },
+  {
+    "DPCode": "7140|BRA2",
+    "DPName": "BRA2 - DEP. COMMISSIONER ADULT PROGRAMS",
+    "RCCode": "7140"
+  },
+  {
+    "DPCode": "7140|ETA3",
+    "DPName": "ETA3 - ADULT FAMILIES & VETERAN'S AFFAIRS",
+    "RCCode": "7140"
+  },
+  {
+    "DPCode": "7140|ETB3",
+    "DPName": "ETB3 - ADULT FAMILIES INTAKE CENTER",
+    "RCCode": "7140"
+  },
+  {
+    "DPCode": "7140|FNC7",
+    "DPName": "FNC7 - SHELTER ADMINISTRATION",
+    "RCCode": "7140"
+  },
+  {
+    "DPCode": "7140|FNC8",
+    "DPName": "FNC8 - 30TH ST ASSESSMENT",
+    "RCCode": "7140"
+  },
+  {
+    "DPCode": "7140|FNC9",
+    "DPName": "FNC9 - DHS-KINGSBORO BLDG 6",
+    "RCCode": "7140"
+  },
+  {
+    "DPCode": "7140|FNE2",
+    "DPName": "FNE2 - BARBARA KLEIMAN RESIDENCE",
+    "RCCode": "7140"
+  },
+  {
+    "DPCode": "7140|FNE5",
+    "DPName": "FNE5 - ATLANTIC AVENUE ARMORY",
+    "RCCode": "7140"
+  },
+  {
+    "DPCode": "7140|FNE6",
+    "DPName": "FNE6 - FRANKLIN AVE ARMORY-MENS SHLTR",
+    "RCCode": "7140"
+  },
+  {
+    "DPCode": "7140|FNF2",
+    "DPName": "FNF2 - 30TH ST (BELLEVUE) MENS SHELTER I",
+    "RCCode": "7140"
+  },
+  {
+    "DPCode": "7140|FNJ5",
+    "DPName": "FNJ5 - ADULT INTAKE & VACANCY CONTROL",
+    "RCCode": "7140"
+  },
+  {
+    "DPCode": "7140|FNM7",
+    "DPName": "FNM7 - ADULT ELIGIBILITY",
+    "RCCode": "7140"
+  },
+  {
+    "DPCode": "7140|HNA3",
+    "DPName": "HNA3 - ADMINISTRATION AND PERSONNEL SERVICES (F",
+    "RCCode": "7140"
+  },
+  {
+    "DPCode": "7140|HNB5",
+    "DPName": "HNB5 - ADULT PLANNING AND ADMINISTRAION",
+    "RCCode": "7140"
+  },
+  {
+    "DPCode": "7140|QRC1",
+    "DPName": "QRC1 - AC/HOUSING & PROGRAM PLANNING",
+    "RCCode": "7140"
+  },
+  {
+    "DPCode": "7140|QRC8",
+    "DPName": "QRC8 - ESG ADULTS /PLACEMENT&FAC/ HOUSING AND P",
+    "RCCode": "7140"
+  },
+  {
+    "DPCode": "7140|QRD1",
+    "DPName": "QRD1 - ADULTS/PLACEMT & FACILITATION/GRANTS",
+    "RCCode": "7140"
+  },
+  {
+    "DPCode": "7140|QRD4",
+    "DPName": "QRD4 - PLANNING AND PROCUREMENTMGMT (FAMILY)",
+    "RCCode": "7140"
+  },
+  {
+    "DPCode": "7140|SHA3",
+    "DPName": "SHA3 - CATHERINE STREET(LIFE) RESIDENCE",
+    "RCCode": "7140"
+  },
+  {
+    "DPCode": "7140|SHA4",
+    "DPName": "SHA4 - CATHERINE ST- COUNSELING",
+    "RCCode": "7140"
+  },
+  {
+    "DPCode": "7140|SHB3",
+    "DPName": "SHB3 - AUBURN FAMILY RESIDENCE",
+    "RCCode": "7140"
+  },
+  {
+    "DPCode": "7140|TRA2",
+    "DPName": "TRA2 - ASST COMMISSIONER SHELTER OPERATIONS",
+    "RCCode": "7140"
+  },
+  {
+    "DPCode": "7140|TRA4",
+    "DPName": "TRA4 - STREET HOMELESSNESS SOLUTIONS-INS",
+    "RCCode": "7140"
+  },
+  {
+    "DPCode": "7140|ZLM6",
+    "DPName": "ZLM6 - ESG-ESG SHELTER ADMIN/QA, PROGRAM EV",
+    "RCCode": "7140"
+  },
+  {
+    "DPCode": "7140|ZLM8",
+    "DPName": "ZLM8 - ESG-EAST RIVER MODEL CENTER",
+    "RCCode": "7140"
+  },
+  {
+    "DPCode": "7140|ZLM9",
+    "DPName": "ZLM9 - ESG-SUB ABUSE/BKR",
+    "RCCode": "7140"
+  },
+  {
+    "DPCode": "7150|EAA2",
+    "DPName": "EAA2 - DEP. COMMISSIONER FAMILY PROGRAMS",
+    "RCCode": "7150"
+  },
+  {
+    "DPCode": "7150|EAA6",
+    "DPName": "EAA6 - PERMANANCY PLANNING",
+    "RCCode": "7150"
+  },
+  {
+    "DPCode": "7150|ETB1",
+    "DPName": "ETB1 - PATH INTAKE",
+    "RCCode": "7150"
+  },
+  {
+    "DPCode": "7150|ETC1",
+    "DPName": "ETC1 - FAMILY CASE MGMT FIELD TEAMS",
+    "RCCode": "7150"
+  },
+  {
+    "DPCode": "7150|ETD3",
+    "DPName": "ETD3 - TRANS PROGRAMS-ASSNT COMM",
+    "RCCode": "7150"
+  },
+  {
+    "DPCode": "7150|SHH3",
+    "DPName": "SHH3 - FLATLANDS FAMILY RESIDENCE",
+    "RCCode": "7150"
+  },
+  {
+    "DPCode": "7150|SHH4",
+    "DPName": "SHH4 - TR II-DHS-FLATLANDS- SERVICES",
+    "RCCode": "7150"
+  },
+  {
+    "DPCode": "7150|SHH5",
+    "DPName": "SHH5 - TR II-DHS-FLATLANDS- MISC",
+    "RCCode": "7150"
+  },
+  {
+    "DPCode": "7150|SHH7",
+    "DPName": "SHH7 - TR II-DHS-FLATLANDS- OCCUPANCY",
+    "RCCode": "7150"
+  },
+  {
+    "DPCode": "7150|SHY3",
+    "DPName": "SHY3 - JAMAICA FAMILY RESIDENCE",
+    "RCCode": "7150"
+  },
+  {
+    "DPCode": "7150|SHY4",
+    "DPName": "SHY4 - JAMAICA ASSESSMENT CT-SERVICES",
+    "RCCode": "7150"
+  },
+  {
+    "DPCode": "7150|SHY5",
+    "DPName": "SHY5 - JAMAICA ASSESSMENT CT-MISC",
+    "RCCode": "7150"
+  },
+  {
+    "DPCode": "7150|SHY7",
+    "DPName": "SHY7 - JAMAICA ASSESSMENT CT-OCCUPNCY",
+    "RCCode": "7150"
+  },
+  {
+    "DPCode": "7160|BEM1",
+    "DPName": "BEM1 - BROOKLYN WOMEN'S SHELTER",
+    "RCCode": "7160"
+  },
+  {
+    "DPCode": "7160|BEM2",
+    "DPName": "BEM2 - PATH SECURITY",
+    "RCCode": "7160"
+  },
+  {
+    "DPCode": "7160|BEM3",
+    "DPName": "BEM3 - CHARLES GAY SECURITY",
+    "RCCode": "7160"
+  },
+  {
+    "DPCode": "7160|BEM4",
+    "DPName": "BEM4 - AUBURN UNIFORMED SECURITY",
+    "RCCode": "7160"
+  },
+  {
+    "DPCode": "7160|BEM5",
+    "DPName": "BEM5 - 30TH STREET UNIFORMED SECURITY",
+    "RCCode": "7160"
+  },
+  {
+    "DPCode": "7160|BEM8",
+    "DPName": "BEM8 - SHELTER SECURITY MANAGEMENT",
+    "RCCode": "7160"
+  },
+  {
+    "DPCode": "7160|BEM9",
+    "DPName": "BEM9 - ATLANTIC AVENUE ARMORY - SECURITY",
+    "RCCode": "7160"
+  },
+  {
+    "DPCode": "7160|BEN1",
+    "DPName": "BEN1 - ZONE2 –NYC SAFE – BROOKLYN QUEENS",
+    "RCCode": "7160"
+  },
+  {
+    "DPCode": "7160|BEN3",
+    "DPName": "BEN3 - SECURITY TASK FORCE - BRKLYN",
+    "RCCode": "7160"
+  },
+  {
+    "DPCode": "7160|BEN4",
+    "DPName": "BEN4 - SECURITY TASK FORCE - BRX/MAN",
+    "RCCode": "7160"
+  },
+  {
+    "DPCode": "7160|BEN6",
+    "DPName": "BEN6 - KINGSBORO STAR SECURITY",
+    "RCCode": "7160"
+  },
+  {
+    "DPCode": "7160|BEN7",
+    "DPName": "BEN7 - ADULT BRC MCGINNIS SECURITY",
+    "RCCode": "7160"
+  },
+  {
+    "DPCode": "7160|BEO1",
+    "DPName": "BEO1 - LIFE/CATHERINE STREET SECURITY",
+    "RCCode": "7160"
+  },
+  {
+    "DPCode": "7160|BEO2",
+    "DPName": "BEO2 - FLATLANDS SECURITY",
+    "RCCode": "7160"
+  },
+  {
+    "DPCode": "7160|BEO3",
+    "DPName": "BEO3 - JAMAICA SECURITY BUDGET CODE 0521",
+    "RCCode": "7160"
+  },
+  {
+    "DPCode": "7160|BGA1",
+    "DPName": "BGA1 - BRC/JACK RYAN SECURITY",
+    "RCCode": "7160"
+  },
+  {
+    "DPCode": "7160|BRB4",
+    "DPName": "BRB4 - Bronx Blvd-DHS officers",
+    "RCCode": "7160"
+  },
+  {
+    "DPCode": "7160|DPZ9",
+    "DPName": "DPZ9 - UNIFORMD SECURTY-CMP LAGUARDIA",
+    "RCCode": "7160"
+  },
+  {
+    "DPCode": "7160|EMO1",
+    "DPName": "EMO1 - SECURITY OFFICE- EMERGENCY MANAGEMENT OP",
+    "RCCode": "7160"
+  },
+  {
+    "DPCode": "7170|CPD1",
+    "DPName": "CPD1 - DIVISION OF CAPACITY PLANNING AND DEVELO",
+    "RCCode": "7170"
+  },
+  {
+    "DPCode": "7175|ETB6",
+    "DPName": "ETB6 - HERO-CARE DAY CERTIFICATION",
+    "RCCode": "7175"
+  },
+  {
+    "DPCode": "7180|AAC4",
+    "DPName": "AAC4 - AFTERCARE SERVICES (PREVENTION)",
+    "RCCode": "7180"
+  }
+]

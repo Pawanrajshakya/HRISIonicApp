@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-navbar color="secondary">
+    <ion-title>Login</ion-title>
+    <ion-buttons start>
+      <button ion-button (click)="dismiss()">
+        <span ion-text showWhen="ios">Close</span>
+        <ion-icon name="md-close" showWhen="android, windows"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+<ion-content>
+  <form #f="ngForm" (ngSubmit)="login(f)">
+    <ion-list no-lines>
+      <ion-list-header>Please enter your LANID</ion-list-header>
+      <ion-item>
+        <ion-label>Lan ID</ion-label>
+        <ion-input type="text" ngModel name="lanID" required></ion-input>
+      </ion-item>
+      <ion-item>
+        <button ion-button block icon-right type="submit" [disabled]="!f.valid">
+        Login
+        <ion-icon name="log-in"></ion-icon>
+      </button>
+      </ion-item>
+    </ion-list>
+  </form>
+</ion-content>

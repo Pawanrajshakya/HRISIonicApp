@@ -1,0 +1,90 @@
+[
+  {
+    "Code": "A",
+    "Description": "Temp 5.7.6 (DFT Dept For Aging)  -A"
+  },
+  {
+    "Code": "C",
+    "Description": "Permanent - Competitive       -C"
+  },
+  {
+    "Code": "D",
+    "Description": "DISABLED-RULE 3.2.10          -D"
+  },
+  {
+    "Code": "E",
+    "Description": "Temp 5.4.1a Not Exceed 3 Mos  -E"
+  },
+  {
+    "Code": "F",
+    "Description": "TEMP 541B FROM ELIGIBLE LIST  -F"
+  },
+  {
+    "Code": "G",
+    "Description": "Temp 5.4.1c Elig Lst Exec 6Mos-G"
+  },
+  {
+    "Code": "H",
+    "Description": "TEMP 542 PERM INCUMBENT LOA   -H"
+  },
+  {
+    "Code": "I",
+    "Description": "Temp 5.4.2b Not Exceed 6 Mos  -I"
+  },
+  {
+    "Code": "J",
+    "Description": "551 FILLING PERM VAC NO LIST  -J"
+  },
+  {
+    "Code": "K",
+    "Description": "RULE 5.4.2B - 12 MOS          -K"
+  },
+  {
+    "Code": "L",
+    "Description": "LABOR CLASS                   -L"
+  },
+  {
+    "Code": "M",
+    "Description": "TEMP 561 (SEASONAL)           -M"
+  },
+  {
+    "Code": "N",
+    "Description": "NON-COMPETITIVE               -N"
+  },
+  {
+    "Code": "O",
+    "Description": "TEMP 5.7.1 EXPERT EXCEPT APPT -O"
+  },
+  {
+    "Code": "P",
+    "Description": "Rule 5.7.5 City Services Aide -P"
+  },
+  {
+    "Code": "Q",
+    "Description": "PENDING DETRM OF CLASSIFICATN -Q"
+  },
+  {
+    "Code": "R",
+    "Description": "Federal Provisional           -R"
+  },
+  {
+    "Code": "S",
+    "Description": "3.2.11 NON COMP OUTSIDE CITY  -S"
+  },
+  {
+    "Code": "U",
+    "Description": "UNCLASSIFIED                  -U"
+  },
+  {
+    "Code": "W",
+    "Description": "Non-Competitive Appt 3.2.10   -W"
+  },
+  {
+    "Code": "X",
+    "Description": "EXEMPT                        -X"
+  },
+  {
+    "Code": "Z",
+    "Description": "NY SOCIAL SERVICES LAW 336-E  -Z"
+  }
+]

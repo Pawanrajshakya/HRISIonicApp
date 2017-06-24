@@ -1,0 +1,23 @@
+{
+  "FirstName": "DELMA",
+  "LastName": "FAHIE",
+  "WorkAddress": "4 WORLD TRADE CENTER",
+  "WorkEmail": "fahied@hra.nyc.gov",
+  "WorkCity": "NEW YORK",
+  "WorkPhone": "929-221-6745",
+  "Supervisor": "MEDRANO, CECILIA",
+  "WorkZipCode": "10007",
+  "HomeAddress": "35a Kossuth Place",
+  "HomePhone": "347/613-5351",
+  "HomeCity": "Brooklyn",
+  "HomeState": "NY",
+  "ZipCode": "11221",
+  "ContactInfo": [
+    {
+      "Name": "Daphnie Rabsatt",
+      "Relationship": "Sibling",
+      "PrimaryPhone": "347/866-5679",
+      "SecondaryPhone": ""
+    }
+  ]
+}

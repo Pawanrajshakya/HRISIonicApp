@@ -1,0 +1,282 @@
+[
+  {
+    "Code": "0101",
+    "Description": "ADMINISTRATOR/COMMISSIONER - 0101"
+  },
+  {
+    "Code": "0756",
+    "Description": "ADULT PROTECTIVE SERVICES - 0756"
+  },
+  {
+    "Code": "2545",
+    "Description": "BUSINESS PROCESS INNOVATION - 2545"
+  },
+  {
+    "Code": "1124",
+    "Description": "CENTER FOR ECONOMIC OPPORTUNITY - 1124"
+  },
+  {
+    "Code": "1111",
+    "Description": "CENTER FOR INNOVATION THROUGH DATA INTEL - 1111"
+  },
+  {
+    "Code": "1651",
+    "Description": "CITYWIDE HEALTH INSURANCE ACCESS - 1651"
+  },
+  {
+    "Code": "1187",
+    "Description": "COMMUNITY AFFAIRS UNIT/THRIVE NYC - 1187"
+  },
+  {
+    "Code": "1661",
+    "Description": "CONSTITUENT SERVICES - 1661"
+  },
+  {
+    "Code": "0757",
+    "Description": "CRISIS AND DISASTER MANAGEMENT - 0757"
+  },
+  {
+    "Code": "1962",
+    "Description": "CUSTOMIZED ASSISTANCE SERVICES - 1962"
+  },
+  {
+    "Code": "7110",
+    "Description": "DHS ADMINISTRATION - 7110"
+  },
+  {
+    "Code": "7140",
+    "Description": "DHS ADULT SERVICES - 7140"
+  },
+  {
+    "Code": "7135",
+    "Description": "DHS BUDGET - 7135"
+  },
+  {
+    "Code": "7170",
+    "Description": "DHS CPD - 7170"
+  },
+  {
+    "Code": "7101",
+    "Description": "DHS EXECUTIVE OFFICE - 7101"
+  },
+  {
+    "Code": "7150",
+    "Description": "DHS FAMILY SERVICES - 7150"
+  },
+  {
+    "Code": "7130",
+    "Description": "DHS FMD - 7130"
+  },
+  {
+    "Code": "7175",
+    "Description": "DHS HERO - 7175"
+  },
+  {
+    "Code": "7115",
+    "Description": "DHS MEDICAL DIRECTOR'S OFFICE - 7115"
+  },
+  {
+    "Code": "7180",
+    "Description": "DHS PUBLIC PRIVATE PARTNERSHIP - 7180"
+  },
+  {
+    "Code": "7160",
+    "Description": "DHS SECURITY - 7160"
+  },
+  {
+    "Code": "7155",
+    "Description": "DHS STREET HOMELESSNESS SOLUTIONS - 7155"
+  },
+  {
+    "Code": "0705",
+    "Description": "EMERGENCY INTERVENTION SERVICES - 0705"
+  },
+  {
+    "Code": "0539",
+    "Description": "EMPLOYMENT SERVICES - 0539"
+  },
+  {
+    "Code": "0529",
+    "Description": "EXECUTIVE ADMINISTRATION - 0529"
+  },
+  {
+    "Code": "1210",
+    "Description": "FAIR HEARING ADMINISTRATION - 1210"
+  },
+  {
+    "Code": "0530",
+    "Description": "FIA ADMINISTRATIVE SUPPORT SERVICES - 0530"
+  },
+  {
+    "Code": "0566",
+    "Description": "FIA DIVISION OF SUPPLEMENTAL  NUTRITION - 0566"
+  },
+  {
+    "Code": "0533",
+    "Description": "FIA OPERATIONS - 0533"
+  },
+  {
+    "Code": "0531",
+    "Description": "FIA POLICY PROCEDURES & TRAINING - 0531"
+  },
+  {
+    "Code": "0202",
+    "Description": "FINANCE EXECUTIVE OFFICE - 0202"
+  },
+  {
+    "Code": "0420",
+    "Description": "GENERAL SUPPORT SERVICES - 0420"
+  },
+  {
+    "Code": "1958",
+    "Description": "HASA HIV/AIDS SERVICES ADMINISTRATION - 1958"
+  },
+  {
+    "Code": "1117",
+    "Description": "HEALTH & HUMAN SERVICES-CONNECT - 1117"
+  },
+  {
+    "Code": "1121",
+    "Description": "HEALTH & HUMAN SERVICES-INTEGRATED FINAN - 1121"
+  },
+  {
+    "Code": "0637",
+    "Description": "HOME CARE SERVICES PROGRAM - 0637"
+  },
+  {
+    "Code": "2441",
+    "Description": "HOUSING & HOMELESS SERVICES/INITIATIVES - 2441"
+  },
+  {
+    "Code": "1992",
+    "Description": "HOUSING AND SERVICES - 1992"
+  },
+  {
+    "Code": "2442",
+    "Description": "LEGAL ASSISTANCE INITIATIVES - 2442"
+  },
+  {
+    "Code": "0423",
+    "Description": "LV/LOAN OUSTA STAFF - 0423"
+  },
+  {
+    "Code": "1419",
+    "Description": "MANAGEMENT INFORMATION SYSTEMS - 1419"
+  },
+  {
+    "Code": "1789",
+    "Description": "MAYORS ACTION PLAN FOR NEIGHBORHOOD SAFE - 1789"
+  },
+  {
+    "Code": "0634",
+    "Description": "MEDICAL INSURANCE & COMMUNITY SVCES ADM. - 0634"
+  },
+  {
+    "Code": "0635",
+    "Description": "MICSA MEDICAID ELIGIBILITY - 0635"
+  },
+  {
+    "Code": "1182",
+    "Description": "MUNICIPAL IDENTIFICATION CARD - 1182"
+  },
+  {
+    "Code": "2365",
+    "Description": "OFF OF CHILD SUPPORT ENFORCEMENT - 2365"
+  },
+  {
+    "Code": "1760",
+    "Description": "OFF OF COMMUNITY AFFAIRS & IMMIGRANT SVC - 1760"
+  },
+  {
+    "Code": "1815",
+    "Description": "OFFICE OF AUDIT SERVICES - 1815"
+  },
+  {
+    "Code": "0203",
+    "Description": "OFFICE OF BUDGET ADMINISTRATION - 0203"
+  },
+  {
+    "Code": "0170",
+    "Description": "OFFICE OF COMMUNICATIONS & MARKETING/LEG - 0170"
+  },
+  {
+    "Code": "1268",
+    "Description": "OFFICE OF CONTRACTS - 1268"
+  },
+  {
+    "Code": "1369",
+    "Description": "OFFICE OF EVALUATION & RESEARCH - 1369"
+  },
+  {
+    "Code": "0218",
+    "Description": "OFFICE OF FISCAL OPERATIONS - 0218"
+  },
+  {
+    "Code": "2263",
+    "Description": "OFFICE OF INVESTIGATION - 2263"
+  },
+  {
+    "Code": "0313",
+    "Description": "OFFICE OF LABOR RELATIONS - 0313"
+  },
+  {
+    "Code": "1208",
+    "Description": "OFFICE OF LEGAL AFFAIRS - 1208"
+  },
+  {
+    "Code": "0422",
+    "Description": "OFFICE OF POLICE OPERATIONS - 0422"
+  },
+  {
+    "Code": "1231",
+    "Description": "OFFICE OF POLICY PROCEDURES & TRAINING - 1231"
+  },
+  {
+    "Code": "1838",
+    "Description": "OFFICE OF PROGRAM ACCOUNTABILITY - 1838"
+  },
+  {
+    "Code": "1804",
+    "Description": "OFFICE OF QUALITY ASSURANCE & FISCAL INT - 1804"
+  },
+  {
+    "Code": "2207",
+    "Description": "OFFICE OF REVENUE AND ADMINISTRATION - 2207"
+  },
+  {
+    "Code": "0216",
+    "Description": "OFFICE OF REVENUE MGMNT & DEVELOPMENT - 0216"
+  },
+  {
+    "Code": "0312",
+    "Description": "OFFICE OF STAFF RESOURCES - 0312"
+  },
+  {
+    "Code": "1109",
+    "Description": "OFFICE OF SUPPORT ACCOUNTABILITY AND VAL - 1109"
+  },
+  {
+    "Code": "1788",
+    "Description": "OFFICE OF THE ADVOCACY - 1788"
+  },
+  {
+    "Code": "2443",
+    "Description": "OUTREACH REHOUSING & LANDLORD MANAGEMENT - 2443"
+  },
+  {
+    "Code": "1306",
+    "Description": "PLANNING & PERFORMANCE MANAGEMENT - 1306"
+  },
+  {
+    "Code": "1184",
+    "Description": "PUBLIC ENGAGEMENT - 1184"
+  },
+  {
+    "Code": "1650",
+    "Description": "PUBLIC/PRIVATE PARTNERSHIPS - 1650"
+  },
+  {
+    "Code": "1127",
+    "Description": "VETERANS OUTREACH PROGRAM - 1127"
+  }
+]

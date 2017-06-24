@@ -1,0 +1,562 @@
+[
+  {
+    "Code": "0001",
+    "Description": "OFFICE OF THE CHAIR, NEW YORK 10007 (0001)",
+    "RCs": "[1268,1838]"
+  },
+  {
+    "Code": "0116",
+    "Description": "600 E 125 ST, NEW YORK 10035 (0116)",
+    "RCs": "[7160]"
+  },
+  {
+    "Code": "0142",
+    "Description": "151-20 JAMAICA AVE, JAMAICA 11433 (0142)",
+    "RCs": "[2365]"
+  },
+  {
+    "Code": "0294",
+    "Description": "486 HOWE AVE, BRONX 10473 (0294)",
+    "RCs": "[1208]"
+  },
+  {
+    "Code": "0489",
+    "Description": "BRONX OUTSTATIONED STAFF, BRONX 10454 (0489)",
+    "RCs": "[2441]"
+  },
+  {
+    "Code": "0492",
+    "Description": "88-11  165 ST, JAMAICA 11432 (0492)",
+    "RCs": "[0423,0533,0539,0566,0756,1210,1231,1661,2441]"
+  },
+  {
+    "Code": "0535",
+    "Description": "FOREST HOUSES, BRONX 10456 (0535)",
+    "RCs": "[0756]"
+  },
+  {
+    "Code": "1008",
+    "Description": "151 E 151 ST, BRONX 10451 (1008)",
+    "RCs": "[2441,7150,7160]"
+  },
+  {
+    "Code": "1016",
+    "Description": "330 W 34 ST, NEW YORK 10001 (1016)",
+    "RCs": "[0634,0635,0637]"
+  },
+  {
+    "Code": "1022",
+    "Description": "400 8 AVE, NEW YORK 10001 (1022)",
+    "RCs": "[0423,0756,1958]"
+  },
+  {
+    "Code": "1039",
+    "Description": "109 E 16 ST, NEW YORK 10003 (1039)",
+    "RCs": "[0170,0420,0423,0530,0533,0539,0637,0705,0756,1210,1231,1838,1958,1962,2263,2441,2442,2443]"
+  },
+  {
+    "Code": "1065",
+    "Description": "CITY HALL, NEW YORK 10007 (1065)",
+    "RCs": "[0170,1760]"
+  },
+  {
+    "Code": "1070",
+    "Description": "111 CENTRE ST, NEW YORK 10007 (1070)",
+    "RCs": "[2441,2442]"
+  },
+  {
+    "Code": "1087",
+    "Description": "60 LAFAYETTE ST, NEW YORK 10007 (1087)",
+    "RCs": "[1208,2365]"
+  },
+  {
+    "Code": "1117",
+    "Description": "151-5 W BROADWAY, NEW YORK 10013 (1117)",
+    "RCs": "[0423,2207,2263,2365]"
+  },
+  {
+    "Code": "1120",
+    "Description": "240 CHURCH ST, NEW YORK 10013 (1120)",
+    "RCs": "[2207]"
+  },
+  {
+    "Code": "1122",
+    "Description": "250 CHURCH ST, NEW YORK 10013 (1122)",
+    "RCs": "[0170,0420,0422,0423,0530,1182,1231,1804,1815,1838,2207,2263]"
+  },
+  {
+    "Code": "1123",
+    "Description": "271 CHURCH ST, NEW YORK 10013 (1123)",
+    "RCs": "[0423]"
+  },
+  {
+    "Code": "1136",
+    "Description": "66-72 LEONARD ST, NEW YORK 10013 (1136)",
+    "RCs": "[7110]"
+  },
+  {
+    "Code": "1163",
+    "Description": "8-12 W 14 ST, NEW YORK 10011 (1163)",
+    "RCs": "[0533,0539,0566,0635,1210,1231,1958,2441]"
+  },
+  {
+    "Code": "1182",
+    "Description": "650 W 57 ST, NEW YORK 10019 (1182)",
+    "RCs": "[1182]"
+  },
+  {
+    "Code": "1208",
+    "Description": "W 86 ST & TRANSVERSE ROAD, NEW YORK 10024 (1208)",
+    "RCs": "[0566]"
+  },
+  {
+    "Code": "1209",
+    "Description": "132-140 W 125 ST, NEW YORK 10025 (1209)",
+    "RCs": "[0423,0533,0539,0566,0637,0705,1210,1231,2441]"
+  },
+  {
+    "Code": "1253",
+    "Description": "530 W 135 ST, NEW YORK 10031 (1253)",
+    "RCs": "[0635,1958]"
+  },
+  {
+    "Code": "1268",
+    "Description": "4055 10 AVE, NEW YORK 10034 (1268)",
+    "RCs": "[0533,0566,1210,2441]"
+  },
+  {
+    "Code": "1276",
+    "Description": "2322 3 AVE, NEW YORK 10035 (1276)",
+    "RCs": "[2441]"
+  },
+  {
+    "Code": "1285",
+    "Description": "165 E 126 ST, NEW YORK 10035 (1285)",
+    "RCs": "[0423,0533,0566,0705,1210,1231,2441]"
+  },
+  {
+    "Code": "1286",
+    "Description": "170 E 121 ST, NEW YORK 10035 (1286)",
+    "RCs": "[2441,2442]"
+  },
+  {
+    "Code": "1305",
+    "Description": "180 WATER ST, NEW YORK 10038 (1305)",
+    "RCs": "[0313,0423,1208,1306,1661]"
+  },
+  {
+    "Code": "1309",
+    "Description": "75 MAIDEN LA, NEW YORK 10038 (1309)",
+    "RCs": "[0533,2441]"
+  },
+  {
+    "Code": "1310",
+    "Description": "78 CATHERINE ST, NEW YORK 10038 (1310)",
+    "RCs": "[7140,7150,7160]"
+  },
+  {
+    "Code": "1338",
+    "Description": "350 ST MARKS PL, ST GEORGE 10301 (1338)",
+    "RCs": "[0756]"
+  },
+  {
+    "Code": "1345",
+    "Description": "36 RICHMOND TERRACE, S.I. 10301 (1345)",
+    "RCs": "[0533]"
+  },
+  {
+    "Code": "1399",
+    "Description": "305 RIDER AVE, BRONX 10451 (1399)",
+    "RCs": "[0533,0539,0705,1210,1231,2441]"
+  },
+  {
+    "Code": "1401",
+    "Description": "1790 GRAND CONCOURSE, BRONX 10457 (1401)",
+    "RCs": "[0423,1958]"
+  },
+  {
+    "Code": "1415",
+    "Description": "900 SHERIDAN AVE, BRONX 10451 (1415)",
+    "RCs": "[1208,2365]"
+  },
+  {
+    "Code": "1462",
+    "Description": "1910-1916 MONTEREY AVE, BRONX 10457 (1462)",
+    "RCs": "[0423,0533,0566,0635,0705,1210,1231,2441]"
+  },
+  {
+    "Code": "1475",
+    "Description": "2551 BAINBRIDGE AVE, BRONX 10458 (1475)",
+    "RCs": "[0533,0539,1210,2441]"
+  },
+  {
+    "Code": "1576",
+    "Description": "32-20 NORTHERN BLVD, L I CITY 11101 (1576)",
+    "RCs": "[0423,0533,0539,0566,0635,1210,1231,2263,2365,2441]"
+  },
+  {
+    "Code": "1616",
+    "Description": "240-250-252 LIVINGSTON ST, BROOKLYN 11201 (1616)",
+    "RCs": "[0423,0530,0533,0566,0756,1210,1231,2207,2263]"
+  },
+  {
+    "Code": "1624",
+    "Description": "330 JAY ST, BROOKLYN 11201 (1624)",
+    "RCs": "[2365]"
+  },
+  {
+    "Code": "1657",
+    "Description": "30 THORNTON ST, BROOKLYN 11206 (1657)",
+    "RCs": "[0423,0533,0539,0566,1210,1231,2441]"
+  },
+  {
+    "Code": "1675",
+    "Description": "404 PINE ST, BROOKLYN 11208 (1675)",
+    "RCs": "[0423,0566]"
+  },
+  {
+    "Code": "1728",
+    "Description": "1 METROTECH, BROOKLYN 11201 (1728)",
+    "RCs": "[1182,2365]"
+  },
+  {
+    "Code": "1738",
+    "Description": "320 SCHERMERHORN ST, BROOKLYN 11217 (1738)",
+    "RCs": "[0423,1182,2263]"
+  },
+  {
+    "Code": "1740",
+    "Description": "92-94 FLATBUSH AVE, BROOKLYN 11217 (1740)",
+    "RCs": "[0423,0566,1958,2207]"
+  },
+  {
+    "Code": "1742",
+    "Description": "98 FLATBUSH AVE, BROOKLYN 11217 (1742)",
+    "RCs": "[0423,0530,0533,0566,2207]"
+  },
+  {
+    "Code": "1748",
+    "Description": "111 LIVINGSTON ST, BROOKLYN 11201 (1748)",
+    "RCs": "[0423,0637,1210]"
+  },
+  {
+    "Code": "1784",
+    "Description": "2857-2865 W 8 ST, BROOKLYN 11224 (1784)",
+    "RCs": "[0566]"
+  },
+  {
+    "Code": "1801",
+    "Description": "6734-6740 4 AVE, BROOKLYN 11226 (1801)",
+    "RCs": "[0533,1210,1231,2441]"
+  },
+  {
+    "Code": "1817",
+    "Description": "80 39 ST, BROOKLYN 11232 (1817)",
+    "RCs": "[0170,0420]"
+  },
+  {
+    "Code": "1864",
+    "Description": "492-500 DEKALB AVE, BROOKLYN 11238 (1864)",
+    "RCs": "[0423,0533,0566,1210,1231,2441]"
+  },
+  {
+    "Code": "1942",
+    "Description": "120-55 QUEENS BLVD, JAMAICA 11424 (1942)",
+    "RCs": "[2441]"
+  },
+  {
+    "Code": "1984",
+    "Description": "103-00 FOSTER AV, BROOKLYN 11236 (1984)",
+    "RCs": "[0420]"
+  },
+  {
+    "Code": "2019",
+    "Description": "33-28 NORTHERN BLVD, L I CITY 11101 (2019)",
+    "RCs": "[0423,0533,1210,1958,2441]"
+  },
+  {
+    "Code": "2037",
+    "Description": "219 BEACH 59 ST, ROCKAWAY 11692 (2037)",
+    "RCs": "[0533,0539,0566,1210,2441]"
+  },
+  {
+    "Code": "2039",
+    "Description": "72-11 AMSTELL BLVD, FAR ROCKAWAY 11692 (2039)",
+    "RCs": "[0566]"
+  },
+  {
+    "Code": "2129",
+    "Description": "470 VANDERBILT AV, BROOKLYN 11238 (2129)",
+    "RCs": "[0312,0423,0533,0539,0566,0634,0635,0637,0705,0756,1210,1231,1419,1661,2441]"
+  },
+  {
+    "Code": "2152",
+    "Description": "126 CLAY STREET, BROOKLYN 11222 (2152)",
+    "RCs": "[7160]"
+  },
+  {
+    "Code": "2159",
+    "Description": "101-07 FARRAGUT ROAD, BROOKLYN  11236 (2159)",
+    "RCs": "[7130,7160]"
+  },
+  {
+    "Code": "2160",
+    "Description": "890 GARRISON AVE, BRONX 10474 (2160)",
+    "RCs": "[0170,0423,0533,0566,0637,1210,1231,1958,2263,2365,2441]"
+  },
+  {
+    "Code": "2182",
+    "Description": "2500 HALSEY STREET, BRONX 10461 (2182)",
+    "RCs": "[0423,0566,0756]"
+  },
+  {
+    "Code": "2192",
+    "Description": "4380 BRONX BLVD , BRONX 10466 (2192)",
+    "RCs": "[7160]"
+  },
+  {
+    "Code": "2941",
+    "Description": "250 LIVINGSTON ST, BROOKLYN 11201 (2941)",
+    "RCs": "[0423]"
+  },
+  {
+    "Code": "2944",
+    "Description": "4 WORLD TRADE CENTER, NEW YORK 10007 (2944)",
+    "RCs": "[0101,0170,0202,0203,0216,0218,0312,0313,0420,0422,0423,0529,0530,0533,0539,0566,0634,0637,0705,0757,1109,1111,1187,1208,1210,1231,1268,1306,1369,1419,1650,1651,1661,1760,1788,1789,1804,1815,1838,1958,1962,1992,2207,2365,2441,2442,2443,2545]"
+  },
+  {
+    "Code": "3042",
+    "Description": "830 WASHINGTON AVE, BRONX 10456 (3042)",
+    "RCs": "[7130]"
+  },
+  {
+    "Code": "3051",
+    "Description": "260 11 AVE, NEW YORK 10001 (3051)",
+    "RCs": "[0420,0423,0635,1661,7130,7150]"
+  },
+  {
+    "Code": "3066",
+    "Description": "430 E 30 ST, NEW YORK 10016 (3066)",
+    "RCs": "[2441,7140,7160]"
+  },
+  {
+    "Code": "3069",
+    "Description": "450-460 W 33 ST, NEW YORK 10001 (3069)",
+    "RCs": "[7130,7140]"
+  },
+  {
+    "Code": "3073",
+    "Description": "1122 FRANKLIN AVE, BRONX 10456 (3073)",
+    "RCs": "[2441]"
+  },
+  {
+    "Code": "3086",
+    "Description": "300 SKILLMAN AVE (DHS), BROOKLYN 11211 (3086)",
+    "RCs": "[7110,7140]"
+  },
+  {
+    "Code": "3089",
+    "Description": "1322 BEDFORD AVE (DHS), BROOKLYN 11216 (3089)",
+    "RCs": "[7140,7160]"
+  },
+  {
+    "Code": "3095",
+    "Description": "116 WILLIAMS AVE, BROOKLYN 11207 (3095)",
+    "RCs": "[7160]"
+  },
+  {
+    "Code": "3114",
+    "Description": "115 CHRYSTIE ST, NEW YORK 10003 (3114)",
+    "RCs": "[0635,2365]"
+  },
+  {
+    "Code": "3123",
+    "Description": "1209 COLGATE AVE, BRONX 10472 (3123)",
+    "RCs": "[0756]"
+  },
+  {
+    "Code": "3136",
+    "Description": "39 AUBURN PL (DHS), BROOKLYN 11205 (3136)",
+    "RCs": "[7140,7160]"
+  },
+  {
+    "Code": "3140",
+    "Description": "151 E 151 ST, BRONX 10455 (3140)",
+    "RCs": "[0423,0705,2441,7150]"
+  },
+  {
+    "Code": "3153",
+    "Description": "161 WILLIAM ST, NEW YORK 10038 (3153)",
+    "RCs": "[7110]"
+  },
+  {
+    "Code": "3164",
+    "Description": "92-31 UNION HALL ST, JAMAICA 11433 (3164)",
+    "RCs": "[0423,1661]"
+  },
+  {
+    "Code": "3181",
+    "Description": "253 BROADWAY, NEW YORK 10007 (3181)",
+    "RCs": "[0705,1109,1111,1124,1182,1184,1187,1789]"
+  },
+  {
+    "Code": "3219",
+    "Description": "441 CLARKSON AVE, BROOKLYN 11203 (3219)",
+    "RCs": "[0635]"
+  },
+  {
+    "Code": "3313",
+    "Description": "201 NEW LOTS AVE, BROOKLYN 11207 (3313)",
+    "RCs": "[7140]"
+  },
+  {
+    "Code": "3316",
+    "Description": "9 LEWIS PL, BROOKLYN 11218 (3316)",
+    "RCs": "[7140]"
+  },
+  {
+    "Code": "3319",
+    "Description": "1901 1 AVE, NEW YORK 10029 (3319)",
+    "RCs": "[0635]"
+  },
+  {
+    "Code": "3327",
+    "Description": "2094 PITKIN AVE, BROOKLYN 11207 (3327)",
+    "RCs": "[0635]"
+  },
+  {
+    "Code": "3386",
+    "Description": "89-17 SUTPHIN BLVD, JAMAICA 11435 (3386)",
+    "RCs": "[2441]"
+  },
+  {
+    "Code": "3543",
+    "Description": "35 4 AVE, BROOKLYN 11217 (3543)",
+    "RCs": "[0533,0635]"
+  },
+  {
+    "Code": "3635",
+    "Description": "180 6 AVE, BROOKLYN 11217 (3635)",
+    "RCs": "[0635]"
+  },
+  {
+    "Code": "3786",
+    "Description": "3050 W 21 ST, BROOKLYN 11224 (3786)",
+    "RCs": "[0423,0533,0635,1210,1231,1958,1962,2441]"
+  },
+  {
+    "Code": "3792",
+    "Description": "PO_BOX_6310, BRONX 10451 (3792)",
+    "RCs": "[0705]"
+  },
+  {
+    "Code": "3828",
+    "Description": "127 WEST 25TH STREET, MANHATTAN 10001 (3828)",
+    "RCs": "[7160]"
+  },
+  {
+    "Code": "3894",
+    "Description": "25 CHAPEL ST, BROOKLYN 11201 (3894)",
+    "RCs": "[0533,0539,1210,2441]"
+  },
+  {
+    "Code": "3901",
+    "Description": "33 BEAVER STREET, NEW YORK 10004 (3901)",
+    "RCs": "[0312,1419,1661,1760,7101,7110,7115,7130,7135,7140,7150,7160,7170,7175,7180]"
+  },
+  {
+    "Code": "3910",
+    "Description": "20 W 112 ST, NEW YORK 10026 (3910)",
+    "RCs": "[7140]"
+  },
+  {
+    "Code": "3923",
+    "Description": "681 CLARKSON AVE BLDG D, BROOKLYN 11203 (3923)",
+    "RCs": "[7140,7160]"
+  },
+  {
+    "Code": "4119",
+    "Description": "32-02 QUEENS BLVD, L I CITY 11101 (4119)",
+    "RCs": "[0423,0566,0635,0637,2263]"
+  },
+  {
+    "Code": "4530",
+    "Description": "1118 GRAND CONCOURSE, BRONX 10456 (4530)",
+    "RCs": "[2441]"
+  },
+  {
+    "Code": "4622",
+    "Description": "1365 JEROME AVE, BRONX 10452 (4622)",
+    "RCs": "[0420,0423,0566,1231,1958]"
+  },
+  {
+    "Code": "4704",
+    "Description": "108-75 AVE D (DHS), BROOKLYN 11236 (4704)",
+    "RCs": "[7150,7160]"
+  },
+  {
+    "Code": "4705",
+    "Description": "346 POWERS AV, BRONX 10454 (4705)",
+    "RCs": "[7150,7160]"
+  },
+  {
+    "Code": "4956",
+    "Description": "175-10 88 AVE (DHS), JAMAICA 11432 (4956)",
+    "RCs": "[7150,7160]"
+  },
+  {
+    "Code": "4970",
+    "Description": "224-234 E 149 ST, BRONX 10451 (4970)",
+    "RCs": "[0635]"
+  },
+  {
+    "Code": "4975",
+    "Description": "3424 KOSSUTH AVE, BRONX 10467 (4975)",
+    "RCs": "[0635]"
+  },
+  {
+    "Code": "5064",
+    "Description": "141 LIVINGSTON ST, BROOKLYN 11201 (5064)",
+    "RCs": "[2441,2442]"
+  },
+  {
+    "Code": "5066",
+    "Description": "275-285 BERGEN ST, BROOKLYN 11217 (5066)",
+    "RCs": "[0423,0533,0566,0635,0637,1210,1231,1958,2441]"
+  },
+  {
+    "Code": "5067",
+    "Description": "116 E 16 ST, NEW YORK 10003 (5067)",
+    "RCs": "[0539,0705]"
+  },
+  {
+    "Code": "5111",
+    "Description": "201 BAY ST, ST GEORGE 10301 (5111)",
+    "RCs": "[0423,0533,0539,0566,0756,1210,1231,1958,2263,2441]"
+  },
+  {
+    "Code": "5154",
+    "Description": "1225 GERARD AVE, BRONX 10452 (5154)",
+    "RCs": "[0635]"
+  },
+  {
+    "Code": "5156",
+    "Description": "215 BAY ST, ST_GEORGE 10301 (5156)",
+    "RCs": "[0635,0637,0756]"
+  },
+  {
+    "Code": "5178",
+    "Description": "4 METROTECH, BROOKLYN 11201 (5178)",
+    "RCs": "[1117,1121]"
+  },
+  {
+    "Code": "6191",
+    "Description": "15 METROTECH, BROOKLYN 11201 (6191)",
+    "RCs": "[0312,1182,1184,1268,1419]"
+  },
+  {
+    "Code": "7920",
+    "Description": "123 WILLIAM ST, NEW YORK 10038 (7920)",
+    "RCs": "[0539]"
+  }
+]

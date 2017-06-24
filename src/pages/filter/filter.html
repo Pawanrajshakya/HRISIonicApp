@@ -1,0 +1,15 @@
+<ion-header>
+  <ion-navbar color="menu">
+    <ion-title>{{menu.title}}</ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content padding>
+  <ion-list no-lines>
+    <a ion-item (click)="openRC()">RCs</a>
+    <a ion-item (click)="openDP()">DPs</a>
+    <a ion-item (click)="openTitle()">Titles</a>
+    <a ion-item (click)="openLocation()">Locations</a>        
+  </ion-list>
+  <button ion-button round color="primary" (click)="onOk()">Ok</button>  
+  <button ion-button round color="light" (click)="onClear()">Clear</button>
+</ion-content>

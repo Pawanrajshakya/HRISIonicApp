@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-navbar color="modal">
+    <ion-title>DPs</ion-title>
+    <ion-buttons start>
+      <button ion-button (click)="dismiss()">
+        <span ion-text color="primary" showWhen="ios">Done</span>
+        <ion-icon name="close" showWhen="android, windows"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+<ion-content>
+  <ion-list no-lines>
+    <ion-item *ngFor="let code of codes">
+      <ion-label>{{code.description}}</ion-label>
+      <ion-checkbox [checked]="code.isSelected === true" (click)="onSelect(code.code)"></ion-checkbox>
+    </ion-item>
+  </ion-list>
+</ion-content>

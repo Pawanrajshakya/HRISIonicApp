@@ -1,0 +1,50 @@
+[
+  {
+    "RowNum": 6,
+    "Date": "11/1/2016 12:00:00 AM",
+    "MonthYear": "Nov 2016",
+    "Retirement": 29,
+    "FMLA": 82,
+    "Resignation": 27
+  },
+  {
+    "RowNum": 5,
+    "Date": "12/1/2016 12:00:00 AM",
+    "MonthYear": "Dec 2016",
+    "Retirement": 42,
+    "FMLA": 74,
+    "Resignation": 28
+  },
+  {
+    "RowNum": 4,
+    "Date": "1/1/2017 12:00:00 AM",
+    "MonthYear": "Jan 2017",
+    "Retirement": 43,
+    "FMLA": 79,
+    "Resignation": 34
+  },
+  {
+    "RowNum": 3,
+    "Date": "2/1/2017 12:00:00 AM",
+    "MonthYear": "Feb 2017",
+    "Retirement": 45,
+    "FMLA": 101,
+    "Resignation": 19
+  },
+  {
+    "RowNum": 2,
+    "Date": "3/1/2017 12:00:00 AM",
+    "MonthYear": "Mar 2017",
+    "Retirement": 38,
+    "FMLA": 79,
+    "Resignation": 28
+  },
+  {
+    "RowNum": 1,
+    "Date": "4/1/2017 12:00:00 AM",
+    "MonthYear": "Apr 2017",
+    "Retirement": 35,
+    "FMLA": 62,
+    "Resignation": 23
+  }
+]

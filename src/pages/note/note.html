@@ -1,0 +1,25 @@
+<ion-list nolines>
+  <ion-item>
+    <ion-label floating>Notes</ion-label>
+    <ion-input type="text" [(ngModel)]="note"></ion-input>
+  </ion-item>
+  <ion-item *ngIf="note.length > 0">
+    <button ion-button block small (click)="save(note)" [disabled]="note.length === 0">Add</button>
+  </ion-item>
+  <ion-item-sliding *ngFor="let note of notes;trackBy:note.CreatedOn">
+    <ion-item>
+      <p ion-label text-justify text-wrap>{{note.Note}}</p>
+      <ion-row>
+        <ion-col text-right>
+          <small ion-text color="label-light">{{note.CreatedOn}}</small>
+        </ion-col>
+      </ion-row>
+    </ion-item>
+    <ion-item-options slide="left">
+      <button ion-button color="danger" (click)="remove(note)">
+          <ion-icon name="trash"></ion-icon>
+          Remove
+        </button>
+    </ion-item-options>
+  </ion-item-sliding>
+</ion-list>

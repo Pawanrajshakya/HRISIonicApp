@@ -1,0 +1,20 @@
+http://localhost:8200/api/user/GetUserInfo?ein=0275077
+
+{
+  "ein": "0275077",
+  "name": "DELMA FAHIE",
+  "address": "35a Kossuth Place",
+  "city": "Brooklyn",
+  "state": "NY",
+  "zipCode": "11221",
+  "primaryPhone": "347/613-5351",
+  "emailAddress": "fahied@hra.nyc.gov",
+  "contactInfo": [
+    {
+      "name": "Daphnie Rabsatt",
+      "relationship": "Sibling",
+      "primaryPhone": "347/866-5679",
+      "secondaryPhone": ""
+    }
+  ]
+}

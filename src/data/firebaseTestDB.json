@@ -1,0 +1,83 @@
+{
+    "Summary": [
+        {
+            "id": 1,
+            "description": "HRIS Summary as of ",
+            "value": "03/30/2017",
+            "color": "",
+            "component": "",
+            "icon": "",
+            "pipe": ""
+        },
+        {
+            "id": 2,
+            "description": "DSS-HRA-DHS Active Headcount",
+            "value": "15700",
+            "color": "report",
+            "component": "ReportHeadcountPage",
+            "icon": "people",
+            "pipe": "number"
+        },
+        {
+            "id": 3,
+            "description": "Agency Total # of E-cards Sent",
+            "value": "166",
+            "color": "report",
+            "component": "ECardReportPage",
+            "icon": "ios-person-outline",
+            "pipe": "number"
+        },
+        {
+            "id": 4,
+            "description": "Customer Service Complaints/Commendations",
+            "value": "6",
+            "color": "report",
+            "component": "ReportCustomerComplaintPage",
+            "icon": "contact",
+            "pipe": "number"
+        },
+        {
+            "id": 5,
+            "description": "Total FY Paid OT $",
+            "value": "26842768",
+            "color": "report",
+            "component": "ReportOvertimePaidPage",
+            "icon": "cash",
+            "pipe": "number"
+        }
+    ],
+    "user": {
+        "0275077": {
+            "userID": "0275077",
+            "lanID": "cshak1881",
+            "roleID": 1,
+            "role": 1,
+            "ein": "0275077",
+            "firstName": "DELMA",
+            "lastName": "FAHIE",
+            "emailAddress": "fahied@hra.nyc.gov",
+            "lastAccess": null,
+            "ishrisUser": false,
+            "rcs": null,
+            "dps": null,
+            "isteamsUser": true,
+            "isOvertimeUser": true,
+            "groups": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
+            ],
+            "isDeveloper": false,
+            "agency": null,
+            "isdhsUser": false,
+            "isSuper": false
+        }
+    }
+}
