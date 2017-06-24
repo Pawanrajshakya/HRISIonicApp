@@ -12,7 +12,7 @@
     <ion-refresher-content refreshingSpinner="dots" refreshingText="Refreshing..."></ion-refresher-content>
   </ion-refresher>
   <ion-list>
-    <button ion-item *ngFor="let item of data" [color]="item.color" (click)="redirect(item.id)">
+    <button ion-item *ngFor="let item of data" [color]="item.color" (click)="redirect(item)">
         <ion-icon [name]="item.icon" item-left></ion-icon>
         <h2 text-wrap>{{item.description}}</h2>
         <span *ngIf="item.pipe === 'number'" item-right>{{item.value | number}}</span>

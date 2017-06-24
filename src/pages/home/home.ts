@@ -3,6 +3,7 @@ import { IonicPage, NavController, NavParams, LoadingController } from 'ionic-an
 import { ToastService } from "../../services/sharedServices/toastService";
 import { HRISInternalData } from "../../models/code";
 import { DataService } from "../../services/dataService";
+import { IMenu } from "../../shared/interfaces";
 
 @IonicPage()
 @Component({
@@ -52,6 +53,11 @@ export class HomePage {
       this.toastService.present(error);
       refresher.complete();
     });
+  }
+
+  redirect(item: IMenu) {
+    if (item.component.length > 0)
+      this.navCtrl.push(item.component, item);
   }
 
 }

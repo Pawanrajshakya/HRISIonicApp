@@ -1,14 +1,14 @@
 webpackJsonp([9],{
 
-/***/ 293:
+/***/ 298:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(51);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__login__ = __webpack_require__(425);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "LoginPageModule", function() { return LoginPageModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__rc__ = __webpack_require__(436);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "RcPageModule", function() { return RcPageModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -18,38 +18,38 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var LoginPageModule = (function () {
-    function LoginPageModule() {
+var RcPageModule = (function () {
+    function RcPageModule() {
     }
-    return LoginPageModule;
+    return RcPageModule;
 }());
-LoginPageModule = __decorate([
+RcPageModule = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["NgModule"])({
         declarations: [
-            __WEBPACK_IMPORTED_MODULE_2__login__["a" /* LoginPage */],
+            __WEBPACK_IMPORTED_MODULE_2__rc__["a" /* RcPage */],
         ],
         imports: [
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__login__["a" /* LoginPage */]),
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__rc__["a" /* RcPage */]),
         ],
         exports: [
-            __WEBPACK_IMPORTED_MODULE_2__login__["a" /* LoginPage */]
+            __WEBPACK_IMPORTED_MODULE_2__rc__["a" /* RcPage */]
         ]
     })
-], LoginPageModule);
+], RcPageModule);
 
-//# sourceMappingURL=login.module.js.map
+//# sourceMappingURL=rc.module.js.map
 
 /***/ }),
 
-/***/ 425:
+/***/ 436:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(51);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__services_userService__ = __webpack_require__(31);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__services_codeService__ = __webpack_require__(205);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__services_sharedServices_toastService__ = __webpack_require__(101);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LoginPage; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return RcPage; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -63,55 +63,62 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
-var LoginPage = (function () {
-    function LoginPage(navCtrl, navParams, userService, toastService, viewCtrl, loadingCtrl) {
+var RcPage = (function () {
+    function RcPage(navCtrl, navParams, viewCtrl, codeService, toastService) {
         this.navCtrl = navCtrl;
         this.navParams = navParams;
-        this.userService = userService;
-        this.toastService = toastService;
         this.viewCtrl = viewCtrl;
-        this.loadingCtrl = loadingCtrl;
-        this.lanID = "";
+        this.codeService = codeService;
+        this.toastService = toastService;
+        this.codes = [];
+        this.selected = [];
     }
-    LoginPage.prototype.login = function (form) {
+    RcPage.prototype.ionViewDidLoad = function () {
+        this.get();
+    };
+    RcPage.prototype.get = function () {
         var _this = this;
-        console.log(form);
-        var loader = this.loadingCtrl.create({
-            content: 'Please wait ...',
-            spinner: 'dots' //'circles'//dots'
-        });
-        loader.present().then(function () {
-            _this.userService.login(form.value.lanID).subscribe(function (data) {
-                if (data) {
-                    _this.viewCtrl.dismiss(data);
-                    loader.dismiss();
-                }
-            }, function (error) {
-                var message = error.status == 404 ? "LANID Not Found" : "Internal Error!";
-                _this.toastService.present(message);
-                loader.dismiss();
-            }, function () {
+        this.codeService.getRC().then(function (data) {
+            _this.codes = data;
+            _this.codeService.getSelectedRC().then(function (data) {
+                _this.selected = data;
+            }).catch(function (error) {
+                _this.toastService.present(error.message);
             });
+        }).catch(function (error) {
+            console.log(error, 1);
+            _this.toastService.present(error.message);
         });
     };
-    LoginPage.prototype.dismiss = function () {
-        this.viewCtrl.dismiss(false);
+    RcPage.prototype.onSelect = function (value) {
+        try {
+            var i = this.selected.indexOf(value);
+            (i !== -1) ? this.selected.splice(i, 1) : this.selected.push(value);
+            this.codeService.setSelectedRC(this.selected);
+            console.log('onSelect', this.selected);
+        }
+        catch (error) {
+            this.toastService.present(error, "bottom");
+        }
     };
-    return LoginPage;
+    RcPage.prototype.dismiss = function () {
+        this.viewCtrl.dismiss();
+    };
+    return RcPage;
 }());
-LoginPage = __decorate([
+RcPage = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* IonicPage */])(),
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-        selector: 'page-login',template:/*ion-inline-start:"/Users/pawanrajshakya/Documents/IonicApps/HRISIonicApp/src/pages/login/login.html"*/'<ion-header>\n  <ion-navbar color="secondary">\n    <ion-title>Login</ion-title>\n    <ion-buttons start>\n      <button ion-button (click)="dismiss()">\n        <span ion-text showWhen="ios">Close</span>\n        <ion-icon name="md-close" showWhen="android, windows"></ion-icon>\n      </button>\n    </ion-buttons>\n  </ion-navbar>\n</ion-header>\n<ion-content>\n  <form #f="ngForm" (ngSubmit)="login(f)">\n    <ion-list no-lines>\n      <ion-list-header>Please enter your LANID</ion-list-header>\n      <ion-item>\n        <ion-label>Lan ID</ion-label>\n        <ion-input type="text" ngModel name="lanID" required></ion-input>\n      </ion-item>\n      <ion-item>\n        <button ion-button block icon-right type="submit" [disabled]="!f.valid">\n        Login\n        <ion-icon name="log-in"></ion-icon>\n      </button>\n      </ion-item>\n    </ion-list>\n  </form>\n</ion-content>'/*ion-inline-end:"/Users/pawanrajshakya/Documents/IonicApps/HRISIonicApp/src/pages/login/login.html"*/,
+        selector: 'page-rc',template:/*ion-inline-start:"/Users/pawanrajshakya/Documents/IonicApps/HRISIonicApp/src/pages/filters/rc/rc.html"*/'<ion-header>\n  <ion-navbar color="modal">\n    <ion-title>RCs</ion-title>\n    <ion-buttons start>\n      <button ion-button (click)="dismiss()">\n        <span ion-text color="primary" showWhen="ios">Done</span>\n        <ion-icon name="close" showWhen="android, windows"></ion-icon>\n      </button>\n    </ion-buttons>\n  </ion-navbar>\n</ion-header>\n<ion-content>\n  <ion-list no-lines>\n    <ion-item *ngFor="let code of codes">\n      <ion-label>{{code.description}}</ion-label>\n      <ion-checkbox [checked]="code.isSelected === true" (click)="onSelect(code.code)"></ion-checkbox>\n    </ion-item>\n  </ion-list>\n</ion-content>'/*ion-inline-end:"/Users/pawanrajshakya/Documents/IonicApps/HRISIonicApp/src/pages/filters/rc/rc.html"*/,
     }),
-    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */],
-        __WEBPACK_IMPORTED_MODULE_2__services_userService__["a" /* UserService */],
-        __WEBPACK_IMPORTED_MODULE_3__services_sharedServices_toastService__["a" /* ToastService */],
-        __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* ViewController */],
-        __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* LoadingController */]])
-], LoginPage);
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */],
+        __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */],
+        __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* ViewController */],
+        __WEBPACK_IMPORTED_MODULE_2__services_codeService__["a" /* CodeService */],
+        __WEBPACK_IMPORTED_MODULE_3__services_sharedServices_toastService__["a" /* ToastService */]])
+], RcPage);
 
-//# sourceMappingURL=login.js.map
+//# sourceMappingURL=rc.js.map
 
 /***/ })
 

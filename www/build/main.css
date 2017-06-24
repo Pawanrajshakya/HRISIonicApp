@@ -27241,7 +27241,7 @@ ion-spinner.spinner-paused svg {
   margin-top: 1px;
   min-width: 2.4rem;
   font-size: 2.4rem;
-  color: #f1ab41;
+  color: rgba(60, 60, 60, 0.7);
   transition: -webkit-transform 0.3s ease-in-out;
   transition: transform 0.3s ease-in-out;
   transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;

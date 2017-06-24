@@ -91,8 +91,8 @@ export class MenuService {
                 title: "DSS-HRA-DHS Headcount Vacancy",
                 description: "DSS-HRA-DHS Headcount Vacancy",
                 component: 'ReportTabPage',
-                reportComponent: 'ReportHeadcountPage',
-                dataComponent: 'ReportDataHeadcountPage',
+                reportComponent: 'HeadcountPage',
+                dataComponent: 'HeadcountDataPage',
                 icon: 'pie',
                 hasFilterPage: true
             },
@@ -110,17 +110,17 @@ export class MenuService {
                 title: "Customer Service Complaints/Commendations",
                 description: "Customer Service Complaints/Commendations",
                 component: 'ReportTabPage',
-                reportComponent: 'ReportCustomerComplaintsPage',
-                dataComponent: 'ReportDataCustomerComplaintsPage',
+                reportComponent: 'CustomerComplaintPage',
+                dataComponent: 'CustomerComplaintDataPage',
                 icon: "globe",
                 hasFilterPage: true
             },
             {
                 title: "Total FY Paid OT $",
                 description: "Total FY Paid OT $",
-                component: 'ReportOvertimePaidPage',
-                reportComponent: 'ReportOvertimePaidPage',
-                dataComponent: 'ReportDataOvertimePaidPage',
+                component: 'ReportTabPage',
+                reportComponent: 'OvertimePage',
+                dataComponent: 'OvertimeDataPage',
                 icon: 'pricetag',
                 hasFilterPage: true
             }

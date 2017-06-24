@@ -1,14 +1,14 @@
 webpackJsonp([1],{
 
-/***/ 292:
+/***/ 299:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(51);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__home__ = __webpack_require__(424);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__note_note__ = __webpack_require__(302);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__home__ = __webpack_require__(437);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__note_note__ = __webpack_require__(308);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HomePageModule", function() { return HomePageModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -45,7 +45,7 @@ HomePageModule = __decorate([
 
 /***/ }),
 
-/***/ 302:
+/***/ 308:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -120,7 +120,7 @@ NotePage = __decorate([
 
 /***/ }),
 
-/***/ 424:
+/***/ 437:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -184,20 +184,21 @@ var HomePage = (function () {
             refresher.complete();
         });
     };
+    HomePage.prototype.redirect = function (item) {
+        if (item.component.length > 0)
+            this.navCtrl.push(item.component, item);
+    };
     return HomePage;
 }());
 HomePage = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* IonicPage */])(),
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-        selector: 'page-home',template:/*ion-inline-start:"/Users/pawanrajshakya/Documents/IonicApps/HRISIonicApp/src/pages/home/home.html"*/'<ion-header>\n  <ion-navbar color="menu">\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>Home</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content>\n  <ion-refresher (ionRefresh)="onRefresh($event)">\n    <ion-refresher-content refreshingSpinner="dots" refreshingText="Refreshing..."></ion-refresher-content>\n  </ion-refresher>\n  <ion-list>\n    <button ion-item *ngFor="let item of data" [color]="item.color" (click)="redirect(item.id)">\n        <ion-icon [name]="item.icon" item-left></ion-icon>\n        <h2 text-wrap>{{item.description}}</h2>\n        <span *ngIf="item.pipe === \'number\'" item-right>{{item.value | number}}</span>\n        <span *ngIf="item.pipe !== \'number\'" item-right>{{item.value}}</span>        \n    </button>\n    <page-note></page-note>\n  </ion-list>\n\n</ion-content>'/*ion-inline-end:"/Users/pawanrajshakya/Documents/IonicApps/HRISIonicApp/src/pages/home/home.html"*/
+        selector: 'page-home',template:/*ion-inline-start:"/Users/pawanrajshakya/Documents/IonicApps/HRISIonicApp/src/pages/home/home.html"*/'<ion-header>\n  <ion-navbar color="menu">\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>Home</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content>\n  <ion-refresher (ionRefresh)="onRefresh($event)">\n    <ion-refresher-content refreshingSpinner="dots" refreshingText="Refreshing..."></ion-refresher-content>\n  </ion-refresher>\n  <ion-list>\n    <button ion-item *ngFor="let item of data" [color]="item.color" (click)="redirect(item)">\n        <ion-icon [name]="item.icon" item-left></ion-icon>\n        <h2 text-wrap>{{item.description}}</h2>\n        <span *ngIf="item.pipe === \'number\'" item-right>{{item.value | number}}</span>\n        <span *ngIf="item.pipe !== \'number\'" item-right>{{item.value}}</span>        \n    </button>\n    <page-note></page-note>\n  </ion-list>\n\n</ion-content>'/*ion-inline-end:"/Users/pawanrajshakya/Documents/IonicApps/HRISIonicApp/src/pages/home/home.html"*/
     }),
-    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */],
-        __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */],
-        __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* LoadingController */],
-        __WEBPACK_IMPORTED_MODULE_3__services_dataService__["a" /* DataService */],
-        __WEBPACK_IMPORTED_MODULE_2__services_sharedServices_toastService__["a" /* ToastService */]])
+    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* LoadingController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* LoadingController */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_3__services_dataService__["a" /* DataService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__services_dataService__["a" /* DataService */]) === "function" && _d || Object, typeof (_e = typeof __WEBPACK_IMPORTED_MODULE_2__services_sharedServices_toastService__["a" /* ToastService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__services_sharedServices_toastService__["a" /* ToastService */]) === "function" && _e || Object])
 ], HomePage);
 
+var _a, _b, _c, _d, _e;
 //# sourceMappingURL=home.js.map
 
 /***/ })

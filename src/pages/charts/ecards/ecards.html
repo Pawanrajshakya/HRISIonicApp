@@ -1,6 +1,6 @@
 <ion-header>
   <ion-navbar>
-    <ion-title></ion-title>
+    <ion-title>{{item.title}}</ion-title>
   </ion-navbar>
 </ion-header>
 <ion-content padding>
@@ -11,5 +11,5 @@
     [chartType]="chartType" 
     [legend]="true" 
     [colors]="chartColors"
-    height="360px"></canvas>
+    [ngStyle]="{'height': styleExp}"></canvas>
 </ion-content>

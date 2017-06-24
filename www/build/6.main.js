@@ -1,14 +1,14 @@
 webpackJsonp([6],{
 
-/***/ 296:
+/***/ 302:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(51);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__rc__ = __webpack_require__(427);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "RcPageModule", function() { return RcPageModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__note__ = __webpack_require__(308);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "NotePageModule", function() { return NotePageModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -18,38 +18,38 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var RcPageModule = (function () {
-    function RcPageModule() {
+var NotePageModule = (function () {
+    function NotePageModule() {
     }
-    return RcPageModule;
+    return NotePageModule;
 }());
-RcPageModule = __decorate([
+NotePageModule = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["NgModule"])({
         declarations: [
-            __WEBPACK_IMPORTED_MODULE_2__rc__["a" /* RcPage */],
+            __WEBPACK_IMPORTED_MODULE_2__note__["a" /* NotePage */],
         ],
         imports: [
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__rc__["a" /* RcPage */]),
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__note__["a" /* NotePage */]),
         ],
         exports: [
-            __WEBPACK_IMPORTED_MODULE_2__rc__["a" /* RcPage */]
+            __WEBPACK_IMPORTED_MODULE_2__note__["a" /* NotePage */]
         ]
     })
-], RcPageModule);
+], NotePageModule);
 
-//# sourceMappingURL=rc.module.js.map
+//# sourceMappingURL=note.module.js.map
 
 /***/ }),
 
-/***/ 427:
+/***/ 308:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(51);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__services_sharedServices_toastService__ = __webpack_require__(101);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__services_codeService__ = __webpack_require__(205);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return RcPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__services_noteService__ = __webpack_require__(206);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__services_sharedServices_toastService__ = __webpack_require__(101);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return NotePage; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -63,62 +63,56 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
-var RcPage = (function () {
-    function RcPage(navCtrl, navParams, viewCtrl, codeService, toastService) {
+var NotePage = (function () {
+    function NotePage(navCtrl, navParams, noteService, toastService) {
         this.navCtrl = navCtrl;
         this.navParams = navParams;
-        this.viewCtrl = viewCtrl;
-        this.codeService = codeService;
+        this.noteService = noteService;
         this.toastService = toastService;
-        this.codes = [];
-        this.selected = [];
+        this.note = "";
     }
-    RcPage.prototype.ionViewDidLoad = function () {
+    NotePage.prototype.ngOnInit = function () {
         this.get();
     };
-    RcPage.prototype.get = function () {
+    NotePage.prototype.get = function () {
         var _this = this;
-        this.codeService.getRC().then(function (data) {
-            _this.codes = data;
-            _this.codeService.getSelectedRC().then(function (data) {
-                _this.selected = data;
-            }).catch(function (error) {
-                _this.toastService.present(error.message);
-            });
+        var promise = this.noteService.get();
+        promise.then(function (data) {
+            _this.notes = data;
         }).catch(function (error) {
-            console.log(error, 1);
-            _this.toastService.present(error.message);
+            _this.toastService.present(error, "bottom");
         });
     };
-    RcPage.prototype.onSelect = function (value) {
-        try {
-            var i = this.selected.indexOf(value);
-            (i !== -1) ? this.selected.splice(i, 1) : this.selected.push(value);
-            this.codeService.setSelectedRC(this.selected);
-            console.log('onSelect', this.selected);
-        }
-        catch (error) {
-            this.toastService.present(error, "bottom");
-        }
+    NotePage.prototype.save = function (value) {
+        var _this = this;
+        this.noteService.add(value).then(function (data) {
+            _this.get();
+            _this.note = "";
+            _this.toastService.present(data);
+        }).catch(function (error) {
+            _this.toastService.present(error, "bottom");
+        });
     };
-    RcPage.prototype.dismiss = function () {
-        this.viewCtrl.dismiss();
+    NotePage.prototype.remove = function (value) {
+        var _this = this;
+        this.noteService.remove(value).then(function (data) {
+            _this.get();
+            _this.toastService.present(data);
+        }).catch(function (error) {
+            _this.toastService.present(error, "bottom");
+        });
     };
-    return RcPage;
+    return NotePage;
 }());
-RcPage = __decorate([
+NotePage = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* IonicPage */])(),
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-        selector: 'page-rc',template:/*ion-inline-start:"/Users/pawanrajshakya/Documents/IonicApps/HRISIonicApp/src/pages/rc/rc.html"*/'<ion-header>\n  <ion-navbar color="modal">\n    <ion-title>RCs</ion-title>\n    <ion-buttons start>\n      <button ion-button (click)="dismiss()">\n        <span ion-text color="primary" showWhen="ios">Done</span>\n        <ion-icon name="close" showWhen="android, windows"></ion-icon>\n      </button>\n    </ion-buttons>\n  </ion-navbar>\n</ion-header>\n<ion-content>\n  <ion-list no-lines>\n    <ion-item *ngFor="let code of codes">\n      <ion-label>{{code.description}}</ion-label>\n      <ion-checkbox [checked]="code.isSelected === true" (click)="onSelect(code.code)"></ion-checkbox>\n    </ion-item>\n  </ion-list>\n</ion-content>'/*ion-inline-end:"/Users/pawanrajshakya/Documents/IonicApps/HRISIonicApp/src/pages/rc/rc.html"*/,
+        selector: 'page-note',template:/*ion-inline-start:"/Users/pawanrajshakya/Documents/IonicApps/HRISIonicApp/src/pages/note/note.html"*/'<ion-list nolines>\n  <ion-item>\n    <ion-label floating>Notes</ion-label>\n    <ion-input type="text" [(ngModel)]="note"></ion-input>\n  </ion-item>\n  <ion-item *ngIf="note.length > 0">\n    <button ion-button block small (click)="save(note)" [disabled]="note.length === 0">Add</button>\n  </ion-item>\n  <ion-item-sliding *ngFor="let note of notes;trackBy:note.CreatedOn">\n    <ion-item>\n      <p ion-label text-justify text-wrap>{{note.Note}}</p>\n      <ion-row>\n        <ion-col text-right>\n          <small ion-text color="label-light">{{note.CreatedOn}}</small>\n        </ion-col>\n      </ion-row>\n    </ion-item>\n    <ion-item-options slide="left">\n      <button ion-button color="danger" (click)="remove(note)">\n          <ion-icon name="trash"></ion-icon>\n          Remove\n        </button>\n    </ion-item-options>\n  </ion-item-sliding>\n</ion-list>'/*ion-inline-end:"/Users/pawanrajshakya/Documents/IonicApps/HRISIonicApp/src/pages/note/note.html"*/,
     }),
-    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */],
-        __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */],
-        __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* ViewController */],
-        __WEBPACK_IMPORTED_MODULE_3__services_codeService__["a" /* CodeService */],
-        __WEBPACK_IMPORTED_MODULE_2__services_sharedServices_toastService__["a" /* ToastService */]])
-], RcPage);
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__services_noteService__["a" /* NoteService */], __WEBPACK_IMPORTED_MODULE_3__services_sharedServices_toastService__["a" /* ToastService */]])
+], NotePage);
 
-//# sourceMappingURL=rc.js.map
+//# sourceMappingURL=note.js.map
 
 /***/ })
 

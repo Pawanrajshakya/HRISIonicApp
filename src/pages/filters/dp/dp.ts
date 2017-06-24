@@ -1,14 +1,14 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams, ViewController } from 'ionic-angular';
-import { ToastService } from "../../services/sharedServices/toastService";
-import { CodeService } from "../../services/codeService";
+import { CodeService } from "../../../services/codeService";
+import { ToastService } from "../../../services/sharedServices/toastService";
 
 @IonicPage()
 @Component({
-  selector: 'page-rc',
-  templateUrl: 'rc.html',
+  selector: 'page-dp',
+  templateUrl: 'dp.html',
 })
-export class RcPage {
+export class DpPage {
 
   codes: any[] = [];
   selected: any[] = [];
@@ -24,18 +24,16 @@ export class RcPage {
     this.get();
   }
 
-
   get() {
-    this.codeService.getRC().then(
+    this.codeService.getDP().then(
       data => {
         this.codes = data;
-        this.codeService.getSelectedRC().then(data => {
+        this.codeService.getSelectedDP().then(data => {
           this.selected = data;
         }).catch(error => {
           this.toastService.present(error.message);
         });
       }).catch(error => {
-        console.log(error, 1);
         this.toastService.present(error.message);
       });
   }
@@ -44,8 +42,7 @@ export class RcPage {
     try {
       let i = this.selected.indexOf(value);
       (i !== -1) ? this.selected.splice(i, 1) : this.selected.push(value);
-      this.codeService.setSelectedRC(this.selected);
-      console.log('onSelect', this.selected);
+      this.codeService.setSelectedDP(this.selected);
     } catch (error) {
       this.toastService.present(error, "bottom");
     }
