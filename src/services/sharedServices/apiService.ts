@@ -9,14 +9,12 @@ import 'rxjs/add/operator/catch';
 import 'rxjs/add/observable/throw';
 
 import { IResponse } from "../../shared/interfaces";
-import { ErrorObservable } from "rxjs/observable/ErrorObservable";
 
 @Injectable()
 export class APIService {
     private _BaseURL: string = 'https://myfirstfb-5ca5d.firebaseio.com';//https://webdeva/HRISMobile';//"http://localhost:8200";
     private _token = { access_token: null, expires_in: 0, token_type: null };
     private _hasToken: boolean = true;//false;
-    private _response: IResponse;
 
     constructor(private http: Http) { }
 
