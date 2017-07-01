@@ -2,6 +2,7 @@ import { Component, ViewChild } from '@angular/core';
 import { IonicPage, NavParams, LoadingController, Content } from 'ionic-angular';
 import { ChartService } from "../../../services/chartservice";
 import { IMenu } from "../../../shared/interfaces";
+import { MessageService } from "../../../services/sharedServices/messageService";
 
 @IonicPage()
 @Component({
@@ -10,7 +11,7 @@ import { IMenu } from "../../../shared/interfaces";
 })
 export class EcardsPage {
 
-  @ViewChild(Content) content: Content;
+  @ViewChild(Content) ecardContent: Content;
 
 
   data: any[];
@@ -22,12 +23,13 @@ export class EcardsPage {
   constructor(
     public navParams: NavParams,
     public loadingController: LoadingController,
-    private chartService: ChartService) { 
-      this.item = this.navParams.data;
-    }
+    private messageService: MessageService,
+    private chartService: ChartService) {
+    this.item = this.navParams.data;
+  }
 
   ionViewDidLoad() {
-    this.styleExp = this.content.contentHeight + "px"
+    this.styleExp = this.ecardContent.contentHeight + "px"
     this.chartColors = this.chartService.getBarChartColor();
     this.getChart();
   }
@@ -41,6 +43,9 @@ export class EcardsPage {
     loader.present().then(() => {
       this.chartService.getEcardChart().then(_data => {
         this.data = _data;
+        loader.dismiss();
+      }).catch(error => {
+        this.messageService.toast(error);
         loader.dismiss();
       })
     });

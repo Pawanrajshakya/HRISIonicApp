@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { NoteService } from "../../services/noteService";
-import { ToastService } from "../../services/sharedServices/toastService";
+import { MessageService } from "../../services/sharedServices/messageService";
 
 @IonicPage()
 @Component({
@@ -13,7 +13,7 @@ export class NotePage implements OnInit {
   notes: any;
   note: string = "";
 
-  constructor(public navCtrl: NavController, public navParams: NavParams, public noteService: NoteService, public toastService: ToastService) {
+  constructor(public navCtrl: NavController, public navParams: NavParams, public noteService: NoteService, public messageService: MessageService) {
   }
 
   ngOnInit() {
@@ -25,7 +25,7 @@ export class NotePage implements OnInit {
     promise.then((data) => {
       this.notes = data;
     }).catch((error) => {
-      this.toastService.present(error, "bottom");
+      this.messageService.toast(error, "bottom");
     });
   }
 
@@ -33,18 +33,18 @@ export class NotePage implements OnInit {
     this.noteService.add(value).then((data) => {
       this.get();
       this.note = "";
-      this.toastService.present(data);
+      this.messageService.toast(data);
     }).catch((error) => {
-      this.toastService.present(error, "bottom");
+      this.messageService.toast(error, "bottom");
     });
   }
 
   remove(value: any) {
     this.noteService.remove(value).then((data) => {
       this.get();
-      this.toastService.present(data);
+      this.messageService.toast(data);
     }).catch((error) => {
-      this.toastService.present(error, "bottom");
+      this.messageService.toast(error, "bottom");
     });
   }
 }

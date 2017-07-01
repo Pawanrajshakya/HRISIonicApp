@@ -1,7 +1,6 @@
 import { Injectable } from '@angular/core';
 
 import { INote } from '../shared/interfaces';
-import { ToastService } from "./sharedServices/toastService";
 import { DatabaseService } from "./sharedServices/databaseService";
 
 @Injectable()
@@ -10,7 +9,7 @@ export class NoteService {
     key: string = "Notes";
     data: any = [];
 
-    public constructor(private toastService: ToastService,private db: DatabaseService) { };
+    public constructor(private db: DatabaseService) { };
 
     public get(): Promise<INote> {
         return new Promise((resolve, reject) => {

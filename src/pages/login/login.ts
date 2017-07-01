@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams, ViewController, LoadingController } from 'ionic-angular';
 import { UserService } from "../../services/userService";
-import { ToastService } from "../../services/sharedServices/toastService";
+import { MessageService } from "../../services/sharedServices/messageService";
 import { NgForm } from "@angular/forms/forms";
 
 @IonicPage()
@@ -15,7 +15,7 @@ export class LoginPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams
     , private userService: UserService
-    , private toastService: ToastService
+    , private messageService: MessageService
     , private viewCtrl: ViewController
     , private loadingCtrl: LoadingController) {
   }
@@ -35,7 +35,7 @@ export class LoginPage {
         }
       }, (error) => {
         let message: string = error.status == 404 ? "LANID Not Found" : "Internal Error!";
-        this.toastService.present(message);
+        this.messageService.toast(message);
         loader.dismiss();
       }, () => {
 

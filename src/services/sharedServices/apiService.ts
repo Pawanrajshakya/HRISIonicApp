@@ -9,14 +9,17 @@ import 'rxjs/add/operator/catch';
 import 'rxjs/add/observable/throw';
 
 import { IResponse } from "../../shared/interfaces";
+import { HRISDataInfo, API } from "../../models/code";
 
 @Injectable()
-export class APIService {
-    private _BaseURL: string = 'https://myfirstfb-5ca5d.firebaseio.com';//https://webdeva/HRISMobile';//"http://localhost:8200";
-    private _token = { access_token: null, expires_in: 0, token_type: null };
-    private _hasToken: boolean = true;//false;
+export class APIService extends API {
+    // private _BaseURL: string = 'https://fir-3927b.firebaseio.com';//'https://webdeva/HRISMobile';//
+    // private _token = { access_token: null, expires_in: 0, token_type: null };
+    // private _hasToken: boolean = false;
 
-    constructor(private http: Http) { }
+    constructor(private http: Http) {
+        super();
+    }
 
     //check and get token
     private checkToken(): Observable<boolean> {
@@ -52,8 +55,7 @@ export class APIService {
             }).catch(this.handleError);
     }
 
-    //get request
-    private getRequest(url: string, params: any = {}): Observable<IResponse> {
+    private sendRequest(request: HRISDataInfo): Observable<IResponse> {
 
         let headers = new Headers({
             'Content-Type': 'application/json',
@@ -61,24 +63,33 @@ export class APIService {
             'Authorization': this._token.token_type + ' ' + this._token.access_token
         });
 
-        let options = new RequestOptions({ headers: headers, params: params });
-        return this.http.get(`${this._BaseURL}/${url}`, options)
-            .map((response: Response) => {
-                return { data: <any[]>response.json(), status: 0, message: "" };
-            })
-            .catch(this.handleError);
+        let options = new RequestOptions({ headers: headers, params: request.param });
+
+        if (request.method === 1) {
+            return this.http.get(`${this._BaseURL}/${request.url}`, options)
+                .map((response: Response) => {
+                    return { data: <any[]>response.json(), status: 0, message: "" };
+                })
+                .catch(this.handleError);
+        } else if (request.method === 2) {
+            return this.http.post(`${this._BaseURL}/${request.url}`, request.param, options)
+                .map((response: Response) => {
+                    return { data: <any[]>response.json(), status: 0, message: "" };
+                })
+                .catch(this.handleError);
+        }
     }
 
-    public get(url: string, params: any = {}): Observable<IResponse> {
+    public get(request: HRISDataInfo): Observable<IResponse> {
         return Observable.create((observer: Observer<any>) => {
             this.checkToken().subscribe(() => {
-                this.getRequest(url, params).subscribe((data) => {
+                this.sendRequest(request).subscribe((data) => {
                     observer.next(data);
                 }, error => {
                     if (error.status == 401) {
                         this._hasToken = !this._hasToken; //token timeout
                         if (this.checkToken().subscribe()) {
-                            this.getRequest(url, params).subscribe((data) => {
+                            this.sendRequest(request).subscribe((data) => {
                                 observer.next(data);
                             }, err => {
                                 observer.error(this.formatError(error));
@@ -93,15 +104,14 @@ export class APIService {
         });
     }
 
-
-    formatError(error: Response): IResponse {
+    private formatError(error: Response): IResponse {
         return {
             message: error.statusText || "Server error",
             status: error.status
         }
     }
 
-    handleError(error: Response) {
+    private handleError(error: Response) {
         return Observable.throw({
             message: error.statusText || "Server error",
             status: error.status

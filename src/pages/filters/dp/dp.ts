@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams, ViewController } from 'ionic-angular';
 import { CodeService } from "../../../services/codeService";
-import { ToastService } from "../../../services/sharedServices/toastService";
+import { MessageService } from "../../../services/sharedServices/messageService";
 
 @IonicPage()
 @Component({
@@ -17,35 +17,19 @@ export class DpPage {
     , public navParams: NavParams
     , public viewCtrl: ViewController
     , private codeService: CodeService
-    , private toastService: ToastService) {
+    , private messageService: MessageService) {
   }
 
   ionViewDidLoad() {
-    this.get();
-  }
-
-  get() {
-    this.codeService.getDP().then(
-      data => {
-        this.codes = data;
-        this.codeService.getSelectedDP().then(data => {
-          this.selected = data;
-        }).catch(error => {
-          this.toastService.present(error.message);
-        });
-      }).catch(error => {
-        this.toastService.present(error.message);
-      });
+    this.codes = this.codeService.filteredDP;
   }
 
   onSelect(value: string): void {
-    try {
-      let i = this.selected.indexOf(value);
-      (i !== -1) ? this.selected.splice(i, 1) : this.selected.push(value);
-      this.codeService.setSelectedDP(this.selected);
-    } catch (error) {
-      this.toastService.present(error, "bottom");
-    }
+    this.codeService.setSelectedDP(value).then(() => {
+
+    }).catch(error => {
+      this.messageService.toast(error.message);
+    })
   }
 
   dismiss() {

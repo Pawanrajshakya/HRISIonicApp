@@ -3,109 +3,154 @@ import { DataService } from "./dataService";
 import { UserService } from "./userService";
 import { IRCCode, IDPCode, IResponse } from "../shared/interfaces";
 import { FilterService } from "./sharedServices/filterService";
-import { HRISDataInfo } from "../models/code";
 
 @Injectable()
 export class CodeService {
 
     rcCode: IRCCode[] = [];
     dpCode: IDPCode[] = [];
+    selectedRC: any[] = [];
+    selectedDP: any[] = [];
+    filteredDP: IDPCode[] = [];
 
-    constructor(private dataService: DataService<IResponse>, private userService: UserService, private filterService: FilterService) { }
+    constructor(public dataService: DataService<IResponse>, private userService: UserService, private filterService: FilterService) {
+        this.doInitialization()
+    }
 
-    getRC(): Promise<IRCCode[]> {
-        return new Promise((resolve, reject) => {
-            this.get(this.dataService.rc).then(data => {
-                this.rcCode.length = 0;
-                data.forEach(element => {
-                    this.rcCode.push({ code: element.code, description: element.description, isSelected: false })
-                });
+    doInitialization() {
 
-                this.getSelectedRC().then(data => {
-                    for (let rc of data) {
-                        let i = this.rcCode.map(function (e) { return e.code; }).indexOf(rc);
-                        this.rcCode[i].isSelected = true;
-                    }
-                }).catch((error) => {
-                    reject(error);
-                });
+        this.dataService.databaseService.Get(this.dataService.rcSelected.key).then(data => {
+            this.selectedRC = data.data;
+        });
 
-                resolve(this.rcCode);
-            }).catch(error => {
-                console.log('e', error);
-                reject(error);
+        this.dataService.databaseService.Get(this.dataService.dpSelected.key).then(data => {
+            this.selectedDP = data.data;
+        });
+
+        if (this.dataService.rc.hasParam)
+            this.dataService.rc.param = { userid: this.userService.user.userID || "" };
+
+        this.dataService.get(this.dataService.rc).then(data => {
+
+            data.data.forEach(element => {
+                this.rcCode.push(
+                    {
+                        code: element.code,
+                        description: element.description,
+                        isSelected: (this.selectedRC.indexOf(element.code) !== -1)
+                    })
+            });
+        });
+
+        if (this.dataService.dp.hasParam)
+            this.dataService.dp.param = { userid: this.userService.user.userID || "" };
+
+        this.dataService.get(this.dataService.dp).then(data => {
+
+            data.data.forEach(element => {
+                this.dpCode.push({
+                    code: element.dpCode,
+                    description: element.dpName,
+                    isSelected: (this.selectedDP.indexOf(element.code) !== -1),
+                    rcCode: element.rcCode
+                })
+            });
+            this.filterService.filter(this.dpCode, this.selectedRC, this.selectedDP, "rcCode", "code").then(filteredDPs => {
+                this.filteredDP = filteredDPs;
             });
         });
     }
 
-    setSelectedRC(data: any) {
-        return this.dataService.databaseService.Set(this.dataService.rcSelected.key, data).then(() => {
-            this.setSelectedDP([]);
-        });
-    }
-
-    getSelectedRC() {
-        return this.get(this.dataService.rcSelected);
-    }
-
-    getDP(): Promise<IDPCode[]> {
+    setSelectedRC(value: string): Promise<IRCCode[]> {
         return new Promise((resolve, reject) => {
-            this.get(this.dataService.dp).then(data => {
-                let selectedDP = [];
+            try {
+                let index = this.selectedRC.indexOf(value);
 
-                this.dpCode.length = 0;
+                (index !== -1) ? this.selectedRC.splice(index, 1) : this.selectedRC.push(value);
 
-                data.forEach(element => {
-                    this.dpCode.push({ code: element.dpCode, description: element.dpName, rcCode: element.rcCode, isSelected: false })
-                });
+                index = this.rcCode.map((d) => { return d.code; }).indexOf(value);
 
-                this.getSelectedDP().then(data => {
-                    for (let item of data) {
-                        selectedDP = data;
-                        let i = this.dpCode.map(function (e) { return e.code; }).indexOf(item);
-                        this.dpCode[i].isSelected = true;
-                    }
-                }).catch((error) => {
-                    reject(error);
-                });
+                this.rcCode[index].isSelected = !this.rcCode[index].isSelected;
 
-                this.getSelectedRC().then(data => {
-                    console.log(this.dpCode, data, selectedDP);
-                    this.filterService.filter(this.dpCode, data, selectedDP, "rcCode").then((data) => {
-                        console.log('filtered', data);
-                        this.dpCode = data;
-                        resolve(this.dpCode);
-                    }).catch((error) => {
-                        reject(error);
+                return this.dataService.databaseService.Set(this.dataService.rcSelected.key, this.selectedRC).then((data) => {
+                    this.clearAllSelectedDP().then(() => {
+                        this.filterService.filter(this.dpCode, this.selectedRC, this.selectedDP, "rcCode", "code").then(filteredDPs => {
+                            this.filteredDP = filteredDPs;
+                            this.selectedDP.length = 0;
+                            this.dataService.databaseService.Set(this.dataService.dpSelected.key, this.selectedDP);
+                            resolve(data.data);
+                        });
                     });
-                }).catch((error) => {
-                    reject(error);
                 });
-            }).catch(error => {
+            } catch (error) {
                 reject(error);
-            });
+            }
         });
     }
 
-    setSelectedDP(data: any) {
-        return this.dataService.databaseService.Set(this.dataService.dpSelected.key, data);
-    }
-
-    getSelectedDP() {
-        return this.get(this.dataService.dpSelected);
-    }
-
-    private get(value: HRISDataInfo): Promise<any> {
-        value.param = { userid: this.userService.user.userID || "" };
+    setSelectedDP(value: string): Promise<IDPCode[]> {
         return new Promise((resolve, reject) => {
-            this.dataService.get(value).then(data => {
-                console.log('code service get', value, data);
-                resolve(data.data);
-            }).catch(error => {
-                console.log('code service get error', value, error);
-                console.log(error, 2);
+            try {
+                let index = this.selectedDP.indexOf(value);
+
+                (index !== -1) ? this.selectedDP.splice(index, 1) : this.selectedDP.push(value);
+
+                index = this.dpCode.map((d) => { return d.code; }).indexOf(value);
+
+                this.dpCode[index].isSelected = !this.dpCode[index].isSelected;
+
+                return this.dataService.databaseService.Set(this.dataService.dpSelected.key, this.selectedDP).then((data) => {
+                    resolve(data.data);
+                });
+            } catch (error) {
                 reject(error);
-            });
+            }
+        });
+    }
+
+    private clearAllSelectedDP(): Promise<boolean> {
+        return new Promise((resolve, reject) => {
+            try {
+                this.selectedDP.forEach(item => {
+                    this.dpCode[this.dpCode.map((d) => { return d.code; }).indexOf(item)].isSelected = false;
+                });
+                resolve(true);
+            } catch (error) {
+                reject(error);
+            }
+        });
+    }
+
+    private clearAllSelectedRC(): Promise<boolean> {
+        return new Promise((resolve, reject) => {
+            try {
+                this.selectedRC.forEach(item => {
+                    this.rcCode[this.rcCode.map((d) => { return d.code; }).indexOf(item)].isSelected = false;
+                });
+                resolve(true);
+            } catch (error) {
+                reject(error);
+            }
+        });
+    }
+
+    public clearAllSelected(): Promise<boolean> {
+        return new Promise((resolve, reject) => {
+            try {
+                this.clearAllSelectedRC().then(() => {
+                    this.dataService.databaseService.Remove(this.dataService.rcSelected.key).then(() => {
+                        this.selectedRC.length = 0;
+                    })
+                })
+                this.clearAllSelectedDP().then(() => {
+                    this.dataService.databaseService.Remove(this.dataService.dpSelected.key).then(() => {
+                        this.selectedDP.length = 0;
+                    })
+                })
+                resolve(true);
+            } catch (error) {
+                reject(error);
+            }
         });
     }
 }

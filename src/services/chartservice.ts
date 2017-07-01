@@ -1,9 +1,13 @@
 import { Injectable } from '@angular/core';
 
-import ecardChartData from '../data/eCardChart';
-import hcChartData from '../data/headcountChart';
+//import hcChartData from '../data/headcountChart';
 import ccChartData from '../data/customerComplaint';
 import overtimeFY from '../data/overtimeFY';
+import { DataService } from "./dataService";
+import { IResponse } from "../shared/interfaces";
+import { UserService } from "./userService";
+import { CodeService } from "./codeService";
+import { HRISDataInfo } from "../models/code";
 
 @Injectable()
 export class ChartService {
@@ -11,43 +15,87 @@ export class ChartService {
     ecardData = { label: [], data: [{ data: [], label: 'E-cards' }] };
     hcData = { label: [], data: [{ data: [], label: 'E-cards', fill: false }] };
 
+    constructor(private dataService: DataService<IResponse>, private userService: UserService, private codeService: CodeService) { }
+
     getEcardChart(): Promise<any> {
+
         return new Promise((resolve, reject) => {
-            let response = ecardChartData;
-            this.ecardData.label.length = 0;
-            this.ecardData.data[0].data.length = 0;
-            response.forEach((value) => {
-                this.ecardData.label.push(value.Labels);
-                this.ecardData.data[0].data.push(value.Data);
-            })
-            resolve(this.ecardData);
+
+            if (this.dataService.ecardChart.hasParam) {
+                this.dataService.ecardChart.param = {
+                    userID: this.userService.user.userID || "",
+                    roleID: this.userService.user.roleID || 0,
+                    rcList: this.codeService.selectedRC || [],
+                    dpList: []
+                };
+            }
+            this.dataService.get(this.dataService.ecardChart).then(data => {
+                try {
+                    console.log('getEcardChart', data);
+                    this.ecardData.label.length = 0;
+                    this.ecardData.data[0].data.length = 0;
+                    data.data.forEach((value) => {
+                        this.ecardData.label.push(value.labels);
+                        this.ecardData.data[0].data.push(value.data);
+                    })
+
+                } catch (error) {
+                    reject(error);
+                }
+                resolve(this.ecardData);
+            }).catch(error => {
+                reject(error);
+            });
         });
     }
 
     getHCChart(): Promise<any> {
         return new Promise((resolve, reject) => {
-            let response = hcChartData;
-            this.hcData.label.length = 0;
-            let label = [];
-            let data1 = { data: [], label: '', fill: false, lineTension: 0 };
-            let data2 = { data: [], label: '', fill: false, lineTension: 0 };
-            let data3 = { data: [], label: '', fill: false, lineTension: 0 };
 
-            response.forEach((value) => {
-                label.push(value.Period);
-                data1.data.push(value.Vacancy);
-                data1.label = "Vacancy";
-                data2.data.push(value.BudgetedHeadcount);
-                data2.label = "Budgeted Headcount";
-                data3.data.push(value.ActiveStaff);
-                data3.label = "Active Staff";
-            })
+            if (this.dataService.hcChart.hasParam) {
+                this.dataService.hcChart.param = {
+                    userID: this.userService.user.userID || "",
+                    roleID: this.userService.user.roleID || 0,
+                    rcList: this.codeService.selectedRC || [],
+                    dpList: []
+                };
+            }
 
-            this.hcData.data.length = 0;
-            this.hcData.label = label;
-            this.hcData.data.push(data1);
-            this.hcData.data.push(data2);
-            this.hcData.data.push(data3);
+            this.dataService.get(this.dataService.hcChart).then(data => {
+                try {
+                    this.hcData.label.length = 0;
+                    this.hcData.data[0].data.length = 0;
+                    let label = [];
+                    let data1 = { data: [], label: '', fill: false, lineTension: 0 };
+                    let data2 = { data: [], label: '', fill: false, lineTension: 0 };
+                    let data3 = { data: [], label: '', fill: false, lineTension: 0 };
+
+                    data.data.forEach((value) => {
+                        label.push(value.period);
+                        data1.data.push(value.vacancy);
+                        data1.label = "Vacancy";
+                        data2.data.push(value.budgetedHeadcount);
+                        data2.label = "Budgeted Headcount";
+                        data3.data.push(value.activeStaff);
+                        data3.label = "Active Staff";
+                    })
+
+                    this.hcData.data.length = 0;
+                    this.hcData.label = label;
+                    this.hcData.data.push(data1);
+                    this.hcData.data.push(data2);
+                    this.hcData.data.push(data3);
+                    resolve(this.hcData);
+                } catch (error) {
+                    reject(error);
+                }
+                resolve(this.ecardData);
+            }).catch(error => {
+                reject(error);
+            });
+
+            // this.hcData.label.length = 0;
+
             resolve(this.hcData);
         });
     }
@@ -151,7 +199,7 @@ export class ChartService {
     getChartColors() {
         return [{
             backgroundColor: ["#f1ab41"],
-            borderColor: "rgba(0,0,0)"
+            borderColor: ["#f1ab41"]
         },
         {
             backgroundColor: ["#387ef5"],

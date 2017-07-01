@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams, LoadingController } from 'ionic-angular';
-import { ToastService } from "../../services/sharedServices/toastService";
 import { HRISInternalData } from "../../models/code";
 import { DataService } from "../../services/dataService";
 import { IMenu } from "../../shared/interfaces";
+import { MessageService } from "../../services/sharedServices/messageService";
 
 @IonicPage()
 @Component({
@@ -18,7 +18,7 @@ export class HomePage {
     , public navParams: NavParams
     , public loadingController: LoadingController
     , private dataService: DataService<HRISInternalData>
-    , private toastService: ToastService) { }
+    , private messageService: MessageService) { }
 
   getSummary() {
     let loader = this.loadingController.create({
@@ -31,10 +31,10 @@ export class HomePage {
         this.data = response.data;
         loader.dismiss();
       }, (error) => {
-        this.toastService.present("Unable to load summary.");
+        this.messageService.toast("Unable to load summary.");
         loader.dismiss();
       }).catch((error) => {
-        this.toastService.present(error);
+        this.messageService.toast(error);
         loader.dismiss();
       });
     });
@@ -50,14 +50,14 @@ export class HomePage {
       this.data = response.data;
       refresher.complete();
     }).catch((error) => {
-      this.toastService.present(error);
+      this.messageService.toast(error);
       refresher.complete();
     });
   }
 
   redirect(item: IMenu) {
-    if (item.component.length > 0)
-      this.navCtrl.push(item.component, item);
+    // if (item.component.length > 0)
+    //   this.navCtrl.push(item.component, item);
   }
 
 }

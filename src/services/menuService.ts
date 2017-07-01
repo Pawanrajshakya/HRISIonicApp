@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { IMenu } from '../shared/interfaces';
+import { IMenu, Filters } from '../shared/interfaces';
 import { Observable } from "rxjs/Observable";
 import { Observer } from "rxjs/Observer";
 import { UserService } from "./userService";
@@ -94,7 +94,8 @@ export class MenuService {
                 reportComponent: 'HeadcountPage',
                 dataComponent: 'HeadcountDataPage',
                 icon: 'pie',
-                hasFilterPage: true
+                hasFilterPage: true,
+                filters: [Filters.RCs]
             },
             {
 
@@ -104,7 +105,8 @@ export class MenuService {
                 reportComponent: 'EcardsPage',
                 dataComponent: 'EcardsDataPage',
                 icon: "stats",
-                hasFilterPage: false
+                hasFilterPage: true,
+                filters: [Filters.RCs]
             },
             {
                 title: "Customer Service Complaints/Commendations",
@@ -113,7 +115,8 @@ export class MenuService {
                 reportComponent: 'CustomerComplaintPage',
                 dataComponent: 'CustomerComplaintDataPage',
                 icon: "globe",
-                hasFilterPage: true
+                hasFilterPage: true,
+                filters: [Filters.RCs, Filters.DPs]
             },
             {
                 title: "Total FY Paid OT $",
@@ -122,7 +125,8 @@ export class MenuService {
                 reportComponent: 'OvertimePage',
                 dataComponent: 'OvertimeDataPage',
                 icon: 'pricetag',
-                hasFilterPage: true
+                hasFilterPage: true,
+                filters: [Filters.RCs]
             }
         ]
     };

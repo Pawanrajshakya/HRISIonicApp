@@ -5,7 +5,7 @@
 </ion-header>
 <ion-content>
   <ion-item>
-    <h1>{{userInfo.name}}</h1>
+    <h1><b>{{userInfo.name}}</b></h1>
   </ion-item>
   <ion-card>
     <ion-card-header>
@@ -14,24 +14,24 @@
     <ion-card-content>
       <ion-item>
         <ion-row>
-          <ion-col>✉ Outlook</ion-col>
-          <ion-col>{{staffInfo.workEmail}}</ion-col>
+          <ion-col>Outlook</ion-col>
+          <ion-col><b>{{staffInfo.workEmail}}</b></ion-col>
         </ion-row>
         <ion-row>
           <ion-col>Supervisor</ion-col>
-          <ion-col>{{staffInfo.supervisor}}</ion-col>
+          <ion-col><b>{{staffInfo.supervisor}}</b></ion-col>
         </ion-row>
         <ion-row>
           <ion-col>Street</ion-col>
-          <ion-col>{{staffInfo.workAddress}}</ion-col>
+          <ion-col><b>{{staffInfo.workAddress}}</b></ion-col>
         </ion-row>
         <ion-row>
           <ion-col>City</ion-col>
-          <ion-col>{{staffInfo.workCity}}</ion-col>
+          <ion-col><b>{{staffInfo.workCity}}</b></ion-col>
         </ion-row>
         <ion-row>
           <ion-col>Office Phone</ion-col>
-          <ion-col>{{staffInfo.workPhone}}</ion-col>
+          <ion-col><b>{{staffInfo.workPhone}}</b></ion-col>
         </ion-row>
         <ion-row>
           <ion-col>State</ion-col>
@@ -39,7 +39,7 @@
         </ion-row>
         <ion-row>
           <ion-col>Zip Code</ion-col>
-          <ion-col>{{staffInfo.workZipCode}}</ion-col>
+          <ion-col><b>{{staffInfo.workZipCode}}</b></ion-col>
         </ion-row>
       </ion-item>
     </ion-card-content>
@@ -52,23 +52,23 @@
       <ion-item>
         <ion-row>
           <ion-col>Street</ion-col>
-          <ion-col>{{userInfo.address}}</ion-col>
+          <ion-col><b>{{userInfo.address}}</b></ion-col>
         </ion-row>
         <ion-row>
           <ion-col>City</ion-col>
-          <ion-col>{{userInfo.city}}</ion-col>
+          <ion-col><b>{{userInfo.city}}</b></ion-col>
         </ion-row>
         <ion-row>
           <ion-col>Home Phone</ion-col>
-          <ion-col>{{userInfo.primaryPhone}}</ion-col>
+          <ion-col><b>{{userInfo.primaryPhone}}</b></ion-col>
         </ion-row>
         <ion-row>
           <ion-col>State</ion-col>
-          <ion-col>{{userInfo.state}}</ion-col>
+          <ion-col><b>{{userInfo.state}}</b></ion-col>
         </ion-row>
         <ion-row>
           <ion-col>Zip Code</ion-col>
-          <ion-col>{{userInfo.zipCode}}</ion-col>
+          <ion-col><b>{{userInfo.zipCode}}</b></ion-col>
         </ion-row>
       </ion-item>
     </ion-card-content>
@@ -81,15 +81,15 @@
       <ion-item *ngFor="let item of userInfo.contactInfo">
         <ion-row>
           <ion-col>Name</ion-col>
-          <ion-col>{{item.name}}</ion-col>
+          <ion-col><b>{{item.name}}</b></ion-col>
         </ion-row>
         <ion-row>
           <ion-col>Relationship</ion-col>
-          <ion-col>{{item.relationship}}</ion-col>
+          <ion-col><b>{{item.relationship}}</b></ion-col>
         </ion-row>
         <ion-row>
           <ion-col>Primary Phone</ion-col>
-          <ion-col>{{item.secondaryPhone || item.primaryPhone}}</ion-col>
+          <ion-col><b>{{item.secondaryPhone || item.primaryPhone}}</b></ion-col>
         </ion-row>
       </ion-item>
     </ion-card-content>

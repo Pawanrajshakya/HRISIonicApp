@@ -1,7 +1,10 @@
 <ion-header>
-  <ion-navbar>
-    <ion-title>{{item.title}}</ion-title>
+  <ion-navbar color="secondary">
+    <ion-title>{{item.title || "Headcount Vacancy"}}</ion-title>
   </ion-navbar>
 </ion-header>
 <ion-content padding>
+  {{styleExp}}
+  <canvas *ngIf="data" baseChart [datasets]="data.data" [labels]="data.label" [chartType]="chartType" [legend]="true" [colors]="chartColors"
+    [ngStyle]="{'height': styleExp}"></canvas>
 </ion-content>

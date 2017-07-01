@@ -13,17 +13,16 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 // import '../../node_modules/chart.js/dist/Chart.bundle.min.js';
 
 import { MenuService } from "../services/menuService";
-// import { ChartService } from "../services/chartService";
 import { NoteService } from "../services/noteService";
 import { DataService } from "../services/dataService";
 import { FilterService } from "../services/sharedServices/filterService";
 import { DatabaseService } from "../services/sharedServices/databaseService";
 import { APIService } from "../services/sharedServices/apiService";
-import { ToastService } from "../services/sharedServices/toastService";
 import { UserService } from "../services/userService";
 import { StaffService } from "../services/staffService";
 import { CodeService } from "../services/codeService";
 import { ChartService } from "../services/chartservice";
+import { MessageService } from "../services/sharedServices/messageService";
 
 @NgModule({
   declarations: [
@@ -50,17 +49,16 @@ import { ChartService } from "../services/chartservice";
     SplashScreen,
     { provide: ErrorHandler, useClass: IonicErrorHandler },
     MenuService,
-    // ChartService,
     DataService,
     FilterService,
     DatabaseService,
     APIService,
     NoteService,
-    ToastService,
     UserService,
     StaffService,
     CodeService,
-    ChartService
+    ChartService,
+    MessageService
   ]
 })
 export class AppModule { }

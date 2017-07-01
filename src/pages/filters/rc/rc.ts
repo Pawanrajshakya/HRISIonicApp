@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams, ViewController } from 'ionic-angular';
 import { CodeService } from "../../../services/codeService";
-import { ToastService } from "../../../services/sharedServices/toastService";
+import { MessageService } from "../../../services/sharedServices/messageService";
 
 @IonicPage()
 @Component({
@@ -17,38 +17,19 @@ export class RcPage {
     , public navParams: NavParams
     , public viewCtrl: ViewController
     , private codeService: CodeService
-    , private toastService: ToastService) {
+    , private messageService: MessageService) {
   }
 
   ionViewDidLoad() {
-    this.get();
-  }
-
-
-  get() {
-    this.codeService.getRC().then(
-      data => {
-        this.codes = data;
-        this.codeService.getSelectedRC().then(data => {
-          this.selected = data;
-        }).catch(error => {
-          this.toastService.present(error.message);
-        });
-      }).catch(error => {
-        console.log(error, 1);
-        this.toastService.present(error.message);
-      });
+    this.codes = this.codeService.rcCode;
   }
 
   onSelect(value: string): void {
-    try {
-      let i = this.selected.indexOf(value);
-      (i !== -1) ? this.selected.splice(i, 1) : this.selected.push(value);
-      this.codeService.setSelectedRC(this.selected);
-      console.log('onSelect', this.selected);
-    } catch (error) {
-      this.toastService.present(error, "bottom");
-    }
+    this.codeService.setSelectedRC(value).then(() => {
+
+    }).catch(error => {
+      this.messageService.toast(error.message);
+    })
   }
 
   dismiss() {

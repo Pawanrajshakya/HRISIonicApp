@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { IonicPage, LoadingController } from 'ionic-angular';
 import { UserService } from "../../services/userService";
 import { StaffService } from "../../services/staffService";
-import { ToastService } from "../../services/sharedServices/toastService";
+import { MessageService } from "../../services/sharedServices/messageService";
 
 @IonicPage()
 @Component({
@@ -14,7 +14,7 @@ export class MyInfoPage {
   userInfo: any = {};
   staffInfo: any = {};
 
-  constructor(private toastService: ToastService, private userService: UserService, private staffService: StaffService, private loadingController: LoadingController) { }
+  constructor(private messageService: MessageService, private userService: UserService, private staffService: StaffService, private loadingController: LoadingController) { }
 
   ionViewDidLoad() {
     let loader = this.loadingController.create({
@@ -29,11 +29,11 @@ export class MyInfoPage {
           this.staffInfo = data.data;
           loader.dismiss(true);
         }).catch(error => {
-          this.toastService.present(error.message);
+          this.messageService.toast(error.message);
           loader.dismiss(true);
         });
       }, (error) => {
-        this.toastService.present(error.message);
+        this.messageService.toast(error.message);
         loader.dismiss(true);
       })
     });

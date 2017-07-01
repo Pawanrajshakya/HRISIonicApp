@@ -1,15 +1,9 @@
 <ion-header>
-  <ion-navbar>
-    <ion-title>{{item.title}}</ion-title>
+  <ion-navbar color="secondary">
+    <ion-title>{{item.title || "Ecards Sent"}}</ion-title>
   </ion-navbar>
 </ion-header>
 <ion-content padding>
-  <canvas *ngIf="data" 
-    baseChart 
-    [datasets]="data.data" 
-    [labels]="data.label" 
-    [chartType]="chartType" 
-    [legend]="true" 
-    [colors]="chartColors"
+  <canvas *ngIf="data" baseChart [datasets]="data.data" [labels]="data.label" [chartType]="chartType" [legend]="true" [colors]="chartColors"
     [ngStyle]="{'height': styleExp}"></canvas>
 </ion-content>

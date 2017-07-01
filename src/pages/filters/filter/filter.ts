@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams, ModalController } from 'ionic-angular';
 import { IMenu } from "../../../shared/interfaces";
+import { CodeService } from "../../../services/codeService";
 
 @IonicPage()
 @Component({
@@ -11,7 +12,7 @@ export class FilterPage {
 
   menu: IMenu;
 
-  constructor(public navCtrl: NavController, public navParams: NavParams, private modalCtrl: ModalController) {
+  constructor(public navCtrl: NavController, public navParams: NavParams, private modalCtrl: ModalController, private codeService: CodeService) {
     this.menu = this.navParams.data;
   }
 
@@ -29,7 +30,11 @@ export class FilterPage {
     modal.present();
   }
 
-  showReport(){
+  showReport() {
     this.navCtrl.push(this.menu.component, this.menu);
+  }
+
+  clear() {
+    this.codeService.clearAllSelected().then();
   }
 }

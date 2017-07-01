@@ -1,12 +1,32 @@
 <ion-header>
-
   <ion-navbar color="menu">
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-buttons end>
+      <button ion-button icon-only (click)="refresh()">
+        <ion-icon name="refresh"></ion-icon>
+      </button>
+    </ion-buttons>
     <ion-title>Search</ion-title>
   </ion-navbar>
-
+  <ion-searchbar (ionInput)="getItems($event)"></ion-searchbar>
 </ion-header>
-
-
-<ion-content padding>
-
+<ion-content>
+  <ion-list [virtualScroll]="staffList" [approxItemHeight]="'10px'">
+    <ion-item ion-item *virtualItem="let staff" (click)="showDetail(staff.ein)">
+      <ion-row>
+        <ion-col>EIN:</ion-col>
+        <ion-col><b>{{staff.ein}}</b></ion-col>
+        <ion-col>RC:</ion-col>
+        <ion-col><b>{{staff.rcCode}}</b></ion-col>
+        <ion-col>DP:</ion-col>
+        <ion-col><b>{{staff.dpCode}}</b></ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col>Name:</ion-col>
+        <ion-col><b>{{staff.firstName}} {{staff.lastName}}</b></ion-col>
+      </ion-row>
+    </ion-item>
+  </ion-list>
 </ion-content>

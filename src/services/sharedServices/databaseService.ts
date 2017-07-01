@@ -26,8 +26,7 @@ export class DatabaseService {
     public Get(key: string): Promise<IResponse> {
         return new Promise((resolve, reject) => {
             this.storage.get(key).then((data) => {
-                console.log('database Service', key, data);
-                resolve({ data: JSON.parse(JSON.stringify(data)), status: ((data !== null) ? 0 : -101), message: "" });
+                resolve({ data: JSON.parse(JSON.stringify(data)) || [], status: ((data !== null) ? 0 : -101), message: "" });
             }, (error) => {
                 reject(this.handleError());
             });

@@ -39,7 +39,7 @@ export class DataService<T> extends HRISInternalData {
         return new Promise((resolve, reject) => {
             console.log('get/DataService 3', request, request.method);
             if (request.method === method.get) {
-                this.apiService.get(request.url, request.param).subscribe((repsonse) => {
+                this.apiService.get(request).subscribe((repsonse) => {
                     console.log('get/DataService 3.1', request, repsonse);
                     resolve(repsonse);
                 }, (error) => {
@@ -47,7 +47,7 @@ export class DataService<T> extends HRISInternalData {
                     reject(error);
                 });
             } else if (request.method === method.post) {
-                this.apiService.get(request.url, request.param).subscribe((repsonse) => {
+                this.apiService.get(request).subscribe((repsonse) => {
                     console.log('get/DataService 3.2', request, repsonse);
                     resolve(repsonse);
                 });
@@ -88,6 +88,8 @@ export class DataService<T> extends HRISInternalData {
                                     this.databaseService.Set(request.key, response.data).then(() => {
                                         resolve(response);
                                     })
+                                } else {
+                                    resolve(response);
                                 }
                             }).catch((error) => {
                                 console.log('get/DataService 2.2', request, error);

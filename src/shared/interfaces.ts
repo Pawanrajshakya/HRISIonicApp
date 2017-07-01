@@ -9,6 +9,13 @@ export interface ICode {
     rcs: string
 }
 
+export enum Filters {
+    RCs = 1,
+    DPs,
+    Titles,
+    Locations
+}
+
 export interface IMenu {
     title: string,
     description: string,
@@ -17,6 +24,7 @@ export interface IMenu {
     dataComponent?: string,
     icon: string,
     hasFilterPage?: boolean
+    filters?: Filters[]
 }
 
 export interface INote {
@@ -68,4 +76,12 @@ export interface IResponse {
     message: string,
     status: number, //0:success
     data?: any
+}
+
+export interface IStaffList {
+    ein: string,
+    firstName: string,
+    lastName: string,
+    rcCode: string,
+    dpCode: string
 }

@@ -1,0 +1,193 @@
+<ion-header>
+  <ion-navbar color="menu">
+    <ion-title>{{title}}</ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content>
+  <ion-list>
+    <ion-item>
+      <ion-row>
+        <ion-col>Name:</ion-col>
+        <ion-col><b>{{staffDetail.lastName}} {{staffDetail.firstName}}</b></ion-col>
+        <ion-col>EIN:</ion-col>
+        <ion-col><b>{{staffDetail.ein}}</b></ion-col>
+      </ion-row>
+    </ion-item>
+    <ion-item>
+      <ion-row>
+        <ion-col>RC:</ion-col>
+        <ion-col><b>{{staffDetail.rcName}}</b></ion-col>
+      </ion-row>
+    </ion-item>
+  </ion-list>
+  <div>
+    <ion-segment [(ngModel)]="activeTabs">
+      <ion-segment-button value="PMS">
+        PMS
+      </ion-segment-button>
+      <ion-segment-button value="Contact">
+        Contact
+      </ion-segment-button>
+      <ion-segment-button value="EDU">
+        EDU
+      </ion-segment-button>
+      <ion-segment-button value="Overtime">
+        Overtime
+      </ion-segment-button>
+    </ion-segment>
+  </div>
+  <div [ngSwitch]="activeTabs">
+    <ion-list *ngSwitchCase="'PMS'">
+      <ion-item>
+        <ion-row>
+          <ion-col>
+            Leave Status:</ion-col>
+          <ion-col><b>{{staffDetail.leaveStatus}}</b></ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col>Pay Title:</ion-col>
+          <ion-col><b>{{staffDetail.payTitle}} {{staffDetail.payTitleLevel}}</b></ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col>Pay Status:</ion-col>
+          <ion-col><b>{{staffDetail.csStatus}} {{staffDetail.payClass}}</b></ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col>Pay Title Date:</ion-col>
+          <ion-col><b>{{staffDetail.titleDate}}</b></ion-col>
+        </ion-row>
+      </ion-item>
+    </ion-list>
+    <ion-list *ngSwitchCase="'Contact'">
+      <ion-item>
+        <h2>Work Info</h2>
+      </ion-item>
+      <ion-item>
+        <ion-row>
+          <ion-col>Street Address:</ion-col>
+          <ion-col><b>{{staffDetail.workAddress}}</b></ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col>City:</ion-col>
+          <ion-col><b>{{staffDetail.workCity}}</b></ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col>State:</ion-col>
+          <ion-col><b>NY</b></ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col>Zip Code:</ion-col>
+          <ion-col><b>{{staffDetail.workZipCode}}</b></ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col>Outlook:</ion-col>
+          <ion-col><b>{{staffDetail.workEmail}}</b></ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col>Office Phone:</ion-col>
+          <ion-col><b>{{staffDetail.workPhone}}</b></ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col>Supervisor:</ion-col>
+          <ion-col><b>{{staffDetail.supervisor}}</b></ion-col>
+        </ion-row>
+      </ion-item>
+      <ion-item>
+        <h2>Home Info</h2>
+      </ion-item>
+      <ion-item>
+        <ion-row>
+          <ion-col>Street Address:</ion-col>
+          <ion-col><b>{{staffDetail.homeAddress}}</b></ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col>City:</ion-col>
+          <ion-col><b>{{staffDetail.homeCity}}</b></ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col>State:</ion-col>
+          <ion-col><b>{{staffDetail.homeState}}</b></ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col>Zip Code:</ion-col>
+          <ion-col><b>{{staffDetail.zipCode}}</b></ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col>Home Phone:</ion-col>
+          <ion-col><b>{{staffDetail.homePhone}}</b></ion-col>
+        </ion-row>
+      </ion-item>
+      <ion-item>
+        <h2>Emergency Contact Info</h2>
+      </ion-item>
+      <ion-item *ngFor="let item of staffDetail.contactInfo">
+        <ion-row>
+          <ion-col>Name:</ion-col>
+          <ion-col><b>{{item.name}}</b></ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col>Relationship:</ion-col>
+          <ion-col><b>{{item.relationship}}</b></ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col>Primary Phone:</ion-col>
+          <ion-col><b>{{item.secondaryPhone || item.primaryPhone}}</b></ion-col>
+        </ion-row>
+      </ion-item>
+    </ion-list>
+    <ion-list *ngSwitchCase="'EDU'">
+      <ion-item *ngFor="let item of staffDetail.eduDetails">
+        <ion-row>
+          <ion-col>#:</ion-col>
+          <ion-col><b>{{item.trackingNo}}</b></ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col>Charges:</ion-col>
+          <ion-col><b>{{item.charges}}</b></ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col>Location:</ion-col>
+          <ion-col><b>{{item.locationName}}</b></ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col>Infraction Date:</ion-col>
+          <ion-col><b>{{item.dateInfraction}}</b></ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col>IC Date:</ion-col>
+          <ion-col><b>{{item.icDate}}</b></ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col>Source:</ion-col>
+          <ion-col><b>{{item.requestSourceDescription}}</b></ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col>Date Received by EDU:</ion-col>
+          <ion-col><b>{{item.dateReceived}}</b></ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col>Current Status:</ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col><b>{{item.currentStatus}}</b></ion-col>
+        </ion-row>
+      </ion-item>
+    </ion-list>
+    <ion-list *ngSwitchCase="'Overtime'">
+      <ion-item>
+        <ion-row>
+          <ion-col>Salary:</ion-col>
+          <ion-col><b>{{staffDetail.overtimeCalendar[0].salary}}</b></ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col>ATG:</ion-col>
+          <ion-col><b>{{staffDetail.overtimeCalendar[0].adComp}}</b></ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col>Salary + ATG:</ion-col>
+          <ion-col><b>{{staffDetail.overtimeCalendar[0].totBasePay}}</b></ion-col>
+        </ion-row>
+      </ion-item>
+    </ion-list>
+  </div>
+</ion-content>

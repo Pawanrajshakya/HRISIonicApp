@@ -1,6 +1,9 @@
 import { Injectable } from '@angular/core';
 import { DataService } from "./dataService";
 import { UserService } from "./userService";
+import { IStaffList, IResponse } from "../shared/interfaces";
+import { Observable } from "rxjs/Observable";
+import { Observer } from "rxjs/Observer";
 
 @Injectable()
 export class StaffService {
@@ -8,7 +11,7 @@ export class StaffService {
 
     constructor(private dataService: DataService<any>, private userService: UserService) { }
 
-    getStaff(ein: string): Promise<any> {
+    getStaff(ein: string): Promise<IResponse> {
         return new Promise((resolve, reject) => {
             this.dataService.staffInfo.param = {
                 userid: this.userService.user.userID,
@@ -22,13 +25,27 @@ export class StaffService {
         })
     }
 
-    getStaffList(): Promise<any> {
-        // this.dataService.staffInfo.param = {
-        //     userid: this.userService.user.userID
-        // };
+    getStaffList(): Promise<IStaffList[]> {
+        this.dataService.staffList.param = { userID: this.userService.user.userID };
 
         return new Promise((resolve, reject) => {
-            //     //this.databaseService.Set(value.key, values);
+            this.dataService.get(this.dataService.staffList).then((response) => {
+                resolve(<IStaffList>response.data);
+            }).catch(error => {
+                reject(error);
+            })
+        });
+    }
+
+    getStaffList$(): Observable<IStaffList[]> {
+        this.dataService.staffList.param = { userID: this.userService.user.userID };
+
+        return Observable.create((observer: Observer<IStaffList>) => {
+            this.dataService.get(this.dataService.staffList).then((response) => {
+                observer.next(<IStaffList>response.data);
+            }).catch(error => {
+                observer.error(error);
+            })
         });
     }
 }

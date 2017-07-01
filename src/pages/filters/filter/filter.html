@@ -5,11 +5,25 @@
 </ion-header>
 <ion-content padding>
   <ion-list no-lines>
-    <a ion-item (click)="getRCs()">RCs</a>
-    <a ion-item (click)="getDPs()">DPs</a>
-    <a ion-item (click)="getTitles()">Titles</a>
-    <a ion-item (click)="getLocations()">Locations</a>        
+    <a *ngIf="menu.filters[0] === 1" ion-item (click)="getRCs()">RCs</a>
+    <a *ngIf="menu.filters[1] === 2" ion-item (click)="getDPs()">DPs</a>
+    <a *ngIf="menu.filters[2] === 3" ion-item (click)="getTitles()">Titles</a>
+    <a *ngIf="menu.filters[3] === 4" ion-item (click)="getLocations()">Locations</a>
+    <ion-item>
+      <ion-row>
+        <ion-col col-6>
+          <button ion-button color="primary" outline (click)="showReport()">Ok</button>
+        </ion-col>
+        <ion-col col-6>
+          <button ion-button color="danger" outline (click)="clear()">Clear</button>
+        </ion-col>
+      </ion-row>
+    </ion-item>
+    <ion-list-header>
+      Selected RCs
+    </ion-list-header>
+    <ion-col col-3 *ngFor="let code of this.codeService.selectedRC">
+      {{code}}
+    </ion-col>
   </ion-list>
-  <button ion-button round color="primary" (click)="showReport()">Ok</button>  
-  <button ion-button round color="light" (click)="clearSelected()">Clear</button>
 </ion-content>
